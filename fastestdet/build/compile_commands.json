@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/hzq/ncnn-ros/fastestdet/build",
+  "command": "/usr/bin/g++ -I../ -I. -isystem /usr/include/opencv4 -isystem /home/hzq/ncnn/build/install/include/ncnn  -fopenmp  -O0 -Wall -g -ggdb -fPIE -fopenmp -std=gnu++17 -o CMakeFiles/fastestdet_demo.dir/FastestDet.cpp.o -c /home/hzq/ncnn-ros/fastestdet/FastestDet.cpp",
+  "file": "/home/hzq/ncnn-ros/fastestdet/FastestDet.cpp"
+}
+]
