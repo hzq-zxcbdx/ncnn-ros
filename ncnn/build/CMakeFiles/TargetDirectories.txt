@@ -1,0 +1,3 @@
+/home/hzq/FastestDet/example/ncnn/build/CMakeFiles/edit_cache.dir
+/home/hzq/FastestDet/example/ncnn/build/CMakeFiles/rebuild_cache.dir
+/home/hzq/FastestDet/example/ncnn/build/CMakeFiles/fastestdet_demo.dir

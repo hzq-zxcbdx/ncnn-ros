@@ -1,0 +1,3 @@
+/home/hzq/demo_ncnn/build/CMakeFiles/rebuild_cache.dir
+/home/hzq/demo_ncnn/build/CMakeFiles/edit_cache.dir
+/home/hzq/demo_ncnn/build/CMakeFiles/nanodet_demo.dir

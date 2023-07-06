@@ -1,0 +1,5352 @@
+    1  chsh -s /bin/zsh
+    2  sudo reboot now
+    3  ifconfig
+    4  nvidia-smi
+    5  wget https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/x86_64/cuda-ubuntu2004.pin
+    6  sudo mv cuda-ubuntu2004.pin /etc/apt/preferences.d/cuda-repository-pin-600
+    7  wget https://developer.download.nvidia.com/compute/cuda/11.4.4/local_installers/cuda-repo-ubuntu2004-11-4-local_11.4.4-470.82.01-1_amd64.deb
+    8  sudo dpkg -i cuda-repo-ubuntu2004-11-4-local_11.4.4-470.82.01-1_amd64.deb
+    9  htop
+   10  sudo apt-key add /var/cuda-repo-ubuntu2004-11-4-local/7fa2af80.pub
+   11  sudo apt-get update
+   12  sudo apt-get -y install cuda
+   13  ls
+   14  cd 下载
+   15  ls
+   16  bash Anaconda3-2023.03-1-Linux-x86_64.sh
+   17  ifconfig
+   18  conda create -n py37 python=3.7
+   19  conda activate py37
+   20  ls
+   21  ifconfig
+   22  ls
+   23  nvcc -v
+   24  nvidia-s
+   25  nvidia-smi
+   26  sudo reboot now
+   27  nvidia-smi
+   28  ls
+   29  cd 下载
+   30  ls
+   31  sudo dpkg -i SunloginClient_11.0.1.44968_amd64.deb
+   32  sudo apt install libappindicator3-1
+   33  sudo dpkg -i SunloginClient_11.0.1.44968_amd64.deb
+   34  sudo apt-get install openssh-server 
+   35  udo ps -e |grep ssh
+   36  sudo ps -e |grep ssh
+   37  ls
+   38  nvidia-smi
+   39  ls
+   40  ifconfig
+   41  nvidia-smi
+   42  ifconfig
+   43  nvidia-smi
+   44  ifconfig
+   45  sudo apt install nvidia-cuda-toolkit
+   46  ls
+   47  ifconfig
+   48  watch -n 1 nvidia-smi
+   49  nvidia-smi
+   50  ls
+   51  wget  wget "https://down.oray.com/hsk/linux/phddns_5.2.0_amd64.deb" -O phddns_5.2.0_amd64.deb 
+   52  ls
+   53  sudo dpkg -i phddns_5.2.0_amd64.deb
+   54  sudo reboot now
+   55  ifconfig
+   56  ls
+   57  mkdir dow
+   58  cd dow
+   59  wget https://download3.vmware.com/software/WKST-1623-LX-New/VMware-Workstation-Full-16.2.3-19376536.x86_64.bundle
+   60  ls
+   61  chmod +x VMware-Workstation-Full-16.2.3-19376536.x86_64.bundle
+   62  sudo ./VMware-Workstation-Full-16.2.3-19376536.x86_64.bundle
+   63  ls
+   64  vmware-uninstall
+   65  vmware-installer -l
+   66  vmware-installer -u vmware-workstation
+   67  sudo vmware-installer -u vmware-workstation
+   68  cd 下载
+   69  ls
+   70  chmod +x VMware-Workstation-Full-17.0.2-21581411.x86_64.bundle
+   71  sudo ./VMware-Workstation-Full-17.0.2-21581411.x86_64.bundle
+   72  ls
+   73  htop
+   74  df -lh
+   75  htop
+   76  clear
+   77  ls
+   78  nvidia-smi
+   79  clear
+   80  ls
+   81  ifconfig
+   82  nvidia-smi
+   83  ls
+   84  ifconfig
+   85  ls
+   86  ifconfig
+   87  ls
+   88  cd vmware
+   89  ls
+   90  cd Windows\ 10\ x64
+   91  ls
+   92  cd ..
+   93  ls
+   94  git clone https://github.com/hzq-zxcbdx/yolov5.git
+   95  cd yolov5
+   96  ls
+   97  conda activate py37
+   98  ls
+   99  pip install -r requirements.txt -i https://pypi.douban.com/simple/
+  100  ls
+  101  mv 下载/cocodata.tar.gz .
+  102  mv 下载/coco_traffic.zip .
+  103  ls
+  104  unzip coco_traffic.zip
+  105  python
+  106  ls
+  107  sudo apt install tldr
+  108  tldr tar
+  109  ls
+  110  tar -zxvf cocodata.tar.gz
+  111  htop
+  112  ls
+  113  cd 下载
+  114  ls
+  115  sudo dpkg -i code_1.78.2-1683731010_amd64.deb
+  116  code
+  117  cd
+  118  sudo apt install nethogs 
+  119  sudo nethogs
+  120  ls
+  121  python train.py --data coco.yaml --epochs 300 --weights '' --cfg yolov5n.yaml  --batch-size 64
+  122  watch -n 1 nvidia-smi
+  123  python train.py --data coco.yaml --epochs 300 --weights '' --cfg yolov5n.yaml  --batch-size 64
+  124  ls
+  125  python train.py --data coco.yaml --epochs 30 --weights '' --cfg yolov5x.yaml  --batch-size 16
+  126  python train.py --data coco.yaml --epochs 30 --weights '' --cfg yolov5x.yaml  --batch-size 8
+  127  python train.py --data coco.yaml --epochs 30 --weights '' --cfg yolov5n.yaml  --batch-size 64
+  128  sudo shutdown now
+  129  ifconfig
+  130  htop
+  131  lscpu
+  132  ifconfig
+  133  sudo shutdown now
+  134  ls
+  135  sudo shutdown now
+  136  ifconfig
+  137  ls
+  138  cd yolov5
+  139  ls
+  140  python train.py --data coco.yaml --epochs 30 --weights '' --cfg yolov5n.yaml  --batch-size 64
+  141  conda activate py37
+  142  python train.py --data coco.yaml --epochs 30 --weights '' --cfg yolov5n.yaml  --batch-size 64
+  143  watch -n 1 nvidia-smi
+  144  sudo dpkg -i linuxqq_3.1.1-11223_amd64.deb
+  145  ls
+  146  cd Zotero_linux-x86_64
+  147  ls
+  148  sudo chmod +x zotero
+  149  sudo chmod +x zotero-bin
+  150  sudo ./set_launcher_icon
+  151  ./zotero
+  152  ls
+  153  cd Zotero
+  154  ls
+  155  fing -n zotero.desktop
+  156  tldr find
+  157  find . -name zotero.desktop
+  158  ls
+  159  find . -name zotero.*
+  160  sudo find . -name zotero.*
+  161  sudo find . -name 'zotero.*'
+  162  cd
+  163  sudo find . -name 'zotero.*'
+  164  cd 下载
+  165  ls
+  166  cd Zotero_linux-x86_64
+  167  cp zotero.desktop ../../桌面
+  168  ls
+  169  cd
+  170  ls
+  171  cd 桌面
+  172  ls
+  173  vim zotero.desktop
+  174  ls
+  175  pwd
+  176  vim zotero.desktop
+  177  ls
+  178  bash -c /home/hzq/下载/Zotero_linux-x86_64/zotero
+  179  ./zotero.desktop
+  180  ls
+  181  ./zotero.desktop
+  182  cd /usr/share/application
+  183  cd /usr/share/applications
+  184  ls
+  185  rm zotero.desktop
+  186  ls
+  187  cp zotero.desktop /usr/share/application/
+  188  cp zotero.desktop /usr/share/applications
+  189  sudo cp zotero.desktop /usr/share/applications
+  190  ls
+  191  vim zotero.desktop
+  192  sudo vim zotero.desktop
+  193  pwd
+  194  sudo vim zotero.desktop
+  195  ./zotero
+  196  ls
+  197  python train.py --resume runs/train/exp5/weights/last.pt
+  198  sudo dpkg -i tabby-1.0.197-linux-x64.deb
+  199  sudo apt install gconf2
+  200  ls
+  201  sudo dpkg -i tabby-1.0.197-linux-x64.deb
+  202  sudo apt install gnome-keyring
+  203  ls
+  204  curl -s https://packagecloud.io/install/repositories/eugeny/tabby/script.deb.sh | sudo bash
+  205  ls
+  206  sudo apt install tabby-terminal
+  207  sudo apt --fix-broken install tabby-terminal
+  208  curl -s https://packagecloud.io/install/repositories/eugeny/tabby/script.deb.sh | sudo bash
+  209  sudo apt-get update
+  210  sudo apt-get install curl gnupg apt-transport-https
+  211  apt -v\n: 1684671732:0;apt -v
+  212  mkdir -p /etc/apt/keyrings/
+  213  sudo apt install gedit
+  214  sudo apt --fix-broken install
+  215  ls
+  216  tabby
+  217  sudo shutdown now
+  218  ssh 96.43.85.92
+  219  ssh root@96.43.85.92
+  220  ifconfig
+  221  ls
+  222  sudo apt install git curl\n
+  223  curl -fsSL https://deb.nodesource.com/setup_18.x | sudo -E bash -\n
+  224  sudo apt update
+  225  sudo apt-get install -y nodejs\n
+  226  htop
+  227  node -v
+  228  npm -v
+  229  ls
+  230  mkdir work
+  231  ls
+  232  cd work
+  233  ls
+  234  time dd if=test.file of=/dev/null  bs=2048 count=500000 iflag=direct
+  235  time dd if=/dev/zero of=/testw.dbf bs=4k count=100000
+  236  sudo time dd if=/dev/zero of=/testw.dbf bs=4k count=100000
+  237  sudo time dd if=/dev/zero of=/testw.dbf bs=4k count=1000000
+  238  git clone https://gitee.com/huang-ziqin/star.git
+  239  ls
+  240  cd star
+  241  ls
+  242  git checkout dev_v0.1
+  243  ls
+  244  npm start
+  245  code
+  246  code .
+  247  ls
+  248  sudo dpkg -i com.alibabainc.dingtalk_1.7.0.30424_amd64.deb
+  249  sudo dpkg -i Feishu-linux_x64-6.1.12.deb
+  250  sudo apt update
+  251  sudo apt upgrade
+  252  sudo reboot now
+  253  nethogs
+  254  sudo nethogs
+  255  ifconfig
+  256  ls
+  257  ifconfig
+  258  ls
+  259  ifconfig
+  260  ls
+  261  clear
+  262  ls
+  263  ifconfig
+  264  ls
+  265  clear
+  266  ls
+  267  ifconfig
+  268  ls
+  269  ifconfig
+  270  clear
+  271  ls
+  272  ifconfig
+  273  clear
+  274  ls
+  275  mkdir npc
+  276  ls
+  277  cd npc
+  278  ls
+  279  wget https://github.com/ehang-io/nps/releases/download/v0.26.10/linux_amd64_client.tar.gz
+  280  ls
+  281  tar -zvxf linux_amd64_client.tar.gz
+  282  rm linux_amd64_client.tar.gz
+  283  ls
+  284  rm -f npc
+  285  ls
+  286  rm linux_amd64_client.tar.gz
+  287  ll
+  288  tldr tar
+  289  tar -xzvf linux_amd64_client.tar.gz
+  290  ls
+  291  ll
+  292  ls
+  293  cd npc
+  294  ./npc install -server=96.43.85.92:8024 -vkey=56bqw30y7x6iip30 -type=tcp
+  295  sudo ./npc install -server=96.43.85.92:8024 -vkey=56bqw30y7x6iip30 -type=tcp
+  296  sudo npc start
+  297  ls
+  298  ifconfig
+  299  ls
+  300  ifconfig
+  301  clear
+  302  ifconfig
+  303  clear
+  304  ifconfig
+  305  ls
+  306  pwd
+  307  sudo apt install steam
+  308  nethogs
+  309  sudo nethogs
+  310  sudo reboot now
+  311  nvidia-smi
+  312  ls
+  313  ifconfig
+  314  ping www.google.com
+  315  ping www.baidu.com
+  316  curl www.google.com
+  317  ls
+  318  ping www.google.com
+  319  sudo dpkg -i google-chrome-stable_current_amd64.deb
+  320  ls
+  321  git clone https://github.com/THUDM/ChatGLM-6B.git
+  322  ls
+  323  ifconfig
+  324  ls
+  325  clear
+  326  cd ChatGLM-6B
+  327  ls
+  328  cd
+  329  ping www.baidu.com
+  330  ping 96.43.85.92
+  331  ssh 96.43.85.92
+  332  ssh root@96.43.85.92
+  333  ls
+  334  cd ~/.ssh
+  335  ls
+  336  sudo vim known_hosts
+  337  ls
+  338  sudo vim config
+  339  cd
+  340  ssh root@96.43.85.92
+  341  ls
+  342  cd coco_traffic
+  343  ls
+  344  cd
+  345  cd datasets
+  346  ls
+  347  cd datasets/coco
+  348  ls
+  349  tldr mv
+  350  watch -n 1 nvidia-smi
+  351  ls
+  352  sudo vim /etc/ssh/sshd_config
+  353  sudo service sshd restart
+  354  watch -n 1 nvidia-smi
+  355  ls
+  356  ifconfig
+  357  ssh root@192.168.100.1
+  358  ls
+  359  ifconfig
+  360  ls
+  361  watch -n 1 nvidia-smi
+  362  ls
+  363  mv coco_traffic datasets
+  364  ls
+  365  cd datasets
+  366  ls
+  367  cd coco
+  368  ls
+  369  cd .. 
+  370  cd coco_traffic
+  371  ls
+  372  cd ..
+  373  ls
+  374  cd
+  375  cd yolov5
+  376  ls
+  377  code .
+  378  ls
+  379  cd
+  380  ls
+  381  cd datasets/coco_traffic
+  382  ls
+  383  cd images
+  384  ls
+  385  cd ..
+  386  ls
+  387  cd ..
+  388  ls
+  389  cd coco
+  390  ls
+  391  vim train2017.txt
+  392  ls
+  393  cd images
+  394  ls
+  395  cd test2017
+  396  ls
+  397  cd ..
+  398  ls
+  399  cd ..
+  400  ls
+  401  vim val2017.txt
+  402  ls
+  403  cd npc
+  404  ls
+  405  ./npc uninstall
+  406  sudo ./npc uninstall
+  407  cd
+  408  ls
+  409  cd npc
+  410  ls
+  411  sudo ./npc install -server=www.zxcbdx.top:8024 -vkey=llnxry234bh50w7e -type=tcp
+  412  ls
+  413  sudo npc start
+  414  ifconfig
+  415  ls
+  416  watch -n 1 nvidia-smi
+  417  ls
+  418  ifconfig
+  419  ls
+  420  ifconfig
+  421  ls
+  422  git clone https://github.com/qyzone/pykits.git
+  423  ls
+  424  nethogs
+  425  sudo nethogs
+  426  conda activate base
+  427  ls
+  428  cd datasets
+  429  ls
+  430  cd coco_traffic
+  431  ls
+  432  pwd
+  433  ls
+  434  python3 gettxt.py
+  435  ls
+  436  python3 gettxt.py
+  437  ls
+  438  cd datasets
+  439  ls
+  440  cd coco
+  441  cd ..
+  442  ls
+  443  cd coco_traffic
+  444  ls
+  445  vim train2017.txt
+  446  ls
+  447  python3 gettxt.py
+  448  ls
+  449  cd images
+  450  ls
+  451  cp ../../coco
+  452  cp -r ../../coco/images/test2017 .
+  453  htop
+  454  ls
+  455  cd
+  456  ls
+  457  cd yolov5
+  458  cd 
+  459  cd yolov5
+  460  ls
+  461  history | grep train | vim -
+  462  python train.py --data coco_traffic.yaml --epochs 300 --weights '' --cfg yolov5n.yaml  --batch-size 64
+  463  conda activate py37
+  464  python train.py --data coco_traffic.yaml --epochs 300 --weights '' --cfg yolov5n.yaml  --batch-size 64
+  465  watch -n 0.1 nvidia-smi
+  466  watch -n 1 nvidia-smi
+  467  ls
+  468  git checkout -b traffic
+  469  ls
+  470  git add .
+  471  git commit -m 'create coco datasets for traffic'
+  472  git config --global "zxcbdx@163.com"
+  473  git config --global user.email "zxcbdx@163.com"
+  474  git config --global user.name "hzq-zxcbdx"
+  475  git commit -m 'create coco datasets for traffic'
+  476  git push origin traffic
+  477  ls
+  478  h-top
+  479  htop
+  480  sudo apt install s-tui
+  481  s-tui
+  482  ls
+  483  cd yolov5
+  484  ls
+  485  cd runs
+  486  ls
+  487  cd train
+  488  ls
+  489  cd exp7
+  490  ls
+  491  cd weights
+  492  ls
+  493  ll
+  494  nvidia-smi
+  495  sudo dpkg -P sunloginclient 
+  496  ls
+  497  cd 下载
+  498  ls
+  499  sudo dpkg -i SunloginClient_11.0.1.44968_amd64.deb
+  500  ls
+  501  history | grep train | vim -
+  502  ls
+  503  cd yolov5
+  504  ls
+  505  conda activate py37
+  506  ls
+  507  python train.py --resume runs/train/exp7/weights/last.pt
+  508  watch -n 1 nvidia-smi
+  509  sudo nethogs
+  510  ls
+  511  unzip 活5.zip
+  512  ls
+  513  mv ц┤╗5. huo.zip
+  514  ls
+  515  unzip huo.zip
+  516  ls
+  517  cd
+  518  ls
+  519  mv 下载/huo.zip 视频
+  520  ls
+  521  cd 视频
+  522  ls
+  523  cd
+  524  ls
+  525  mkdir video_d
+  526  ls
+  527  mv 视频/huo.zip video_d
+  528  ls
+  529  cd video_d
+  530  ls
+  531  unzip huo.zip
+  532  ls
+  533  ll
+  534  mv huo.zip huo
+  535  ls
+  536  cd huo
+  537  ls
+  538  rm huo
+  539  ls
+  540  mv huo\ \(1\)  huo5
+  541  ls
+  542  cd huo5
+  543  ls
+  544  cd ..
+  545  ls
+  546  cd
+  547  ls
+  548  mv 下载/活* video_d
+  549  ls
+  550  cd video_d
+  551  ls
+  552  unzip 活2.zip
+  553  htop
+  554  ls
+  555  sudo add-apt-repository ppa:xmake-io/xmake\nsudo apt update\nsudo apt install xmake\n
+  556  ls
+  557  git clone https://github.com/hzq-zxcbdx/leetcode.git
+  558  ls
+  559  cd leetcode
+  560  ls
+  561  code .
+  562  ls
+  563  git add .
+  564  git commit -m 'hash'
+  565  git push origin master
+  566  ls
+  567  ifconfig
+  568  ls
+  569  cd yolov5
+  570  ls
+  571  python train.py --resume runs/train/exp7/weights/last.pt
+  572  conda activate py37
+  573  python train.py --resume runs/train/exp7/weights/last.pt
+  574  LS
+  575  ls
+  576  watch -n 1 nvidia-smi
+  577  conda info
+  578  conda activate py37
+  579  ls
+  580  python test.py
+  581  conda activate py37
+  582  ls
+  583  python train.py --resume runs/train/exp7/weights/last.pt
+  584  history | grep train | vim -
+  585  conda activate py37
+  586  ls
+  587  code .
+  588  conda activate py37
+  589  ls
+  590  watch -n 1 nvidia-smi
+  591  conda activate py37
+  592  watch -n 1 nvidia-smi
+  593  conda activate py37
+  594  /home/hzq/anaconda3/envs/py37/bin/python /home/hzq/.vscode/extensions/ms-python.python-2023.8.0/pythonFiles/shell_exec.py conda install -c conda-forge --name py37 tensorboard -y /tmp/tmp-221351JMJh2udJDHgY.log
+  595  sudo dpkg -i TencentMeeting_0300000000_3.14.0.402_x86_64_default.publish.deb
+  596  sudo add-apt-repository ppa:dawidd0811/neofetch
+  597  sudo apt update
+  598  sudo apt install neofetch
+  599  neofetch
+  600  neofetch -v
+  601  sudo dpkg -i Xmind-for-Linux-amd64bit-23.05.2662-202305210821.deb
+  602  ls
+  603  sudo shutdown now
+  604  ls
+  605  ifconfig
+  606  ls
+  607  ifconfig
+  608  ls
+  609  cd yolov5
+  610  ls
+  611  cd runs/train
+  612  ls
+  613  rm exp10
+  614  rm -r exp10 exp11
+  615  ls
+  616  rm -r exp12 exp13
+  617  ls
+  618  cd exp9
+  619  ls
+  620  cd weights
+  621  ls
+  622  cd ..
+  623  ls
+  624  rm -r exp9
+  625  ls
+  626  cd exp8
+  627  ls
+  628  cd weights
+  629  ls
+  630  cd ..
+  631  ls
+  632  rm -r exp8
+  633  ls
+  634  cd exp7
+  635  ls
+  636  cd weights
+  637  ls
+  638  ll
+  639  cd ..
+  640  ls
+  641  cd ..
+  642  ls
+  643  cd exp6
+  644  ls
+  645  cd weights
+  646  ls
+  647  ll
+  648  cd ..
+  649  ls
+  650  cd ..
+  651  ls
+  652  cd
+  653  ls
+  654  cd datasets/coco_traffic
+  655  ls
+  656  cd ..
+  657  ls
+  658  cp -r coco_traffic coco_traffic_simple
+  659  ls
+  660  cd coco_traffic_simple
+  661  ls
+  662  cd images
+  663  ls
+  664  cd train2017
+  665  ls
+  666  top
+  667  htop
+  668  ls
+  669  cd coco_traffic_simple
+  670  ls
+  671  python delete.py
+  672  ls
+  673  ls -l | grep "^-" | wc -l
+  674  cd ..
+  675  cd val2017
+  676  ls -l | grep "^-" | wc -l
+  677  python gettxt.py
+  678  pwd
+  679  cd
+  680  cd yolov5
+  681  ls
+  682  history | grep train | vim -
+  683  python train.py --data coco_traffic_simple.yaml --epochs 300 --weights '' --cfg yolov5n.yaml  --batch-size 64
+  684  conda activate py37
+  685  python train.py --data coco_traffic_simple.yaml --epochs 300 --weights '' --cfg yolov5n.yaml  --batch-size 64
+  686  watch -n 1 nvidia-s
+  687  watch -n 1 nvidia-smi
+  688  ls -l
+  689  cd datasets
+  690  ls
+  691  cd coco_traffic_simple
+  692  ls
+  693  cd images/train2017
+  694  ls
+  695  ls -l
+  696  ls -l | grep '-'
+  697  ls -l | wc
+  698  ls -l | wc -l
+  699  ls
+  700  ifconfig
+  701  ls
+  702  ifconfig
+  703  ls
+  704  cd yolov5
+  705  ls
+  706  history | grep train 
+  707  python train.py --resume runs/train/exp8/weights/last.pt
+  708  conda activate py37
+  709  python train.py --resume runs/train/exp8/weights/last.pt
+  710  watch -n 1 nvidia-smi
+  711  ls
+  712  cd yolov5
+  713  conda activate py37
+  714  ls
+  715  python train.py --data coco_traffic_simple.yaml --epochs 300 --weights '' --cfg yolov5n.yaml  --batch-size 2
+  716  ls
+  717  cd datasets
+  718  ls
+  719  sudo apt install iotop
+  720  iotop
+  721  sudo iotop
+  722  ls
+  723  cd datasets
+  724  ls
+  725  cp coco_traffic coco_traffic_20
+  726  cp -r coco_traffic coco_traffic_20
+  727  ls
+  728  cd coco_traffic_20
+  729  ls
+  730  python delete.py
+  731  ls
+  732  python gettxt.py
+  733  ls
+  734  history | grep train
+  735  python train.py --data coco_traffic_20.yaml --epochs 300 --weights '' --cfg yolov5n.yaml  --batch-size 64
+  736  ls
+  737  cd coco_traffic_20
+  738  ks
+  739  ls
+  740  du
+  741  du -l
+  742  du -lh
+  743  cd ..
+  744  ls
+  745  du -lh
+  746  ls
+  747  cd
+  748  ls
+  749  rm C:\\Users\\hzq\\.leetcode
+  750  rm -r C:\\Users\\hzq\\.leetcode
+  751  ls
+  752  git clone https://gitee.com/huang-ziqin/star.git
+  753  ls
+  754  cd st
+  755  cd star
+  756  ls
+  757  cd
+  758  mkdir project
+  759  ls
+  760  mv star project
+  761  ls
+  762  cd project
+  763  ls
+  764  cd star
+  765  ls
+  766  npm start
+  767  ls
+  768  git checkout dev_fix_time_error
+  769  ls
+  770  git pull
+  771  ls
+  772  npm start
+  773  cd
+  774  sudo apt-get install tmux
+  775  tumux
+  776  ls
+  777  tumux
+  778  sudo apt-get install tmux
+  779  tmux
+  780  tmux detach
+  781  tmux ls
+  782  tmux attach
+  783  ls
+  784  tmux ls
+  785  tmux
+  786  top
+  787  ls
+  788  tmux attach
+  789  ls
+  790  cd yolov5
+  791  ls
+  792  tmux
+  793  ls
+  794  tmux list
+  795  tmux ls
+  796  ls
+  797  cd runs/train
+  798  ls
+  799  cd ..
+  800  ls
+  801  cd ..
+  802  python train.py --resume runs/train/exp9/weights/last.pt
+  803  conda activate py37
+  804  python train.py --resume runs/train/exp9/weights/last.pt
+  805  ls
+  806  cd runs/train
+  807  ls
+  808  cd exp9
+  809  ls
+  810  cd weights
+  811  ls
+  812  cd ..
+  813  cd .
+  814  cd ..
+  815  ls
+  816  cd ..
+  817  ls
+  818  python train.py --data coco_traffic_20.yaml --epochs 300 --weights '' --cfg yolov5n.yaml  --batch-size 64
+  819  tmux
+  820  ls
+  821  nvidia-smi
+  822  ls
+  823  tmux attach
+  824  mutur
+  825  tmux attach
+  826  ls
+  827  tmux attach
+  828  cd datasets
+  829  ls
+  830  cp -r coco_traffic coco_traffic_30
+  831  iotop
+  832  sudo iotop
+  833  ls
+  834  code
+  835  code .
+  836  ls
+  837  cd coco_traffic_30
+  838  ls
+  839  python delete.py
+  840  ls
+  841  cd images/train2017
+  842  ls -l | wc -l
+  843  cd ..
+  844  ls
+  845  cd ..
+  846  ls
+  847  python delete.py
+  848  python gettxt.py
+  849  ls
+  850  python train.py --resume runs/train/exp10/weights/last.pt
+  851  cd yolov5
+  852  ls
+  853  cd runs
+  854  ls
+  855  cd train
+  856  ls
+  857  python train.py --data coco_traffic_30.yaml --epochs 300 --weights '' --cfg yolov5n.yaml  --batch-size 64
+  858  ls
+  859  cd images
+  860  ls
+  861  rm -r val2017
+  862  ls
+  863  cd ..
+  864  ls
+  865  rm val2017.cache
+  866  rm val2017.txt
+  867  ls
+  868  cp -r ../coco_traffic/images/val2017  images
+  869  ls
+  870  cd images
+  871  ls
+  872  cd val2017
+  873  ls
+  874  dh -lf
+  875  ls -l
+  876  ls -l | wc -l
+  877  ls
+  878  cd ..
+  879  ls
+  880  cd train2017
+  881  ls
+  882  ls -l | wc -l
+  883  ls
+  884  cd .
+  885  cd ..
+  886  ls
+  887  pwd
+  888  cd ..
+  889  ls
+  890  cp ../coco_traffic/val2017.txt .
+  891  ls
+  892  vim val2017.txt
+  893  ls
+  894  cd images/val2017
+  895  ls
+  896  ls -l | wc -l
+  897  cd 
+  898  cd ..
+  899  ls
+  900  python train.py --data coco_traffic_30.yaml --epochs 300 --weights '' --cfg yolov5n.yaml  --batch-size 64
+  901  tmux attach
+  902  ls
+  903  cd datasets
+  904  ls
+  905  cd coco_traffic_20
+  906  ls
+  907  cd images
+  908  ls
+  909  cd val2017
+  910  ls
+  911  ls -l | wc -l
+  912  ls
+  913  cd ..
+  914  ls
+  915  rm -r val2017
+  916  ls
+  917  cd ..
+  918  ls
+  919  rm val2017.*
+  920  ls
+  921  cp ../coco_traffic/val2017.txt .
+  922  ls
+  923  vim val2017.txt
+  924  ls
+  925  cd images
+  926  ls
+  927  cp -r ../../coco_traffic/images/val2017 .
+  928  ls
+  929  cd val2017
+  930  ls -l | wc -l
+  931  ls
+  932  cd ..
+  933  ls
+  934  cd .
+  935  cd ..
+  936  ls
+  937  tmux
+  938  ls
+  939  cd
+  940  conda activate py37
+  941  ls
+  942  cd yolov5
+  943  history | grep train
+  944  python train.py --data coco_traffic_20.yaml --epochs 300 --weights '' --cfg yolov5n.yaml  --batch-size 64
+  945  sudo nethogs
+  946  dls
+  947  ifconfig
+  948  htop
+  949  ls
+  950  tmux attach
+  951  ls
+  952  htop
+  953  tmux attach
+  954  htop
+  955  tmux attach
+  956  cd yolov5
+  957  ls
+  958  cd runs
+  959  ls
+  960  cd train
+  961  ls
+  962  cd exp7
+  963  ls
+  964  cd weights
+  965  ls
+  966  ll
+  967  cd ..
+  968  ls
+  969  cd ..
+  970  ls
+  971  cd exp13
+  972  ls
+  973  cd weights
+  974  ls
+  975  ll
+  976  cd ../..
+  977  ls
+  978  cd exp2
+  979  ls
+  980  cd weights
+  981  ls
+  982  ll
+  983  cd ..
+  984  ls
+  985  cd ..
+  986  cd exp3
+  987  ls
+  988  cd weights
+  989  ls
+  990  cd ..
+  991  ls
+  992  cd exp4
+  993  ls
+  994  cd weights
+  995  ls
+  996  cd ..
+  997  ls
+  998  cd ..
+  999  ls
+ 1000  cd exp5
+ 1001  ls
+ 1002  cd weights
+ 1003  ll
+ 1004  cd ..
+ 1005  ls
+ 1006  cd ..
+ 1007  ls
+ 1008  cd exp
+ 1009  ls
+ 1010  cd weights
+ 1011  ls
+ 1012  ll
+ 1013  cd ..
+ 1014  ls
+ 1015  cd 
+ 1016  ls
+ 1017  tmux attach
+ 1018  tmux ls
+ 1019  tmux attach 1
+ 1020  tmux attach-session 1
+ 1021  tmux attach-session -t 1
+ 1022  lsls
+ 1023  ifconfig
+ 1024  ls
+ 1025  ifconfig
+ 1026  ls
+ 1027  ifconfig
+ 1028  ls
+ 1029  the with more could seem leave follow fact war company nothingnear love often car different moment rate door hope piece share visit nor river spring lolt decision wear clean dream wrong travelbank poem poor inch song admit bridge expression exception thanklibrary fat fresh forest winter box belief trust nobody valleytool presence cup competition moon terrible strip male skin crackrush wet honest freeze dictionary calm swim fortunate glorygolden neat weekend proof generous sir tonight objection silvertent saddle wrap nest pity steam pin bound companion fork noonownership tune polish cave customary thief damp scenery
+ 1030  sudo dpkg -i wps-office_11.1.0.11698.XA_amd64.deb
+ 1031  sudo dpkg --purge wps-office
+ 1032  sudo rm -r /usr/share/fonts/wps-office
+ 1033  sudo dpkg --purge wps-office
+ 1034  sudo dpkg -i wps-office_11.1.0.11698_amd64.deb
+ 1035  sudo apt-get update &&\nsudo apt-get install wget software-properties-common &&\nsudo add-apt-repository ppa:ubuntu-toolchain-r/test &&\nwget -O - https://apt.llvm.org/llvm-snapshot.gpg.key\|sudo apt-key add - &&\nsudo apt-add-repository "deb http://apt.llvm.org/xenial/ llvm-toolchain-xenial-8 main" &&\nsudo apt-get update
+ 1036  sudo apt-get install wget software-properties-common
+ 1037  sudo add-apt-repository ppa:ubuntu-toolchain-r/test
+ 1038  wget -O - https://apt.llvm.org/llvm-snapshot.gpg.key\|sudo apt-key add -
+ 1039  clear
+ 1040  wget -O - https://apt.llvm.org/llvm-snapshot.gpg.key\|sudo apt-key add -
+ 1041  wget https://apt.llvm.org/llvm-snapshot.gpg.key
+ 1042  ls
+ 1043  rm llvm-snapshot.gpg.key
+ 1044  ls
+ 1045  wget -O - https://apt.llvm.org/llvm-snapshot.gpg.key\|sudo apt-key add -
+ 1046  wget -O - https://apt.llvm.org/llvm-snapshot.gpg.key\ |sudo apt-key add -
+ 1047  wget -O - https://apt.llvm.org/llvm-snapshot.gpg.key |sudo apt-key add -
+ 1048  sudo apt-add-repository "deb http://apt.llvm.org/focal/ llvm-toolchain-focal main"
+ 1049  sudo apt-add-repository "deb http://apt.llvm.org/xenial/ llvm-toolchain-xenial-8 main" &&\nsudo apt-get update
+ 1050  sudo apt update
+ 1051  sudo apt-add-repository "deb http://apt.llvm.org/focal/ llvm-toolchain-focal main"\nsudo apt-get install build-essential clang-10 lld-10 g++-7 cmake ninja-build libvulkan1 python python-dev python3-dev python3-pip libpng-dev libtiff5-dev libjpeg-dev tzdata sed curl unzip autoconf libtool rsync libxml2-dev git\nsudo update-alternatives --install /usr/bin/clang++ clang++ /usr/lib/llvm-10/bin/clang++ 180 &&\nsudo update-alternatives --install /usr/bin/clang clang /usr/lib/llvm-10/bin/clang 180
+ 1052  neofetch
+ 1053  df -lh
+ 1054  pip3 -V
+ 1055  pip -V
+ 1056  pip install --user setuptools &&\npip3 install --user -Iv setuptools==47.3.1 &&\npip install --user distro &&\npip3 install --user distro &&\npip install --user wheel &&\npip3 install --user wheel auditwheel
+ 1057  pip install --user setuptools &&\n
+ 1058  pip install --user setuptools
+ 1059  pip3 install --user -Iv setuptools==47.3.1 
+ 1060  pip install --user distro
+ 1061  pip3 install --user distro
+ 1062  pip install --user wheel
+ 1063  pip3 install --user wheel auditwheel
+ 1064  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
+ 1065  git clone --depth 1 -b carla https://github.com/CarlaUnreal/UnrealEngine.git ~/UnrealEngine_4.26
+ 1066  iotop
+ 1067  sudo iotop
+ 1068  cd ~/UnrealEngine_4.26
+ 1069  ./Setup.sh && ./GenerateProjectFiles.sh && make
+ 1070  htop
+ 1071  ls
+ 1072  cd
+ 1073  ls
+ 1074  cd work
+ 1075  ls
+ 1076  cd star
+ 1077  ls
+ 1078  git pull
+ 1079  code .
+ 1080  ls
+ 1081  git pull
+ 1082  ls
+ 1083  npm start
+ 1084  ./Setup.sh && ./GenerateProjectFiles.sh && make
+ 1085  cd
+ 1086  sudo nethogs
+ 1087  nvidia-smi
+ 1088  ls
+ 1089  s-tui
+ 1090  sudo s-tui
+ 1091  sudo apt-get install aria2
+ 1092  ls
+ 1093  cd
+ 1094  ls
+ 1095  cd UnrealEngine_4.26
+ 1096  ls
+ 1097  cd 
+ 1098  ls
+ 1099  cd UnrealEngine_4.26/
+ 1100  ls
+ 1101  history
+ 1102  cd
+ 1103  ls
+ 1104  find -name carla
+ 1105  cd carla
+ 1106  ls
+ 1107  cd Unreal
+ 1108  ls
+ 1109  cd ..
+ 1110  ls
+ 1111  cd 
+ 1112  cd carla
+ 1113  export UE4_ROOT=~/UnrealEngine_4.26
+ 1114  vim ~/.zshrc
+ 1115  source ~/.zshrc
+ 1116  echo $(UE4_ROOT)
+ 1117  echo $UE4_ROOT
+ 1118  make PythonAPI
+ 1119  ls
+ 1120  cd PythonAPI
+ 1121  ls
+ 1122  cd util
+ 1123  ls
+ 1124  cd ..
+ 1125  ls
+ 1126  cd carla
+ 1127  ls
+ 1128  cd dist
+ 1129  ls
+ 1130  cd ..
+ 1131  ls
+ 1132  cd ..
+ 1133  ls
+ 1134  cd ..
+ 1135  ls
+ 1136  cd
+ 1137  cd carla
+ 1138  make launch
+ 1139  npm start
+ 1140  watch -n 1 nvidia-smi
+ 1141  sudo dpkg -i baidunetdisk_4.17.7_amd64.deb
+ 1142  ls
+ 1143  htop
+ 1144  nvidia-smi
+ 1145  ls
+ 1146  ifconfig
+ 1147  ls
+ 1148  cd carla/PythonAPI/examples
+ 1149  ls
+ 1150  python3 -m pip install -r requirements.txt
+ 1151  vim requirements.txt
+ 1152  cd carla/PythonAPI/examples
+ 1153  ls
+ 1154  pip install numpy==1.18.4
+ 1155  pip install numpy
+ 1156  ls
+ 1157  pip install pygame
+ 1158  pip install matplotlib
+ 1159  pip install open3d
+ 1160  pip install Pillow
+ 1161  ls
+ 1162  python3 generate_traffic.py  
+ 1163  ls
+ 1164  ifconfig
+ 1165  python3 generate_traffic.py  
+ 1166  make launch
+ 1167  sudo apt install goldendict
+ 1168  ls
+ 1169  python manual_control.py
+ 1170  watch -n 1 nvidia-smi
+ 1171  ls
+ 1172  python manual_control_carsim.py
+ 1173  ls
+ 1174  vim generate_traffic.py
+ 1175  python generate_traffic.py -n 100
+ 1176  python generate_traffic.py 
+ 1177  wget git.io/trans
+ 1178  wget https://git.io/trans
+ 1179  sudo apt install translate-shell -y
+ 1180  ls
+ 1181  cd work
+ 1182  ls
+ 1183  cd star
+ 1184  ls
+ 1185  cd backend
+ 1186  ls
+ 1187  cd czmltest/q
+ 1188  cd czmltest
+ 1189  ls
+ 1190  conda env list
+ 1191  conda create -n backend_star python=3.9
+ 1192  conda activate backend_star
+ 1193  ls
+ 1194  cd backend
+ 1195  ls
+ 1196  cd czmltest
+ 1197  ls
+ 1198  python linkTle2Json.py
+ 1199  pip install requests
+ 1200  python linkTle2Json.py
+ 1201  pip install pytz
+ 1202  python linkTle2Json.py
+ 1203  python czmllink.py
+ 1204  python linkTle2Json.py
+ 1205  ls
+ 1206  python czmllink.py
+ 1207  ls
+ 1208  python czmllink.py
+ 1209  python linkTle2Json.py
+ 1210  python czmllink.py
+ 1211  python linkTle2Json.py
+ 1212  python czmllink.py
+ 1213  ls
+ 1214  python czmllink.py
+ 1215  python linkTle2Json.py
+ 1216  python czmllink.py
+ 1217  git add .
+ 1218  ls
+ 1219  git commit -m '修复无法正常显示的bug,1:将链路和路由由utc时间转换为本地时间,2:对每个链路的id进行了修改,使其不再重复'
+ 1220  git push origin dev_fix_time_error
+ 1221  sudo reboot now
+ 1222  ifconfig
+ 1223  ls
+ 1224  ifconfig
+ 1225  date -R
+ 1226  sudo apt-get install ntpdate\n
+ 1227  sudo ntpdate cn.pool.ntp.org\n
+ 1228  sudo dpkg -i netease-cloud-music_1.2.1_amd64_ubuntu_20190428.deb
+ 1229  sudo hwclock --show\n
+ 1230  sudo timedatectl set-ntp true\n
+ 1231  timedatectl
+ 1232  sudo apt install ntpdate
+ 1233  tzselect
+ 1234  date
+ 1235  sudo date
+ 1236  sudo date -s "2023-05-30 20:41:00"
+ 1237  sudo hwclock --systohc
+ 1238  date
+ 1239  sudo reboot now
+ 1240  ls
+ 1241  git clone https://gitee.com/huang-ziqin/stl_study.git
+ 1242  cd stl_study
+ 1243  ls
+ 1244  cd 1
+ 1245  ls
+ 1246  code .
+ 1247  ls
+ 1248  sudo apt install libxcb-xinerama0 libxcb-cursor0\n
+ 1249  tar xaf anki-2.1.64-linux-qt6.tar.zst
+ 1250  cd anki-2.1.64-linux-qt6
+ 1251  sudo ./install.sh
+ 1252  anki
+ 1253  sudo apt install flameshot\n
+ 1254  flameshot
+ 1255  vim flameshot.conf
+ 1256  ls
+ 1257  rm flameshot.conf
+ 1258  sudo apt purge flameshot
+ 1259  sudo apt install flameshot
+ 1260  xmake run hellow
+ 1261  xmake run
+ 1262  cd ..
+ 1263  ls
+ 1264  mkdir test
+ 1265  ls
+ 1266  cd test
+ 1267  code .
+ 1268  ls
+ 1269  xmake run 1
+ 1270  time xmake run 1
+ 1271  time -f "%e * 1000" xmake run 1
+ 1272  time xmake run 1
+ 1273  ls
+ 1274  cd build
+ 1275  ls
+ 1276  cd linux
+ 1277  ls
+ 1278  cd x86_64
+ 1279  ls
+ 1280  cd release
+ 1281  ls
+ 1282  ./1
+ 1283  ls
+ 1284  time ./1
+ 1285  ./1
+ 1286  time ./1
+ 1287  ls
+ 1288  cd ..
+ 1289  ls
+ 1290  cd ..
+ 1291  ld
+ 1292  ls
+ 1293  cd ..
+ 1294  ls
+ 1295  cd ../
+ 1296  ls
+ 1297  cd ..
+ 1298  ls
+ 1299  git add .
+ 1300  git commit -m 'testarray'
+ 1301  git push origin master
+ 1302  sudo apt update -y\n
+ 1303  sudo apt full-upgrade -y\n
+ 1304  sudo apt install -y ack antlr3 asciidoc autoconf automake autopoint binutils bison build-essential \\nbzip2 ccache cmake cpio curl device-tree-compiler fastjar flex gawk gettext gcc-multilib g++-multilib \\ngit gperf haveged help2man intltool libc6-dev-i386 libelf-dev libglib2.0-dev libgmp3-dev libltdl-dev \\nlibmpc-dev libmpfr-dev libncurses5-dev libncursesw5-dev libreadline-dev libssl-dev libtool lrzsz \\nmkisofs msmtp nano ninja-build p7zip p7zip-full patch pkgconf python2.7 python3 python3-pyelftools \\nlibpython3-dev qemu-utils rsync scons squashfs-tools subversion swig texinfo uglifyjs upx-ucl unzip \\nvim wget xmlto xxd zlib1g-dev
+ 1305  git clone https://github.com/coolsnowwolf/lede\n
+ 1306  cd lede\n
+ 1307  ./scripts/feeds update -a\n
+ 1308  htop
+ 1309  ./scripts/feeds install -a\n
+ 1310  make menuconfig\n
+ 1311  ls
+ 1312  vim .config
+ 1313  make download -j36\n
+ 1314  htop
+ 1315  sudo nethogs
+ 1316  sudo iotop
+ 1317  echo $(nproc)
+ 1318  time make V=s -j$(nproc)
+ 1319  ls
+ 1320  cd ..
+ 1321  ls
+ 1322  cd lede
+ 1323  df -lh
+ 1324  dh
+ 1325  du -sh
+ 1326  ls
+ 1327  cd
+ 1328  du -sh
+ 1329  ls
+ 1330  du -h
+ 1331  du -sh */\n
+ 1332  clear
+ 1333  nvidia-smi
+ 1334  clear
+ 1335  git clone https://gitee.com/songtianlun/byte-unixbench
+ 1336  wget http://byte-unixbench.googlecode.com/files/UnixBench5.1.3.tgz
+ 1337  git clone https://github.com/kdlucas/byte-unixbench
+ 1338  cd byte-unixbench
+ 1339  ls
+ 1340  cd UnixBench
+ 1341  make
+ 1342  ./Run
+ 1343  sudo apt install labelme
+ 1344  labelme
+ 1345  cd yolov5
+ 1346  ls
+ 1347  code .
+ 1348  conda activate py37
+ 1349  ls
+ 1350  history | grep train
+ 1351  python train.py --data coco_traffic_30.yaml --epochs 300 -weights '' --cfg yolov5n-mobileNet.yaml  --batch-size 64
+ 1352  python train.py --data coco_traffic_30.yaml --epochs 300 --weights '' --cfg yolov5n-mobileNet.yaml  --batch-size 64
+ 1353  ls
+ 1354  python train.py --data coco_traffic_30.yaml --epochs 300 --weights '' --cfg yolov5n-mobileNet.yaml  --batch-size 64
+ 1355  conda activate py37
+ 1356  ls
+ 1357  python train.py --data coco_traffic_30.yaml --epochs 300 --weights '' --cfg yolov5n-mobileNet.yaml  --batch-size 64
+ 1358  python train.py --data coco_traffic_30.yaml --epochs 300 --weights '' --cfg yolov5n.yaml  --batch-size 64
+ 1359  ls
+ 1360  cd runs
+ 1361  ls
+ 1362  cd train
+ 1363  ls
+ 1364  rm -r exp18
+ 1365  rm -r exp19
+ 1366  ls
+ 1367  python train.py --data coco_traffic_30.yaml --epochs 300 --weights '' --cfg yolov5n.yaml  --batch-size 64
+ 1368  cd ../../
+ 1369  ls
+ 1370  python train.py --data coco_traffic_30.yaml --epochs 300 --weights '' --cfg yolov5n-mobileNet.yaml  --batch-size 64
+ 1371  ls
+ 1372  cd runs
+ 1373  ls
+ 1374  cd train
+ 1375  ls
+ 1376  rm exp18
+ 1377  rm -r exp18
+ 1378  rm -r exp17
+ 1379  rm -r exp16
+ 1380  ls
+ 1381  cd exp15
+ 1382  ls
+ 1383  cd weights
+ 1384  ls
+ 1385  cd ..
+ 1386  ls
+ 1387  cd ..
+ 1388  ls
+ 1389  man du
+ 1390  tldr du
+ 1391  du
+ 1392  du -sh
+ 1393  du -h --max-depth=1
+ 1394  cd exp5
+ 1395  ls
+ 1396  cd weights
+ 1397  ls
+ 1398  du
+ 1399  du -sh
+ 1400  du -h
+ 1401  du -h --max-depth=1
+ 1402  ll
+ 1403  cd ..
+ 1404  ls
+ 1405  du -h
+ 1406  du -sh
+ 1407  du -sh --max-depth=1
+ 1408  du -h --max-depth=1
+ 1409  ll
+ 1410  vim _predictions.json
+ 1411  ls
+ 1412  cd ..
+ 1413  ls
+ 1414  du -u
+ 1415  du -h
+ 1416  du -h --max_depth =1
+ 1417  du -h --max-depth=1
+ 1418  cd ..
+ 1419  ls
+ 1420  cd ..
+ 1421  ls
+ 1422  tmux
+ 1423  ls
+ 1424  python train.py --data coco_traffic_30.yaml --epochs 300 --weights '' --cfg yolov5n-mobileNet.yaml  --batch-size 64
+ 1425  conda activate py37
+ 1426  python train.py --data coco_traffic_30.yaml --epochs 300 --weights '' --cfg yolov5n-mobileNet.yaml  --batch-size 64
+ 1427  python train.py --data coco_traffic_30.yaml --epochs 300 --weights '' --cfg yolov5n.yaml  --batch-size 64
+ 1428  watch -n 1 nvidia-smi
+ 1429  python train.py --data coco_traffic_30.yaml --epochs 300 --weights '' --cfg yolov5n-mobileNet.yaml  --batch-size 64
+ 1430  ls
+ 1431  sudo iotop
+ 1432  ls
+ 1433  sudo htop
+ 1434  watch -n 1 nvidia-smi
+ 1435  cd //hzq-x99/home/hzq/yolov5
+ 1436  cd
+ 1437  cd //hzq-x99/home/hzq/yolov5
+ 1438  /hzq-x99/home/hzq/yolov5
+ 1439  cd yolov5/runs/train
+ 1440  ls
+ 1441  cd exp19
+ 1442  ls
+ 1443  cd wie
+ 1444  cd weights
+ 1445  ls
+ 1446  ll
+ 1447  cd
+ 1448  ls
+ 1449  cd stl_study
+ 1450  ls
+ 1451  cd test
+ 1452  ls
+ 1453  code .
+ 1454  ls
+ 1455  cd runs/train
+ 1456  ls
+ 1457  cd exp19
+ 1458  ls
+ 1459  cd weights
+ 1460  ls
+ 1461  ll
+ 1462  cd ..
+ 1463  ls
+ 1464  cd ..
+ 1465  ls
+ 1466  cd ..
+ 1467  ls
+ 1468  cd ..
+ 1469  ls
+ 1470  python train.py --data coco_traffic.yaml --epochs 100 --weights '' --cfg yolov5n-mobileNet.yaml  --batch-size 64
+ 1471  python train.py --data coco_traffic.yaml --epochs 100 --weights './runs/train/exp19/weights/best.pt' --cfg yolov5n-mobileNet.yaml  --batch-size 64
+ 1472  cd
+ 1473  ls
+ 1474  cd work
+ 1475  ls
+ 1476  cd star
+ 1477  git pull
+ 1478  ls
+ 1479  code .
+ 1480  ls
+ 1481  npm start
+ 1482  cd backend
+ 1483  ls
+ 1484  conda activate backend_star
+ 1485  ls
+ 1486  python mongodb-flask.py
+ 1487  pip install flask
+ 1488  ls
+ 1489  pip install flask
+ 1490  python mongodb-flask.py
+ 1491  pip install bson
+ 1492  python mongodb-flask.py
+ 1493  pip install pymongo
+ 1494  ls
+ 1495  python mongodb-flask.py
+ 1496  pip install flask_cors
+ 1497  ls
+ 1498  python mongodb-flask.py
+ 1499  history | grep train | grep resume
+ 1500  ls
+ 1501  cd runs
+ 1502  ls
+ 1503  cd train
+ 1504  ls
+ 1505  cd ../..
+ 1506  ls
+ 1507  python train.py --data coco_traffic.yaml --epochs 100 --weights './runs/train/exp19/weights/best.pt' --cfg yolov5n.yaml  --batch-size 64
+ 1508  python train.py --resume runs/train/exp21/weights/last.pt
+ 1509  conda activate py37
+ 1510  ls
+ 1511  pip list | grep pytorch
+ 1512  pip list
+ 1513  cd runs/train/exp21
+ 1514  ls
+ 1515  cd weights
+ 1516  ls
+ 1517  ll
+ 1518  cd ..
+ 1519  ls
+ 1520  vim opt.yaml
+ 1521  vim hyp.yaml
+ 1522  dolphin
+ 1523  dolphin .
+ 1524  conda activate py37
+ 1525  ls
+ 1526  git add .
+ 1527  git commit -m '使用mobileNet'
+ 1528  git push 
+ 1529  git push --set-upstream origin traffic
+ 1530  ls
+ 1531  python models/yolo.py
+ 1532  python models/yolo.py --cfg=yolov4l
+ 1533  python models/yolo.py --cfg=yolov5l.yaml
+ 1534  python models/yolo.py --cfg=yolov5n.yaml
+ 1535  python models/yolo.py --cfg=yolov5n-mobileNet.yaml
+ 1536  cd
+ 1537  ls
+ 1538  git clone https://github.com/z1069614715/objectdetection_script.git
+ 1539  cd objectdetection_script
+ 1540  ls
+ 1541  code .
+ 1542  dolphin
+ 1543  dolphin .
+ 1544  code .
+ 1545  pip install timm\n
+ 1546  ls
+ 1547  python
+ 1548  ls
+ 1549  cd models
+ 1550  python yolo.py
+ 1551  ls
+ 1552  cd ..
+ 1553  ls
+ 1554  cd ..
+ 1555  ls
+ 1556  cd ..
+ 1557  ls
+ 1558  history | grep train
+ 1559  python train.py --data coco_traffic_30.yaml --epochs 100 --weights '' --cfg yolov5-mobileNetV3.yaml  --batch-size 64 --name mobilenetv3
+ 1560  cd
+ 1561  ls
+ 1562  cd yolov5/runs/train
+ 1563  ls
+ 1564  cd weights
+ 1565  ls
+ 1566  ll
+ 1567  cd ..
+ 1568  ls
+ 1569  cd ..
+ 1570  ls
+ 1571  cd ..
+ 1572  ls
+ 1573  cd ..
+ 1574  ls
+ 1575  python yolo.py
+ 1576  ls
+ 1577  python yolo.py
+ 1578  ls
+ 1579  python train.py --data coco_traffic_30.yaml --epochs 100 --weights '' --cfg yolov5n-fasternet.yaml  --batch-size 64 --name fasternet100
+ 1580  cd models
+ 1581  ls
+ 1582  python yolo.py
+ 1583  cd ..
+ 1584  ls
+ 1585  python train.py --data coco_traffic_30.yaml --epochs 100 --weights '' --cfg yolov5n-fasternet.yaml  --batch-size 64 --name fasternet100
+ 1586  ls
+ 1587  cd ..
+ 1588  ls
+ 1589  sudo nethogs
+ 1590  ls
+ 1591  history
+ 1592  history | grep benchmark
+ 1593  python benchmarks.py --weights runs/train/exp7/weights/last.pt --imgsz 640 --device cpu\n
+ 1594  python benchmarks.py --weights runs/train/mobilenetv3/weights/last.pt --imgsz 640 --device cpu\n
+ 1595  ls
+ 1596  history| grep train
+ 1597  python train.py --data coco128.yaml --epochs 100 --weights '' --cfg yolov5n-fasternet.yaml  --batch-size 64 --name fasternet100
+ 1598  python train.py --data coco128.yaml --epochs 100 --weights '' --cfg yolov5l.yaml  --batch-size 4 --name coco123_v5l
+ 1599  python benchmarks.py --weights runs/train/mobilenetv3/weights/last.pt --imgsz 640 --device cpu\n
+ 1600  ls
+ 1601  cd
+ 1602  ls
+ 1603  cd leetcode
+ 1604  ls
+ 1605  git pull
+ 1606  cd ..
+ 1607  ls
+ 1608  rm -r leetcode
+ 1609  ls
+ 1610  sudo rm -r leetcode
+ 1611  ls
+ 1612  git clone https://gitee.com/huang-ziqin/leetcode.git
+ 1613  cd leetcode
+ 1614  ls
+ 1615  code .
+ 1616  history| grep resume
+ 1617  ls
+ 1618  cd fasternet1003
+ 1619  ls
+ 1620  cd weights
+ 1621  cd ..
+ 1622  ls
+ 1623  cd ..
+ 1624  ls
+ 1625  cd ..
+ 1626  ls
+ 1627  cd ..
+ 1628  ls
+ 1629  history| grep train
+ 1630  history| grep resume
+ 1631  python train.py --resume runs/train/fasternet1003/weights/last.pt
+ 1632  python train.py --resume runs/traincd
+ 1633  cd
+ 1634  ls
+ 1635  cd le
+ 1636  cd leetcode
+ 1637  ls
+ 1638  code .
+ 1639  ls
+ 1640  history | grep bench
+ 1641  python benchmarks.py --weights runs/train/fasternet1003/weights/best.pt --imgsz 640 --device 0
+ 1642  conda activate py37
+ 1643  ls
+ 1644  python benchmarks.py --weights runs/train/fasternet1003/weights/best.pt --imgsz 640 --device 0
+ 1645  cd runs/train/fasternet1003
+ 1646  ls
+ 1647  cd weights
+ 1648  ls
+ 1649  ll
+ 1650  code .
+ 1651  conda activate py37
+ 1652  python benchmarks.py --weights runs/train/fasternet1003/weights/best.pt --imgsz 640 --device cpu
+ 1653  python benchmarks.py --weights runs/train/eff1/weights/best.pt --imgsz 640 --device 0
+ 1654  ls
+ 1655  cd
+ 1656  cd yolov5
+ 1657  ls
+ 1658  history| grep train
+ 1659  python train.py --data coco_traffic_30.yaml --epochs 100 --weights '' --cfg yolov5n-mobileNet.yaml  --batch-size 64 --name mobilenet100
+ 1660  python train.py --data coco_traffic_30.yaml --epochs 100 --weights '' --cfg yolov5n.yaml  --batch-size 64 --name v5n100
+ 1661  tmux attach
+ 1662  ls
+ 1663  git add .
+ 1664  git commit -m 'twosum'
+ 1665  git push
+ 1666  ls
+ 1667  conda activate py37
+ 1668  python train.py --data coco_traffic_30.yaml --epochs 100 --weights '' --cfg yolov5l.yaml  --batch-size 8 --name v5l100
+ 1669  python train.py --data coco_traffic_30.yaml --epochs 100 --weights '' --cfg yolov5l.yaml  --batch-size 16 --name v5l100_
+ 1670  ls
+ 1671  netease-cloud-music
+ 1672  chroot
+ 1673  google-chrome
+ 1674  ls
+ 1675  ifconfig
+ 1676  tmux attach
+ 1677  ls
+ 1678  tmux attach
+ 1679  ping www.baidu.com
+ 1680  ifconfig
+ 1681  ping6 fd00:6868:6868:0:6e82:89a6:9d9e:d240
+ 1682  ping6 2408:8471:103:fcb:e08e:82ff:fe37:6b00
+ 1683  ifconfig
+ 1684  ping 192.168.100.1
+ 1685  ssh root@192.168.100.1
+ 1686  ls
+ 1687  ifconfig
+ 1688  tmux attach
+ 1689  ls
+ 1690  tmux attach
+ 1691  python train.py --data coco_traffic_30.yaml --epochs 100 --weights '' --cfg yolov5x.yaml  --batch-size 16 --name v5x100_
+ 1692  python train.py --data coco_traffic_30.yaml --epochs 100 --weights '' --cfg yolov5x.yaml  --batch-size 8 --name v5x100_
+ 1693  tmux attach
+ 1694  ls
+ 1695  ifconfig
+ 1696  tmux attach
+ 1697  ls
+ 1698  tmux attach
+ 1699  ls
+ 1700  htop
+ 1701  nvidia-smi
+ 1702  watch -n 1 nvidia-dm
+ 1703  watch -n 1 nvidia-smi
+ 1704  conda activate py37
+ 1705  python
+ 1706  tmux attach
+ 1707  cd
+ 1708  cd leetcode
+ 1709  ls
+ 1710  git pull
+ 1711  code .
+ 1712  sudo apt install wine
+ 1713  sudo apt install winetricks\n
+ 1714  winetricks riched20\n
+ 1715  cd 
+ 1716  cd .cache/winetricks/win2ksp4
+ 1717  ls
+ 1718  cd
+ 1719  winetricks riched20\n
+ 1720  wine WeChatSetup.exe
+ 1721  kls
+ 1722  ls
+ 1723  python train.py --data coco_traffic_30.yaml --epochs 100 --weights '' --cfg yolov5nn.yaml  --batch-size 64 --name v5nn100_
+ 1724  python train.py --data coco_traffic_30.yaml --epochs 100 --weights '' --cfg yolov5nnn.yaml  --batch-size 64 --name v5nnn100_
+ 1725  python train.py --data coco_traffic_30.yaml --epochs 100 --weights '' --cfg yolov5nnn.yaml  --batch-size 128 --name v5nnn100_
+ 1726  python
+ 1727  cd
+ 1728  git clone https://github.com/RangiLyu/nanodet.git
+ 1729  conda activate nanodet
+ 1730  conda install pytorch torchvision cudatoolkit=11.1 -c pytorch -c conda-forge\n
+ 1731  ls
+ 1732  cd nanodet
+ 1733  ls
+ 1734  code .
+ 1735  cd
+ 1736  ls
+ 1737  wget http://pan.blockelite.cn:15021/web/client/files\?path\=%2FYolo-fastest915.tar\&_\=1685721478
+ 1738  cp Yolo-fastest915.tar ../
+ 1739  ls
+ 1740  cd
+ 1741  ls
+ 1742  tar -xvf Yolo-fastest915.tar
+ 1743  ls
+ 1744  cd Yolo-Fastest
+ 1745  ls
+ 1746  code .
+ 1747  make
+ 1748  ls
+ 1749  make
+ 1750  chmod +x *.sh
+ 1751  make
+ 1752  make clean
+ 1753  make
+ 1754  make clean
+ 1755  make
+ 1756  make clean
+ 1757  conda activate py37
+ 1758  make clean
+ 1759  make
+ 1760  make clean
+ 1761  make
+ 1762  make clean
+ 1763  dolphin
+ 1764  ls
+ 1765  cd ..
+ 1766  ls
+ 1767  cd ..
+ 1768  ls
+ 1769  cp datasets ../datasets
+ 1770  cp -r datasets ../datasets
+ 1771  cd ..
+ 1772  ls
+ 1773  cd coco_traffic
+ 1774  ls
+ 1775  mkdir images
+ 1776  mkdir labels
+ 1777  cd images
+ 1778  ls
+ 1779  cd images
+ 1780  ls
+ 1781  mkdir test
+ 1782  mkdir train
+ 1783  mkdir val
+ 1784  ls
+ 1785  cd ..
+ 1786  ls
+ 1787  cd labels
+ 1788  ls
+ 1789  cd ..
+ 1790  ls
+ 1791  cd labels
+ 1792  ls
+ 1793  mkdir train
+ 1794  mkdir val
+ 1795  ls
+ 1796  cd ..
+ 1797  cd images
+ 1798  ls
+ 1799  cd train2017
+ 1800  ls
+ 1801  cd ..
+ 1802  ls
+ 1803  cd images
+ 1804  ls
+ 1805  cd train
+ 1806  ls
+ 1807  cp ../../../datasets/train/*.jpg
+ 1808  cp ../../../datasets/train/*.jpg .
+ 1809  ls
+ 1810  cd ..
+ 1811  ls
+ 1812  cd val
+ 1813  ls
+ 1814  cp ../../../datasets/val/*.jpg .
+ 1815  ls
+ 1816  cd ..
+ 1817  ls
+ 1818  cd ..
+ 1819  ls
+ 1820  cd labels
+ 1821  ls
+ 1822  cd train
+ 1823  ls
+ 1824  cp ../../../datasets/train/*.txt .
+ 1825  ls
+ 1826  cd ..
+ 1827  ls
+ 1828  cd val
+ 1829  ls
+ 1830  cp ../../../datasets/val/*.txt .
+ 1831  ls
+ 1832  cd ..
+ 1833  ls
+ 1834  cd ..
+ 1835  ls
+ 1836  cd ..
+ 1837  ls
+ 1838  cd ..
+ 1839  ls
+ 1840  cd ..
+ 1841  ls
+ 1842  code .
+ 1843  cd coco_lighting
+ 1844  ls
+ 1845  python gettxt.py
+ 1846  ls
+ 1847  python gettxt.py
+ 1848  python train.py --data coco_lighting.yaml --epochs 100 --weights '' --cfg yolov5n.yaml  --batch-size 64 --name v5n_lighting100_
+ 1849  sudo iotop
+ 1850  watch -n 1 nvidia-smi
+ 1851  htop
+ 1852  sudo iotop | grep python
+ 1853  sudo iotop 
+ 1854  s-tui
+ 1855  python train.py --data coco_lighting.yaml --epochs 100 --weights '' --cfg yolov5x.yaml  --batch-size 8 --name v5x_lighting100_
+ 1856  python train.py --data coco_lighting.yaml --epochs 300 --weights '' --cfg yolov5x.yaml  --batch-size 8 --name v5x_lighting300_
+ 1857  python train.py --data coco_lighting.yaml --epochs 300 --weights '' --cfg yolov5s.yaml  --batch-size 64 --name v5s_lighting300_
+ 1858  python train.py --data coco_lighting.yaml --epochs 300 --weights '' --cfg yolov5s.yaml  --batch-size 32 --name v5s_lighting300_
+ 1859  sudo iotop -help
+ 1860  sudo iotop -t
+ 1861  sudo iotop 
+ 1862  cd
+ 1863  ls
+ 1864  git clone https://github.com/dog-qiuqiu/FastestDet.git
+ 1865  ls
+ 1866  cd FastestDet
+ 1867  ls
+ 1868  pip install -r requirements.txt\n
+ 1869  conda create -n fastestdet python=3.10
+ 1870  conda activate fastestdet
+ 1871  git clone https://github.com/dog-qiuqiu/FastestDet.git
+ 1872  ls
+ 1873  pip install -r requirements.txt\n
+ 1874  conda create -n fastestdet_39 python=3.9
+ 1875  conda activate fastestdet_39
+ 1876  pip install -r requirements.txt\n
+ 1877  vim requirements.txt
+ 1878  pip install -r requirements.txt\n
+ 1879  cd
+ 1880  conda activate py37
+ 1881  ls
+ 1882  cd FastestDet
+ 1883  ls
+ 1884  nvidia-smi
+ 1885  ls
+ 1886  code .
+ 1887  ls
+ 1888  ls ../Yolo-fastest
+ 1889  ls
+ 1890  conda activate py37
+ 1891  python3 train.py --yaml configs/coco.yaml\n
+ 1892  pip install torchsummary
+ 1893  python3 train.py --yaml configs/coco.yaml\n
+ 1894  cd
+ 1895  cd FastestDet
+ 1896  python3 train.py --yaml configs/coco.yaml\n
+ 1897  ls
+ 1898  ll
+ 1899  pwd
+ 1900  ls
+ 1901  cp ../Yolo-Fastest/datasets .
+ 1902  cp -r ../Yolo-Fastest/datasets .
+ 1903  cd Yolo-Fastest
+ 1904  ls
+ 1905  code .
+ 1906  cd datasets
+ 1907  python generate.py
+ 1908  pwd
+ 1909  python generate.py
+ 1910  python3 train.py --yaml configs/coco.yaml\n
+ 1911  code .
+ 1912  python3 train.py --yaml configs/coco.yaml\n
+ 1913  ls
+ 1914  cd datasets
+ 1915  ls
+ 1916  python generate.py
+ 1917  python3 train.py --yaml configs/coco.yaml\n
+ 1918  python generate.py
+ 1919  pwd
+ 1920  python generate.py
+ 1921  python3 train.py --yaml configs/coco.yaml\n
+ 1922  sudo iotop
+ 1923  python3 train.py --yaml configs/coco.yaml\n
+ 1924  python3 train.py --yaml configs/coco.yaml
+ 1925  htop
+ 1926  python3 train.py --yaml configs/coco.yaml
+ 1927  sudo iotop
+ 1928  htop
+ 1929  ls
+ 1930  cd ..
+ 1931  ls
+ 1932  cp -r ../datasets/coco_traffic .
+ 1933  sudo iotop
+ 1934  du -h
+ 1935  ls
+ 1936  cd coco_traffic
+ 1937  ls
+ 1938  cd images
+ 1939  ls
+ 1940  cd train2017
+ 1941  ls
+ 1942  cp ../../labels/train2017/*.txt .
+ 1943  ls
+ 1944  cd coco_traffic
+ 1945  ls
+ 1946  cd labels
+ 1947  ls
+ 1948  cd
+ 1949  ls
+ 1950  cd leetcode
+ 1951  ls
+ 1952  code .
+ 1953  ls
+ 1954  pwd
+ 1955  cd ..
+ 1956  ls
+ 1957  python generate.py
+ 1958  ls
+ 1959  python generate.py
+ 1960  cd
+ 1961  cd yolov5
+ 1962  code .
+ 1963  python3 train.py --yaml configs/coco_traffic.yaml
+ 1964  cd ..
+ 1965  ls
+ 1966  pwd
+ 1967  python3 train.py --yaml configs/coco_traffic.yaml
+ 1968  ls
+ 1969  python gettxt.py
+ 1970  python3 train.py --yaml configs/coco_traffic.yaml
+ 1971  sudo iotop
+ 1972  python3 train.py --yaml configs/coco_traffic.yaml
+ 1973  ls
+ 1974  cd build/linux/x86_64/debug
+ 1975  ls
+ 1976  time ./leetcode
+ 1977  sudo apt install sar
+ 1978  sudo apt install searchandrescue
+ 1979  sudo apt install sar
+ 1980  SearchAndRescue
+ 1981  sudo apt purge searchandrescue
+ 1982  ls
+ 1983  sudo apt install sysstat
+ 1984  sudo sar.sysstat
+ 1985  sar.sysstat
+ 1986  sar.sysstat -u
+ 1987  watch -n 1 nvidia-smi
+ 1988  s-tui
+ 1989  sudo iostat -u
+ 1990  sudo iostat -c
+ 1991  watch -n 0.1 iostat -c
+ 1992  watch -n 0.1 iostat -d
+ 1993  free
+ 1994  free -G
+ 1995  free -g
+ 1996  free -g -l
+ 1997  vmstat
+ 1998  vmstat -g
+ 1999  vmstat -t
+ 2000  watch -n 1 vmstat -t
+ 2001  cd
+ 2002  ls
+ 2003  tar -cvf FastestDet  FastestDet.tar
+ 2004  tar -zcvf   FastestDet.tar FastestDet
+ 2005  htop
+ 2006  sudo iostat
+ 2007  sudo iotop
+ 2008  ls
+ 2009  sudo iotop
+ 2010  ifconfig
+ 2011  ls
+ 2012  cd FastestDet
+ 2013  ls
+ 2014  cp ../datasets/coco_traffic_30 .
+ 2015  cp -r ../datasets/coco_traffic_30 .
+ 2016  ls
+ 2017  cd
+ 2018  mkdir dataset_dq
+ 2019  cd dataset_dq
+ 2020  mv -r ../FastestDet/coco_traffic .
+ 2021  cp -r ../FastestDet/coco_traffic .
+ 2022  conda activate py37
+ 2023  sudo iotop
+ 2024  ls
+ 2025  cd
+ 2026  cd FastestDet
+ 2027  ls
+ 2028  rm -r coco_traffic
+ 2029  ls
+ 2030  python3 train.py --yaml configs/coco_traffic.yaml
+ 2031  python3 train.py --yaml configs/coco_traffic_30.yaml
+ 2032  cd coco_traffic_30/images
+ 2033  ls
+ 2034  python generate.py
+ 2035  python3 train.py --yaml configs/coco_traffic_30.yaml
+ 2036  python generate.py
+ 2037  python3 train.py --yaml configs/coco_traffic_30.yaml
+ 2038  ls
+ 2039  cd .
+ 2040  ls
+ 2041  cd ..
+ 2042  ls
+ 2043  cd ..
+ 2044  ls
+ 2045  du -h
+ 2046  ls
+ 2047  cd ..
+ 2048  ls
+ 2049  rm FastestDet.tar
+ 2050  python3 train.py --yaml configs/coco_traffic_30.yaml
+ 2051  cd
+ 2052  ls
+ 2053  tar -xzvf FastestDet.tar FastestDet/
+ 2054  ls
+ 2055  tar -czvf FastestDet.tar FastestDet/
+ 2056  ls
+ 2057  cd work/star
+ 2058  code .
+ 2059  ls
+ 2060  git pull
+ 2061  htop
+ 2062  du -h
+ 2063  ll
+ 2064  sudo nethogs
+ 2065  ls
+ 2066  conda activate backend_star
+ 2067  ls
+ 2068  conda activate py37
+ 2069  ls
+ 2070  conda activate backend_star
+ 2071  conda activate backend_sta\nr
+ 2072  conda activate backend_star
+ 2073  ls
+ 2074  npm start
+ 2075  cd backend
+ 2076  ls
+ 2077  python mongodb-flask.py
+ 2078  cd FastestDet
+ 2079  python3 train.py --yaml configs/coco_traffic_30.yaml
+ 2080  ls
+ 2081  mkdir checkpoint_traffic_30
+ 2082  ls
+ 2083  vim train.py
+ 2084  python3 train.py --yaml configs/coco_traffic_30.yaml
+ 2085  vim train.py
+ 2086  python3 train.py --yaml configs/coco_traffic_30.yaml
+ 2087  cd
+ 2088  sudo mount tmpfs test -t tmpfs -o size=30G\n
+ 2089  sudo mount tmpfs FastestDet -t tmpfs -o size=30G\n
+ 2090  ls
+ 2091  cd FastestDet
+ 2092  ls
+ 2093  pwd
+ 2094  ls
+ 2095  pwd
+ 2096  cd
+ 2097  ls
+ 2098  cd FastestDet
+ 2099  ls
+ 2100  cp ../FastestDet .
+ 2101  cp ../FastestDet.tar .
+ 2102  ls
+ 2103  tar -xvf FastestDet.tar
+ 2104  ls
+ 2105  cd FastestDet
+ 2106  ls
+ 2107  code .
+ 2108  pwd
+ 2109  cd coco_traffic_30/images
+ 2110  ls
+ 2111  python generate.py
+ 2112  pwd
+ 2113  python generate.py
+ 2114  ls
+ 2115  python generate.py
+ 2116  ls
+ 2117  cd
+ 2118  ls
+ 2119  cd FastestDet
+ 2120  ls
+ 2121  cd FastestDet
+ 2122  ls
+ 2123  python3 train.py --yaml configs/coco_traffic_30.yaml
+ 2124  ls
+ 2125  pwd
+ 2126  code .
+ 2127  python3 train.py --yaml configs/coco_traffic_30.yaml
+ 2128  ls
+ 2129  mkdir checkpoint_traffic_30
+ 2130  python3 train.py --yaml configs/coco_traffic_30.yaml
+ 2131  pip install prefetch_generator\n
+ 2132  tar -xvf pycharm-community-2023.1.2.tar.gz
+ 2133  ls
+ 2134  cd pycharm-community-2023.1.2
+ 2135  ls
+ 2136  cd bin
+ 2137  ls
+ 2138  ./pycharm.sh
+ 2139  python3 train.py --yaml configs/coco_traffic_30.yaml
+ 2140  ls
+ 2141  sudo reboot now
+ 2142  ls
+ 2143  conda activate py37
+ 2144  ls
+ 2145  cd FastestDet
+ 2146  ls
+ 2147  code .
+ 2148  conda activate py37
+ 2149  python3 train.py --yaml configs/coco_traffic_30.yaml
+ 2150  htop
+ 2151  s-tui
+ 2152  watch -n 1 nvidia-smi
+ 2153  python3 train.py --yaml configs/coco_traffic_30.yaml
+ 2154  ls
+ 2155  cd
+ 2156  cd yolov5
+ 2157  ls
+ 2158  conda activate py37
+ 2159  ls
+ 2160  history | grep bench
+ 2161  python benchmarks.py --weights ../FastestDet/checkpoint_traffic/weight_AP05:0.344789_210-epoch.pth --imgsz 640 --device 0
+ 2162  code .
+ 2163  conda activate py37
+ 2164  python3 train.py --yaml configs/coco_traffic_30.yaml
+ 2165  python benchmarks.py --weights ../FastestDet/checkpoint_traffic_30/weight_AP05:0.013318_2-epoch.pt --imgsz 640 --device 0
+ 2166  history | grep benchmark
+ 2167  python benchmarks.py --weights runs/train/fasternet1003/weights/best.pt --imgsz 640 --device 0
+ 2168  python benchmarks.py --weights ../FastestDet/checkpoint_traffic_30/weight_AP05:0.013318_2-epoch.pt --imgsz 312 --device 0
+ 2169  python benchmarks.py --weights runs/train/fasternet1003/weights/best.onnx --imgsz 640 --device 0
+ 2170  python3 train.py --yaml configs/coco_traffic_30.yaml
+ 2171  cd
+ 2172  cd FastestDet
+ 2173  ls
+ 2174  code .
+ 2175  conda activate py37
+ 2176  python3 train.py --yaml configs/coco_traffic_30.yaml --weight checkpoint_traffic_30/weight_AP05:0.273402_50-epoch.pt
+ 2177  cd
+ 2178  ls
+ 2179  cd yolov5
+ 2180  ls
+ 2181  history| benchmark_app
+ 2182  history| benchmark
+ 2183  history | grep benchmark
+ 2184  ython benchmarks.py --weights runs/train/fasternet1003/weights/best.pt --imgsz 640 --device 0
+ 2185  python benchmarks.py --weights runs/train/fasternet1003/weights/best.pt --imgsz 640 --device 0
+ 2186  dolphin
+ 2187  python benchmarks.py --weights runs/train/exp14/weights/best.pt --imgsz 640 --device 0
+ 2188  python benchmarks.py --weights runs/train/mobilenetv3/weights/best.pt --imgsz 640 --device 0
+ 2189  ls
+ 2190  python3 eval.py --yaml configs/coco_traffic_30.yaml --weight checkpoint_traffic_30/weight_AP05:0.273402_50-epoch.pt
+ 2191  python3 test.py --yaml configs/coco_traffic_30.yaml --weight checkpoint_traffic_30/weight_AP05:0.273402_50-epoch.pt --img coco_traffic_30/images/val2017/000000216277.jpg
+ 2192  pip install onnxsim
+ 2193  python3 test.py --yaml configs/coco_traffic_30.yaml --weight checkpoint_traffic_30/weight_AP05:0.273402_50-epoch.pt --img coco_traffic_30/images/val2017/000000216277.jpg
+ 2194  python3 test.py --yaml configs/coco_traffic_30.yaml --weight checkpoint_traffic/weight_AP05:0.344789_210-epoch.pth --img coco_traffic_30/images/val2017/000000216277.jpg
+ 2195  python3 test.py --yaml configs/coco_traffic_30.yaml --weight checkpoint_traffic/weight_AP05:0.344789_210-epoch.pth --img coco_traffic_30/images/val2017/000000210273.jpg
+ 2196  cd
+ 2197  cd yolov5
+ 2198  code .
+ 2199  conda activate py37
+ 2200  python detect.py --weights runs/train/fasternet1004/weights/best.pt --source ../datasets/coco_traffic/images/train2017/000000000094.jpg
+ 2201  python detect.py --weights runs/train/fasternet1004/weights/best.pt --source ../datasets/coco_traffic/images/val2017/000000210273.jpg
+ 2202  python detect.py --weights runs/train/exp14/weights/best.pt --source ../datasets/coco_traffic/images/val2017/000000210273.jpg
+ 2203  python detect.py --weights runs/train/fasternet1003/weights/best.pt --source ../datasets/coco_traffic/images/val2017/000000210273.jpg
+ 2204  python detect.py --weights ../FastestDet/checkpoint_traffic_30/weight_AP05:0.273402_50-epoch.pt --source ../datasets/coco_traffic/images/val2017/000000210273.jpg
+ 2205  python detect.py --weights runs/train/exp22/weights/best.pt --source ../datasets/coco_traffic/images/val2017/000000210273.jpg
+ 2206  python detect.py --weights runs/train/v5x100_2/weights/best.pt --source ../datasets/coco_traffic/images/val2017/000000210273.jpg
+ 2207  python detect.py --weights runs/train/v5nn100_/weights/best.pt --source ../datasets/coco_traffic/images/val2017/000000210273.jpg
+ 2208  python detect.py --weights runs/train/v5nn100_/weights/best.pt --source ../datasets/coco_traffic/images/val2017/000000210273.jpg --device cpu
+ 2209  python detect.py --weights runs/train/fasternet1003/weights/best.pt --source ../datasets/coco_traffic/images/val2017/000000210273.jpg --device cpu
+ 2210  python detect.py --weights runs/train/eff1/weights/best.pt --source ../datasets/coco_traffic/images/val2017/000000210273.jpg --device cpu
+ 2211  python detect.py --weights runs/train/mobilenetv3/weights/best.pt --source ../datasets/coco_traffic/images/val2017/000000210273.jpg --device cpu
+ 2212  python detect.py --weights runs/train/fasternet1004/weights/best.pt --source ../datasets/coco_traffic/images/val2017/000000210273.jpg --device cpu
+ 2213  python detect.py --weights runs/train/fasternet1003/weights/best.pt --source ../datasets/coco_traffic/images/val2017/000000210273.jpg --device cpu
+ 2214  dolphin
+ 2215  cd work/star
+ 2216  ls
+ 2217  code .
+ 2218  ls
+ 2219  git add .
+ 2220  git commit -m '添加选择目的地'
+ 2221  git push origin dev_fix_time_error
+ 2222  conda activate py37
+ 2223  ls
+ 2224  history | grep train
+ 2225  python train.py --data coco_traffic_30.yaml --epochs 100 --weights '' --cfg yolov5n.yaml  --batch-size 64 --name v5n100_
+ 2226  conda env list
+ 2227  conda create -n yolov5 python=3.7
+ 2228  conda activate yolov5
+ 2229  ls
+ 2230  pip install -r requirements.txt
+ 2231  ls
+ 2232  sudo nethogs
+ 2233  python train.py --data coco_traffic_30.yaml --epochs 100 --weights '' --cfg yolov5n.yaml  --batch-size 64 --name v5n100_
+ 2234  pip install timm
+ 2235  python train.py --data coco_traffic_30.yaml --epochs 100 --weights '' --cfg yolov5n.yaml  --batch-size 64 --name v5n100_
+ 2236  s-tui
+ 2237  watch -n 1 nvidia-smi
+ 2238  python train.py --data coco_traffic_30.yaml --epochs 100 --weights '' --cfg yolov5n.yaml  --batch-size 64 --name v5n100_
+ 2239  python train.py --data coco_traffic_30.yaml --epochs 100 --weights '' --cfg yolov5n.yaml  --batch-size 64 --name v5n100_ --workers 2
+ 2240  python train.py --data coco_traffic_30.yaml --epochs 100 --weights '' --cfg yolov5n.yaml  --batch-size 64 --name v5n100_ --workers 4
+ 2241  python train.py --data coco_traffic_30.yaml --epochs 100 --weights '' --cfg yolov5n.yaml  --batch-size 64 --name v5n100_ --workers 8
+ 2242  python train.py --data coco_traffic_30.yaml --epochs 100 --weights '' --cfg yolov5n.yaml  --batch-size 64 --name v5n100_ --workers 16
+ 2243  python train.py --data coco_traffic_30.yaml --epochs 100 --weights '' --cfg yolov5n.yaml  --batch-size 64 --name v5n100_ --workers 24
+ 2244  python train.py --data coco_traffic_30.yaml --epochs 100 --weights '' --cfg yolov5n.yaml  --batch-size 64 --name v5n100_ --workers 32
+ 2245  python train.py --data coco_traffic_30.yaml --epochs 100 --weights '' --cfg yolov5n.yaml  --batch-size 64 --name v5n100_ --workers 18
+ 2246  python train.py --data coco_traffic_30.yaml --epochs 100 --weights '' --cfg yolov5n.yaml  --batch-size 64 --name v5n100_ --workers 36
+ 2247  python train.py --data coco_traffic_30.yaml --epochs 100 --weights '' --cfg yolov5n.yaml  --batch-size 32 --name v5n100_ --workers 18
+ 2248  python train.py --data coco_traffic_30.yaml --epochs 100 --weights '' --cfg yolov5n.yaml  --batch-size 96 --name v5n100_ --workers 18
+ 2249  python train.py --data coco_traffic_30.yaml --epochs 100 --weights '' --cfg yolov5n-fasternet.yaml  --batch-size 96 --name v5n_fasternet100_ --workers 18
+ 2250  python train.py --data coco_traffic_30.yaml --epochs 100 --weights '' --cfg yolov5n-fasternet.yaml  --batch-size 64 --name v5n_fasternet100_ --workers 18
+ 2251  python train.py --data coco_traffic_30.yaml --epochs 100 --weights '' --cfg yolov5n-fasternet.yaml  --batch-size 64 --name v5n_fasternet100_ --workers 24
+ 2252  python train.py --data coco_traffic_30.yaml --epochs 100 --weights '' --cfg yolov5n--mobileNetV3.yaml  --batch-size 64 --name v5n_fasternet100_ --workers 24
+ 2253  python train.py --data coco_traffic_30.yaml --epochs 100 --weights '' --cfg yolov5n-mobileNetV3.yaml  --batch-size 64 --name v5n_fasternet100_ --workers 24
+ 2254  python train.py --data coco_traffic_30.yaml --epochs 100 --weights '' --cfg yolov5-mobileNetV3.yaml  --batch-size 64 --name v5n_fasternet100_ --workers 24
+ 2255  python train.py --data coco_traffic_30.yaml --epochs 100 --weights '' --cfg yolov5-mobileNetV3.yaml  --batch-size 96 --name v5n_fasternet100_ --workers 24
+ 2256  python train.py --data coco_traffic_30.yaml --epochs 100 --weights '' --cfg yolov5-mobileNetV3.yaml  --batch-size 96 --name test100_ --workers 16
+ 2257  python train.py --data coco.yaml --epochs 100 --weights '' --cfg yolov5-mobileNetV3.yaml  --batch-size 96 --name test100_ --workers 16
+ 2258  conda activate py37
+ 2259  python
+ 2260  python train.py --data coco_traffic_30.yaml --epochs 100 --weights '' --cfg yolov5-efficientnetv2.yaml  --batch-size 96 --name test100_ --workers 16
+ 2261  python train.py --data coco_traffic_30.yaml --epochs 100 --weights '' --cfg yolov5-efficientnetv2.yaml  --batch-size 64 --name efficientnet100_ --workers 24
+ 2262  python train.py --data coco_traffic_30.yaml --epochs 100 --weights '' --cfg yolov5-efficientnetv2.yaml  --batch-size 48 --name efficientnet100_ --workers 24
+ 2263  python train.py --data coco_traffic_30.yaml --epochs 100 --weights '' --cfg yolov5-efficientnetv2.yaml  --batch-size 32 --name efficientnet100_ --workers 24
+ 2264  python train.py --data coco_traffic_30.yaml --epochs 100 --weights '' --cfg yolov5-efficientnetv2.yaml  --batch-size 24 --name efficientnet100_ --workers 24
+ 2265  python train.py --data coco_traffic_30.yaml --epochs 100 --weights '' --cfg yolov5-efficientnetv2.yaml  --batch-size 24 --name efficientnet100_ --workers 18
+ 2266  tmux
+ 2267  ls
+ 2268  conda activate yolov5
+ 2269  ls
+ 2270  cd yolov5
+ 2271  ls
+ 2272  python train.py --data coco_traffic_30.yaml --epochs 100 --weights '' --cfg yolov5-efficientnetv2.yaml  --batch-size 24 --name efficientnet100_ --workers 18
+ 2273  htop
+ 2274  tmux attach
+ 2275  ls
+ 2276  tmux attach
+ 2277  ls
+ 2278  nvidia-smi
+ 2279  watch -n 1 nvidia-smi
+ 2280  watch -n 0.1 nvidia-smi
+ 2281  tmux attach
+ 2282  shutdown now
+ 2283  sudo shutdown now
+ 2284  conda activate yolov5
+ 2285  ls
+ 2286  cd yolov5
+ 2287  ls
+ 2288  history | grep resume
+ 2289  python train.py --resume runs/train/efficientnet100_7/weights/last.pt
+ 2290  cd
+ 2291  htop
+ 2292  nvidia-smi
+ 2293  watch -n 1 nvidia-dm
+ 2294  watch -n 1 nvidia-smi
+ 2295  htop
+ 2296  sudo iotop
+ 2297  code .
+ 2298  ls
+ 2299  ifconfig
+ 2300  cd work/star
+ 2301  ls
+ 2302  git pull
+ 2303  ls
+ 2304  code .
+ 2305  ls
+ 2306  git pull
+ 2307  ping 192.168.145.134
+ 2308  sudo apt install -y openssl curl\n
+ 2309  cd ~ && mkdir -p fisco && cd fisco\n
+ 2310  curl -#LO https://github.com/FISCO-BCOS/FISCO-BCOS/releases/download/v2.9.1/build_chain.sh && chmod u+x build_chain.sh\n
+ 2311  bash build_chain.sh -l 127.0.0.1:4 -p 30300,20200,8545\n
+ 2312  bash nodes/127.0.0.1/start_all.sh\n
+ 2313  ps -ef | grep -v grep | grep fisco-bcos\n
+ 2314  tail -f nodes/127.0.0.1/node0/log/log*  | grep connected\n
+ 2315  tail -f nodes/127.0.0.1/node0/log/log*  | grep +++\n
+ 2316  java -v
+ 2317  sudo apt install -y default-jdk\n
+ 2318  java -v
+ 2319  java -version
+ 2320  cd ~/fisco && curl -LO https://github.com/FISCO-BCOS/console/releases/download/v2.9.2/download_console.sh && bash download_console.sh\n
+ 2321  cp -n console/conf/config-example.toml console/conf/config.toml\n
+ 2322  cp -r nodes/127.0.0.1/sdk/* console/conf/\n
+ 2323  cd ~/fisco/console && bash start.sh\n
+ 2324  cd fisco
+ 2325  cd ~/fisco/console && bash start.sh\n
+ 2326  cd
+ 2327  cd ~/fisco/console/contracts/solidity\n
+ 2328  vi Asset.sol\n
+ 2329  ls
+ 2330  pwd
+ 2331  mkdir -p ~/fisco\n
+ 2332  cd ~/fisco && curl -#LO https://github.com/FISCO-BCOS/console/releases/download/v2.9.2/download_console.sh && bash download_console.sh\n
+ 2333  cd ~/fisco/console/\n
+ 2334  bash sol2java.sh -p org.fisco.bcos.asset.contract\n
+ 2335  sudo apt install tree
+ 2336  tree contracts/sdk
+ 2337  ls
+ 2338  cd contracts/sdk
+ 2339  ls
+ 2340  pwd
+ 2341  mkdir contracts
+ 2342  ls
+ 2343  cd ..
+ 2344  ls
+ 2345  cd ..
+ 2346  ls
+ 2347  pwd
+ 2348  cd contracts
+ 2349  ls
+ 2350  cd solidity
+ 2351  ls
+ 2352  pwd
+ 2353  cd ..
+ 2354  ls
+ 2355  cd ..
+ 2356  ls
+ 2357  cd contracts/sdk
+ 2358  ls
+ 2359  tree
+ 2360  ls
+ 2361  cd ..
+ 2362  ls
+ 2363  cd ..
+ 2364  ls
+ 2365  cd contracts
+ 2366  ls
+ 2367  cd solidity
+ 2368  ls
+ 2369  pwd
+ 2370  ls
+ 2371  cd contracts
+ 2372  ls
+ 2373  cp /home/hzq/fisco/console/contracts/solidity/Asset.sol .
+ 2374  cp /home/hzq/fisco/console/contracts/solidity/Table.sol .
+ 2375  ls
+ 2376  cd ..
+ 2377  ls
+ 2378  tree
+ 2379  cd
+ 2380  java -version
+ 2381  whereis java
+ 2382  which java
+ 2383  ls /usr/bin/java
+ 2384  ls /usr/share/java
+ 2385  find -name Contents
+ 2386  echo $JAVA_HOME
+ 2387  LS
+ 2388  ls
+ 2389  java -version
+ 2390  ls
+ 2391  tar -vxf ideaIC-2023.1.2.tar.gz
+ 2392  cd idea-IC-231.9011.34/bin
+ 2393  ls
+ 2394  ./idea.sh
+ 2395  ls
+ 2396  cd ~/fisco
+ 2397  curl -#LO https://github.com/FISCO-BCOS/LargeFiles/raw/master/tools/asset-app.tar.gz\n
+ 2398  wget https://github.com/FISCO-BCOS/LargeFiles/raw/master/tools/asset-app.tar.gz\n
+ 2399  curl -#LO https://github.com/FISCO-BCOS/LargeFiles/raw/master/tools/asset-app.tar.gz
+ 2400  ls
+ 2401  tar -zxf asset-app.tar.gz
+ 2402  ls
+ 2403  cd
+ 2404  cd 下载
+ 2405  cd idea-IC-231.9011.34/bin
+ 2406  ./idea.sh
+ 2407  cd ~/fisco
+ 2408  mkdir -p asset-app/src/test/resources/conf
+ 2409  cp -r nodes/127.0.0.1/sdk/* asset-app/src/test/resources/conf
+ 2410  mkdir -p asset-app/src/main/resources/conf
+ 2411  cp -r nodes/127.0.0.1/sdk/* asset-app/src/main/resources/conf
+ 2412  cd ~/fisco  
+ 2413  cp console/contracts/sdk/java/org/fisco/bcos/asset/contract/Asset.java asset-app/src/main/java/org/fisco/bcos/asset/contract/Asset.java
+ 2414  ls
+ 2415  cd asset-app
+ 2416  tree >> tree.txt
+ 2417  ls
+ 2418  vim tree.txt
+ 2419  ls
+ 2420  rm tree.txt
+ 2421  s
+ 2422  ls
+ 2423  cd src
+ 2424  ls
+ 2425  cd main/resources
+ 2426  ls
+ 2427  cd ~/fisco/asset-app
+ 2428  ./gradlew build
+ 2429  cd dist
+ 2430  bash asset_run.sh deploy
+ 2431  bash asset_run.sh register Alice 100000
+ 2432  bash asset_run.sh register Bob 100000
+ 2433  bash asset_run.sh query Alice
+ 2434  bash asset_run.sh query Bob
+ 2435  bash asset_run.sh transfer Alice Bob  50000
+ 2436  bash asset_run.sh query Alice
+ 2437  bash asset_run.sh query Bob
+ 2438  ls
+ 2439  cd ..
+ 2440  ls
+ 2441  cd ..
+ 2442  ls
+ 2443  cd ..
+ 2444  ls
+ 2445  tar -cvf fisco.tar fisco
+ 2446  ls
+ 2447  cd fisco
+ 2448  ls
+ 2449  bash asset_run.sh deploy
+ 2450  ls
+ 2451  cd asset-app
+ 2452  cd dist
+ 2453  bash asset_run.sh deploy
+ 2454  ls
+ 2455  history | grep benchmark
+ 2456  python benchmarks.py --weights runs/train/efficientnet100_7/weights/last.pt --imgsz 640 --device 0\n
+ 2457  cd runs/train/efficientnet100_7
+ 2458  ls
+ 2459  cd weights
+ 2460  ls
+ 2461  ll
+ 2462  code .
+ 2463  conda activate yolov5
+ 2464  cd models
+ 2465  ls
+ 2466  python yolo.py --cfg yolov5-mobileNetV3.yaml
+ 2467  python yolo.py --cfg yolov5-custom.yaml
+ 2468  python yolo.py --cfg yolov5n.yaml
+ 2469  python yolo.py --cfg yolov5nn.yaml
+ 2470  python yolo.py --cfg yolov5-custom.yaml
+ 2471  tmux
+ 2472  history | train
+ 2473  history | grep train
+ 2474  python train.py --data coco_traffic_30.yaml --epochs 300 --weights '' --cfg yolov5-ghost.yaml  --batch-size 64 --name v5ghost300_ --workers 18
+ 2475  conda activate yolov5
+ 2476  python train.py --data coco_traffic_30.yaml --epochs 300 --weights '' --cfg yolov5-ghost.yaml  --batch-size 64 --name v5ghost300_ --workers 18
+ 2477  python train.py --data coco_traffic_30.yaml --epochs 300 --weights '' --cfg yolov5-ghost.yaml  --batch-size 32 --name v5ghost300_ --workers 18
+ 2478  python train.py --data coco_traffic_30.yaml --epochs 300 --weights '' --cfg yolov5s.yaml  --batch-size 32 --name v5ghost300_ --workers 18
+ 2479  python train.py --data coco_traffic_30.yaml --epochs 300 --weights '' --cfg yolov5s.yaml  --batch-size 32 --name v5s300_ --workers 18
+ 2480  python train.py --data coco_traffic_30.yaml --epochs 300 --weights '' --cfg yolov5s.yaml  --batch-size 48 --name v5s300_ --workers 18
+ 2481  htop
+ 2482  s-tui
+ 2483  python train.py --data coco_traffic_30.yaml --epochs 300 --weights '' --cfg yolov5s.yaml  --batch-size 48 --name v5s300_ --workers 24
+ 2484  python train.py --data coco_traffic.yaml --epochs 300 --weights '' --cfg yolov5s.yaml  --batch-size 48 --name v5sfull300_ --workers 24
+ 2485  python train.py --data coco_traffic.yaml --epochs 300 --weights '' --cfg yolov5s.yaml  --batch-size 48 --name v5sfull300_ --workers 12
+ 2486  ls
+ 2487  npm start
+ 2488  cconda activate py37
+ 2489  conda activate backend_star
+ 2490  ls
+ 2491  cd backend
+ 2492  ls
+ 2493  python mongodb-flask.py
+ 2494  git add .
+ 2495  git commit -m '获取目的地参数'
+ 2496  git push origin dev_fix_time_error
+ 2497  ls
+ 2498  tmux attach
+ 2499  ls
+ 2500  ifconfig
+ 2501  htop
+ 2502  tmux attach
+ 2503  ls
+ 2504  ifconfig
+ 2505  tmux attach
+ 2506  ls
+ 2507  cd npc
+ 2508  ls
+ 2509  tmux attach
+ 2510  git add ,
+ 2511  git add .
+ 2512  git commit -m '一些网络修改'
+ 2513  git push origin traffic 
+ 2514  cd
+ 2515  ls
+ 2516  cd datasets/coco_traffic
+ 2517  ls
+ 2518  vim train2017.
+ 2519  vim train2017.txt
+ 2520  history | grep train
+ 2521  ls
+ 2522  s-tui
+ 2523  gedit
+ 2524  sudo apt install gedit
+ 2525  xclock
+ 2526  ls
+ 2527  ifconfig
+ 2528  ls
+ 2529  history | grep resume
+ 2530  history | grep train
+ 2531  python train.py --data coco_traffic.yaml --epochs 300 --weights '' --cfg yolov5n.yaml  --batch-size 64 --name v5nfull300_ --workers 24\n
+ 2532  htop
+ 2533  watch -n 1 nvidia-smi
+ 2534  python train.py --data coco_traffic.yaml --epochs 300 --weights '' --cfg yolov5n.yaml  --batch-size 64 --name v5nfull300_ --workers 18\n
+ 2535  watch -n 1 nvidia-smi
+ 2536  ls
+ 2537  history | grep resume
+ 2538  python train.py --resume runs/train/v5sfull300_2/weights/last.pt
+ 2539  tmux attach
+ 2540  ls
+ 2541  ssh -p  xd@www.zxcbdx.top
+ 2542  tmux attach
+ 2543  ssh -p 3922 xd@www.zxcbdx.top
+ 2544  sudo apt install wireshark
+ 2545  sudo wireshark
+ 2546  cd
+ 2547  cd yolov5
+ 2548  ls
+ 2549  code .
+ 2550  cd
+ 2551  cd leetcode
+ 2552  ls
+ 2553  code .
+ 2554  sudo shutdown now
+ 2555  tmux
+ 2556  ls
+ 2557  cd yolov5
+ 2558  python train.py --resume runs/train/v5sfull300_2/weights/last.pt
+ 2559  conda env list
+ 2560  conda activate yolov5
+ 2561  ls
+ 2562  python train.py --resume runs/train/v5sfull300_2/weights/last.pt
+ 2563  ssh -p 3922 xd@www.zxcbdx.top
+ 2564  cd leetcode
+ 2565  git pull
+ 2566  code .
+ 2567  git add .
+ 2568  git commit -m 'three'
+ 2569  git pull
+ 2570  ls
+ 2571  git add .
+ 2572  git commit 'sq'
+ 2573  git commit -m 'sq'
+ 2574  git push
+ 2575  htop
+ 2576  s-tui
+ 2577  s-tui >> vim -
+ 2578  s-tui | grep cpu >> vim -
+ 2579  ls
+ 2580  vim vim
+ 2581  ls
+ 2582  rm vim
+ 2583  ls
+ 2584  tmux attach
+ 2585  conda activate py37
+ 2586  ls
+ 2587  mkdir model
+ 2588  ls
+ 2589  sudo iotop
+ 2590  ls
+ 2591  history | grep benchmark
+ 2592  python benchmarks.py --weights model/v5nfull300/weights/best.pt --imgsz 640 --device 0
+ 2593  nvidia-smi
+ 2594  tmux attach
+ 2595  ls
+ 2596  tmux attach
+ 2597  ls
+ 2598  cp runs/train/v5sfull300_2 model
+ 2599  cp -r runs/train/v5sfull300_2 model
+ 2600  cd model
+ 2601  ls
+ 2602  mv -r v5sfull300_2  v5sfull300
+ 2603  cp -r v5sfull300_2  v5sfull300
+ 2604  ls
+ 2605  rm v5sfull300
+ 2606  rm -r v5sfull300_2
+ 2607  ls
+ 2608  cd ..
+ 2609  history | grep benchmark
+ 2610  benchmarks.py --weights model/v5sfull300/weights/best.pt --imgsz 640 --device cpu
+ 2611  python benchmarks.py --weights model/v5sfull300/weights/best.pt --imgsz 640 --device cpu
+ 2612  cat /proc/cpuinfo
+ 2613  htop
+ 2614  taskset -c 1 nvidia-smi
+ 2615  taskset -c 1 python benchmarks.py --weights model/v5sfull300/weights/best.pt --imgsz 640 --device cpu
+ 2616  htop
+ 2617  ls
+ 2618  cd yolov5
+ 2619  ls
+ 2620  taskset -c 2 python benchmarks.py --weights model/v5nfull300/weights/best.pt --imgsz 640 --device cpu
+ 2621  conda activate yolov5
+ 2622  taskset -c 4 python benchmarks.py --weights model/v5nfull300/weights/best.pt --imgsz 640 --device cpu
+ 2623  taskset -c 35 python benchmarks.py --weights model/v5sfull300/weights/best.pt --imgsz 640 --device cpu
+ 2624  taskset -c 1 python benchmarks.py --weights model/v5nfull300/weights/best.pt --imgsz 640 --device cpu
+ 2625  conda activate yolov5
+ 2626  ls
+ 2627  tmux attach
+ 2628  taskset -c 1 python benchmarks.py --weights model/v5nfull300/weights/best.pt --imgsz 640 --device cpu
+ 2629  conda activate yolov5
+ 2630  cd yolov5
+ 2631  ls
+ 2632  htop
+ 2633  taskset -c 35 python benchmarks.py --weights model/v5nfull300/weights/best.pt --imgsz 320 --device cpu
+ 2634  conda activate yolov5
+ 2635  ls
+ 2636  cd yolov5
+ 2637  taskset -c 16 python benchmarks.py --weights model/v5sfull300/weights/best.pt --imgsz 320 --device cpu
+ 2638  tmux attach
+ 2639  conda activate yolov5
+ 2640  cd yolov5
+ 2641  taskset -c 35 python benchmarks.py --weights model/v5nfull300/weights/best.pt --imgsz 240 --device cpu
+ 2642  python benchmarks.py --weights model/v5nfull300/weights/best.pt --imgsz 240 --device 0
+ 2643  watch -n 1 nvidia-smi
+ 2644  htop
+ 2645  taskset -c 16 python benchmarks.py --weights model/v5sfull300/weights/best.pt --imgsz 320 --device cpu
+ 2646  ls
+ 2647  cd leetcode
+ 2648  ls
+ 2649  code .
+ 2650  git pull
+ 2651  ls
+ 2652  vim sshxd.sh
+ 2653  bash sshxd.sh
+ 2654  taskset -c 16 python benchmarks.py --weights model/v5nfull300/weights/best.pt --imgsz 640 --device cpu
+ 2655  taskset -c 16 python benchmarks.py --weights model/v5nfull300/weights/best.pt --imgsz 120 --device cpu
+ 2656  ls
+ 2657  code .
+ 2658  history| grep fasternet
+ 2659  python train.py --data coco_traffic.yaml --epochs 300 --weights '' --cfg yolov5n-fasternet.yaml  --batch-size 64 --name v5n_fasternet300_ --workers 18
+ 2660  s-tui
+ 2661  git add .
+ 2662  git commit -m 'maxSlidingWindow'
+ 2663  git push
+ 2664  tmux -d attach
+ 2665  tmux attach -d
+ 2666  htop
+ 2667  nvidia-smi
+ 2668  s-tui
+ 2669  watch -n 1 nvidia-smi
+ 2670  s-tui
+ 2671  cd
+ 2672  cd work
+ 2673  ls
+ 2674  cd star
+ 2675  ls
+ 2676  code .
+ 2677  conda activate py37
+ 2678  netease-cloud-music
+ 2679  conda activate yolov5
+ 2680  cd 
+ 2681  cd yolov5
+ 2682  ls
+ 2683  cd model
+ 2684  ls
+ 2685  cp -r v5mobilenetfull300_5  v5mobilenetfull300
+ 2686  ls
+ 2687  rm v5mobilenetfull300_5
+ 2688  rm -r v5mobilenetfull300_5
+ 2689  ls
+ 2690  cd ..
+ 2691  ls
+ 2692  cd runs
+ 2693  ls
+ 2694  cd train
+ 2695  ls
+ 2696  conda activate py37
+ 2697  /home/hzq/anaconda3/envs/py37/bin/python
+ 2698  ls
+ 2699  history | grep resume
+ 2700  history | grep train
+ 2701  cd ..
+ 2702  ls
+ 2703  cd ..
+ 2704  ls
+ 2705  history| benchmark
+ 2706  history| grep benchmark
+ 2707  taskset -c 16 python benchmarks.py --weights model/v5mobilenetfull300/weights/best.pt --imgsz 640 --device cpu
+ 2708  cd backend
+ 2709  python beamInfoGet.py
+ 2710  taskset -c 16 python benchmarks.py --weights model/v5mobilenetfull300/weights/best.pt --imgsz 320 --device cpu
+ 2711  taskset -c python benchmarks.py --weights model/v5mobilenetfull300/weights/best.pt --imgsz 320 --device cpu
+ 2712  python benchmarks.py --weights model/v5mobilenetfull300/weights/best.pt --imgsz 320 --device cpu
+ 2713  taskset -c 35 python benchmarks.py --weights model/v5mobilenetfull300/weights/best.pt --imgsz 320 --device cpu
+ 2714  watch -n 1 nvidia-smi
+ 2715  s-tui
+ 2716  taskset -c 35 python benchmarks.py --weights model/v5mobilenetfull300/weights/best.pt --imgsz 240 --device cpu
+ 2717  taskset -c 35 python benchmarks.py --weights model/v5mobilenetfull300/weights/best.pt --imgsz 1080 --device cpu
+ 2718  python train.py --resume runs/train/v5n_fasternet300_/weights/last.pt
+ 2719  tmux attach
+ 2720  ls
+ 2721  ifconfig
+ 2722  ls
+ 2723  tmux attach
+ 2724  cd work
+ 2725  ls
+ 2726  cd star
+ 2727  git status
+ 2728  git add .
+ 2729  git commit -m '打包波束信息文件'
+ 2730  git push origin dev_fix_time_error
+ 2731  code .
+ 2732  conda activate py37
+ 2733  git push origin dev_fix_time_error
+ 2734  git pull
+ 2735  tmux attach
+ 2736  ls
+ 2737  ifconfig
+ 2738  tmux attach
+ 2739  ls
+ 2740  tmux attach
+ 2741  htop
+ 2742  s-tui
+ 2743  taskset -c 35 python benchmarks.py --weights model/v5mobilenetfull300/weights/best.pt --imgsz 1080 --device cpu
+ 2744  tmux attach
+ 2745  taskset -c 35 python benchmarks.py --weights runs/train/v5n_fasternet300_/weights/best.pt --imgsz 640 --device cpu
+ 2746  xs runs/train/v5n_fasternet300_/weights
+ 2747  ll
+ 2748  cd runs/train/v5n_fasternet300_/weights
+ 2749  ll
+ 2750  tmux attach
+ 2751  taskset -c 35 python benchmarks.py --weights runs/train/v5n_fasternet300_/weights/best.pt --imgsz 320 --device cpu
+ 2752  code .
+ 2753  taskset -c 35 python benchmarks.py --weights runs/train/v5n_fasternet300_/weights/best.pt --imgsz 280 --device cpu
+ 2754  htop
+ 2755  history| train
+ 2756  history| grep train
+ 2757  python train.py --data coco_traffic.yaml --epochs 300 --weights '' --cfg yolov5-ghost.yaml  --batch-size 48 --name v5s300_ --workers 24
+ 2758  python train.py --data coco_traffic.yaml --epochs 300 --weights '' --cfg yolov5-ghost.yaml  --batch-size 48 --name v5ghost300_ --workers 24
+ 2759  python train.py --data coco_traffic.yaml --epochs 300 --weights '' --cfg yolov5-ghost.yaml  --batch-size 48 --name v5ghost300_ --workers 16
+ 2760  history| train
+ 2761  history | grep train
+ 2762  python train.py --data coco_traffic.yaml --epochs 300 --weights '' --cfg yolov5n.yaml  --batch-size 64 --name v5nfull300_ --workers 18
+ 2763  pip list
+ 2764  python train.py --data coco_traffic.yaml --epochs 300 --weights '' --cfg yolov5n.yaml  --batch-size 64 --name v5nfull300_ --workers 18
+ 2765  pip list | grep protoc
+ 2766  pip install protobuf
+ 2767  pip install
+ 2768  pip list
+ 2769  python train.py --data coco_traffic.yaml --epochs 300 --weights '' --cfg yolov5n.yaml  --batch-size 64 --name v5nfull300_ --workers 18
+ 2770  pip uninstall protobuf
+ 2771  pip install protobuf==3.20
+ 2772  python train.py --data coco_traffic.yaml --epochs 300 --weights '' --cfg yolov5n.yaml  --batch-size 64 --name v5nfull300_ --workers 18
+ 2773  python train.py --data coco_traffic.yaml --epochs 300 --weights '' --cfg yolov5-ghost.yaml  --batch-size 48 --name v5ghost300_ --workers 16
+ 2774  tmux attach
+ 2775  ls
+ 2776  ./sshxd.sh
+ 2777  sudo ./sshxd.sh
+ 2778  ls
+ 2779  bash sshxd.sh
+ 2780  python train.py --data coco_traffic.yaml --epochs 300 --weights '' --cfg yolov5-ghost.yaml  --batch-size 48 --name v5ghost300_ --workers 16
+ 2781  python train.py --data coco_traffic.yaml --epochs 300 --weights '' --cfg yolov5n.yaml  --batch-size 64 --name v5nfull300_ --workers 18
+ 2782  tmux attach
+ 2783  cd
+ 2784  cd baidu
+ 2785  ls
+ 2786  cp yolov7-coupling-20230528.zip
+ 2787  mv yolov7-coupling-20230528.zip ../
+ 2788  ls
+ 2789  cd
+ 2790  ls
+ 2791  unzip yolov7-coupling-20230528.zip
+ 2792  cd yolov7-coupling
+ 2793  ls
+ 2794  dolphin
+ 2795  code .
+ 2796  ls
+ 2797  cd bin
+ 2798  ls
+ 2799  ./pycharm.sh
+ 2800  code .
+ 2801  python train.py --data coco_traffic_20.yaml --epochs 300 --weights '' --cfg yolov5-ghost.yaml  --batch-size 48 --name v5ghost300_0.2_ --workers 16
+ 2802  python train.py --data coco_traffic_20.yaml --epochs 300 --weights '' --cfg yolov5n.yaml  --batch-size 64 --name v5n300_0.2_ --workers 16
+ 2803  cd
+ 2804  ls
+ 2805  git clone https://github.com/RangiLyu/nanodet.git
+ 2806  cd nanodet
+ 2807  git pull
+ 2808  code .
+ 2809  ls
+ 2810  cd
+ 2811  cd dataset
+ 2812  ls
+ 2813  cd datasets
+ 2814  ls
+ 2815  git clone https://github.com/hai-h-nguyen/Yolo2Pascal-annotation-conversion.git
+ 2816  code .
+ 2817  s-tui
+ 2818  python train.py --resume runs/v5n300_0.2_/weight/last.pt --workers 16
+ 2819  python train.py --resume runs/train/v5n300_0.2_/weights/last.pt --workers 243
+ 2820  python train.py --resume runs/train/v5n300_0.2_/weights/last.pt --workers 24
+ 2821  python train.py --resume runs/train/v5n300_0.2_/weights/last.pt --workers 28
+ 2822  python train.py --resume runs/train/v5n300_0.2_/weights/last.pt --workers 24
+ 2823  sudo iotop
+ 2824  history| grep task
+ 2825  taskset -h
+ 2826  taskset -l
+ 2827  taskset -c
+ 2828  taskset --help
+ 2829  cd Yolo2Pascal-annotation-conversion
+ 2830  ls
+ 2831  python yolo2pascal/yolo2voc.py ../coco_lighting/images/train
+ 2832  python yolo2pascal/yolo2voc.py ../coco_lighting/labels/train
+ 2833  cd
+ 2834  cd FastestDet
+ 2835  ls
+ 2836  code .
+ 2837  python yolo2pascal/yolo2voc.py ../coco_lighting/labels/train
+ 2838  python yolo2pascal/yolo2voc.py ../coco_traffic_simple/labels/val2017
+ 2839  python yolo2pascal/yolo2voc.py ../coco_traffic_20/labels/val2017
+ 2840  python yolo2pascal/yolo2voc.py ../coco_traffic_20/labels/train2017
+ 2841  sudo iotop
+ 2842  cd
+ 2843  cd datasets
+ 2844  ls
+ 2845  cd Yolo2Pascal-annotation-conversion
+ 2846  ls
+ 2847  cd ..
+ 2848  ls
+ 2849  cd coco_traffic
+ 2850  ls
+ 2851  cd labels
+ 2852  ls
+ 2853  cd train2017
+ 2854  vim classes.txt
+ 2855  history
+ 2856  python yolo2pascal/yolo2voc.py ../coco_traffic/labels/train2017
+ 2857  pip install lxml
+ 2858  python yolo2pascal/yolo2voc.py ../coco_traffic/labels/train2017
+ 2859  pip install PyQt4
+ 2860  conda activate base
+ 2861  python yolo2pascal/yolo2voc.py ../coco_traffic/labels/train2017
+ 2862  ps -ax
+ 2863  taskset -pc 35 1795945
+ 2864  taskset -pc 34 1795981
+ 2865  taskset -pc 33 1796017
+ 2866  taskset -pc 32 1796053
+ 2867  taskset -pc 31 1796089
+ 2868  taskset -pc 30 1796125
+ 2869  taskset -pc 29 1796161
+ 2870  taskset -pc 11-35 1796197
+ 2871  taskset -pc 11-35 1796233 1796269 1796305 1796341
+ 2872  taskset -pc 11-35 1796233 
+ 2873  taskset -pc 11-35 1796269 1796305 1796341
+ 2874  taskset -pc 11-35 1796269 
+ 2875  taskset -pc 11-35 1796305 
+ 2876  taskset -pc 11-35 1796341
+ 2877  history| grep train
+ 2878  taskset -c 11-35 python train.py --resume runs/train/v5n300_0.2_/weights/last.pt --workers 24
+ 2879  python train.py --resume runs/train/v5n300_0.2_/weights/last.pt --workers 24
+ 2880  cd
+ 2881  ls
+ 2882  git pull https://github.com/WZMIAOMIAO/deep-learning-for-image-processing.git
+ 2883  git pull git@github.com:WZMIAOMIAO/deep-learning-for-image-processing.git
+ 2884  git clone https://github.com/WZMIAOMIAO/deep-learning-for-image-processing.git
+ 2885  code .
+ 2886  tmux attach
+ 2887  ls
+ 2888  cd pytorch_classification
+ 2889  ls
+ 2890  cd cd ..
+ 2891  ls
+ 2892  cd ..
+ 2893  ls
+ 2894  cd pytorch_object_detection
+ 2895  ls
+ 2896  cd yolov3_spp
+ 2897  ls
+ 2898  conda create -n yolov3 python=3.7
+ 2899  conda activate yolov3
+ 2900  ls
+ 2901  vim requirements.txt
+ 2902  pip install -r requirements.txt -i https://pypi.douban.com/simple/
+ 2903  ls
+ 2904  cp -r v5n_fasternet300_  ../../model/
+ 2905  cd ../../model
+ 2906  ls
+ 2907  dolphin
+ 2908  dolphin .
+ 2909  ls
+ 2910  cd
+ 2911  cd datasets
+ 2912  ls
+ 2913  cd coco_traffic_20
+ 2914  ls
+ 2915  cd labels
+ 2916  ls
+ 2917  cd train2017
+ 2918  pwd
+ 2919  ls
+ 2920  pwd
+ 2921  ls
+ 2922  cd ..
+ 2923  ls
+ 2924  cd ..
+ 2925  ls
+ 2926  vim classes.names
+ 2927  cd ../../
+ 2928  ls
+ 2929  cd dataset_dq
+ 2930  ls
+ 2931  cd coco_traffic
+ 2932  ls
+ 2933  cd images
+ 2934  ls
+ 2935  vim category.names
+ 2936  gedit category.names
+ 2937  vim classes.names
+ 2938  pwd
+ 2939  ls
+ 2940  cd
+ 2941  conda activate yolov3
+ 2942  python calculate_dataset.py
+ 2943  cd
+ 2944  cd datasets/coco_traffic_20/images/train2017
+ 2945  ls
+ 2946  cd ..
+ 2947  ls
+ 2948  code .
+ 2949  cd ..
+ 2950  ls
+ 2951  code .
+ 2952  ls
+ 2953  python delete_extralabel.py
+ 2954  ls
+ 2955  cd labels/train2017
+ 2956  ll
+ 2957  ll | wc
+ 2958  ll | wc -l
+ 2959  pwd
+ 2960  cd ..
+ 2961  cd images/train2017
+ 2962  ll | wc -l
+ 2963  ls
+ 2964  cd ..
+ 2965  ls
+ 2966  cd ..
+ 2967  ls
+ 2968  python delete_extralabel.py
+ 2969  ls
+ 2970  python calculate_dataset.py
+ 2971  ls
+ 2972  cp -r coco_traffic_20  20_v3
+ 2973  sudo iotop
+ 2974  ls
+ 2975  cd 20_v3
+ 2976  ls
+ 2977  tree .
+ 2978  man tree
+ 2979  tree -d .
+ 2980  mkdir train
+ 2981  mkdir val
+ 2982  ls
+ 2983  tree -d .
+ 2984  cd train
+ 2985  ls
+ 2986  mkdir images
+ 2987  mkdir labels
+ 2988  cd ..
+ 2989  ls
+ 2990  cd val
+ 2991  mkdir images
+ 2992  mkdir labels
+ 2993  cd ..
+ 2994  ls
+ 2995  tree -d .
+ 2996  cp images/train2017/* train/images
+ 2997  sudo iotop
+ 2998  cd train/images
+ 2999  ls
+ 3000  cd ..
+ 3001  ls
+ 3002  tree -d .
+ 3003  cp images/val2017/* val/images
+ 3004  cp labels/train2017/*.txt train/labels
+ 3005  cp labels/val2017/*.txt val/labels
+ 3006  ll train/images | wc -l
+ 3007  ll train/labels | wc -l
+ 3008  ll val/images | wc -l
+ 3009  ll val/labels | wc -l
+ 3010  tree -d .
+ 3011  rm -rf images
+ 3012  rm -rf labels
+ 3013  ls
+ 3014  cd train
+ 3015  ls
+ 3016  pwd
+ 3017  cd labels
+ 3018  pwd
+ 3019  python calculate_dataset.py
+ 3020  vim /home/hzq/datasets/coco_traffic_20/classes.names
+ 3021  cd
+ 3022  cd deep-learning-for-image-processing
+ 3023  ls
+ 3024  cd pytorch_object_detection
+ 3025  ls
+ 3026  cd yolov3_spp
+ 3027  ls
+ 3028  python train.py
+ 3029  conda activate yolov3
+ 3030  python train.py
+ 3031  pip uninstall protoc
+ 3032  pip list
+ 3033  python train.py
+ 3034  pip uninstall protobuf
+ 3035  pip install protobuf=3.20
+ 3036  pip install protobuf==3.20
+ 3037  python train.py
+ 3038  ldconfig -p | grep libgobject\n
+ 3039  whereis libgobject\n
+ 3040  ls /usr/lib/x86_64-linux-gnu/libffi.so.7
+ 3041  vim .bashrc
+ 3042  source .bashrc
+ 3043  zsh
+ 3044  ls
+ 3045  vim .bashrc
+ 3046  source .bashrc
+ 3047  zsh
+ 3048  ls
+ 3049  vim .zshrc
+ 3050  source .zshrc
+ 3051  python train.py
+ 3052  vim .zshrc
+ 3053  source .zshrc
+ 3054  ls
+ 3055  python train.py
+ 3056  pip list | opencv
+ 3057  pip list | grep  opencv
+ 3058  pip uninstall opencv-python
+ 3059  pip install opencv-python
+ 3060  python train.py
+ 3061  tree .
+ 3062  tree . | grep model
+ 3063  cd weights
+ 3064  ls
+ 3065  ll
+ 3066  cd
+ 3067  cd yolov5
+ 3068  ls
+ 3069  history| grep bench
+ 3070  taskset -c 35 python benchmarks.py --weights /home/hzq/deep-learning-for-image-processing/pytorch_object_detection/yolov3_spp/weights/yolov3spp-20.pt --imgsz 640 --device cpu
+ 3071  conda activate yolov5
+ 3072  taskset -c 35 python benchmarks.py --weights /home/hzq/deep-learning-for-image-processing/pytorch_object_detection/yolov3_spp/weights/yolov3spp-20.pt --imgsz 512 --device cpu
+ 3073  cd
+ 3074  conda env list
+ 3075  cd nanodet
+ 3076  conda activate nanodet
+ 3077  pip install -r requirements.txt
+ 3078  history| grep douban
+ 3079  pip install -r requirements.txt -i https://pypi.douban.com/simple/
+ 3080  cd
+ 3081  cd nanodet
+ 3082  code .
+ 3083  cd
+ 3084  cd datasets
+ 3085  ls
+ 3086  cd coco_traffic_20
+ 3087  ls
+ 3088  tree . -d
+ 3089  pwd
+ 3090  cd images/train2017
+ 3091  pwd
+ 3092  python tools/train.py config/nanodet-plus-m_416.yml
+ 3093  python setup.py develop\n
+ 3094  python tools/train.py config/nanodet-plus-m_416.yml
+ 3095  conda activate nanodet
+ 3096  python tools/train.py config/nanodet-plus-m_416.yml
+ 3097  cd
+ 3098  cd datasets/coco_traffic_20
+ 3099  ls
+ 3100  python xml2json.py
+ 3101  mkdir annotations
+ 3102  cd annotations
+ 3103  touch instances_train2017.json
+ 3104  cd ..
+ 3105  python xml2json.py
+ 3106  cd annotations
+ 3107  touch instances_val2017.json
+ 3108  cd ..
+ 3109  python xml2json.py
+ 3110  cd annotations
+ 3111  pwd
+ 3112  history| grep train
+ 3113  python tools/train.py config/nanodet-plus-m_320.yml
+ 3114  python xml2json.py
+ 3115  cd ..
+ 3116  python xml2json.py
+ 3117  python tools/train.py config/nanodet-plus-m_320.yml
+ 3118  ls
+ 3119  cd ..
+ 3120  ls
+ 3121  python num_works_test.py
+ 3122  conda activate yolov5
+ 3123  python num_works_test.py
+ 3124  sudo iotop
+ 3125  python num_works_test.py
+ 3126  python tools/train.py config/nanodet-plus-m_320.yml
+ 3127  python tools/train.py config/nanodet-plus-m_416-yolo.yml
+ 3128  cd bin
+ 3129  ./pycharm.sh
+ 3130  cd coco_traffic_20
+ 3131  ls
+ 3132  cd images
+ 3133  ls
+ 3134  cd ..
+ 3135  ls
+ 3136  cp labels/train2017/*.txt images/train2017/
+ 3137  cp labels/val2017/*.txt images/val2017/
+ 3138  cd /home/hzq/datasets/20_v3/val/images
+ 3139  ls
+ 3140  cd ..
+ 3141  ls
+ 3142  cd ..
+ 3143  ls
+ 3144  pwd
+ 3145  cd images/train2017
+ 3146  pwd
+ 3147  cd
+ 3148  cd nanodet
+ 3149  history| grep train
+ 3150  python tools/train.py config/nanodet-plus-m_416.yml
+ 3151  python tools/train.py config/nanodet-plus-m_416-yolo.yml
+ 3152  python tools/train.py config/nanodet-plus-m_320.yml
+ 3153  ced
+ 3154  cd
+ 3155  python tools/train.py config/nanodet-plus-m_320.yml
+ 3156  python tools/train.py config/nanodet-plus-m_416-yolo.yml
+ 3157  sudo shutdown now
+ 3158  ./sshxd.sh
+ 3159  sudo ./sshxd.sh
+ 3160  bash sshxd.sh
+ 3161  ls
+ 3162  cd yolo
+ 3163  cd yolov5
+ 3164  ls
+ 3165  conda activate yolov5
+ 3166  history | grep benchmark
+ 3167  taskset -c 35 python benchmarks.py --weights model/v5ghost300_/weights/best.pt --imgsz 640 --device cpu
+ 3168  taskset -c 35 python benchmarks.py --weights model/v5ghost300_/weights/best.pt --imgsz 320 --device cpu
+ 3169  ls
+ 3170  cd nanodet
+ 3171  ls
+ 3172  conda activate nanodet
+ 3173  ls
+ 3174  cd nanodet
+ 3175  ls
+ 3176  history | grep train
+ 3177  python tools/train.py config/nanodet-plus-m_416.yml
+ 3178  ls
+ 3179  cd ..
+ 3180  ls
+ 3181  python tools/train.py config/nanodet-plus-m_416.yml
+ 3182  python tools/train.py config/nanodet-plus-m_416-yolo.yml
+ 3183  conda activate nano
+ 3184  conda install pytorch torchvision cudatoolkit=11.1 -c pytorch -c conda-forge\n
+ 3185  code .
+ 3186  history| grep douban
+ 3187  pip install -r requirements.txt -i https://pypi.douban.com/simple/\n
+ 3188  python setup.py develop\n
+ 3189  python tools/train.py config/nanodet-plus-m_416.yml
+ 3190  python tools/train.py config/nanodet-plus-m_416-yolo.yml
+ 3191  pip list
+ 3192  conda activate yolov5
+ 3193  python tools/train.py config/nanodet-plus-m_416-yolo.yml
+ 3194  conda activate nanodet
+ 3195  pip list
+ 3196  conda activate yolov5
+ 3197  pip list
+ 3198  conda activate nanodet
+ 3199  pip list
+ 3200  pip unistall torchvision
+ 3201  pip uninstall torchvision
+ 3202  pip install torchvision=0.14.1
+ 3203  pip install torchvision==0.14.1
+ 3204  python tools/train.py config/nanodet-plus-m_416-yolo.yml
+ 3205  watch -n 1 nvidia-smi
+ 3206  python tools/train.py config/nanodet-plus-m_320.yml
+ 3207  code .
+ 3208  tmux
+ 3209  ls
+ 3210  history | grep train
+ 3211  python tools/train.py config/nanodet-plus-m_320.yml
+ 3212  conda activate nanodet
+ 3213  python tools/train.py config/nanodet-plus-m_320.yml
+ 3214  watch -n 1 nvidia-smi
+ 3215  s-tui
+ 3216  htop
+ 3217  sudo iotop
+ 3218  watch -n 1 nvidia-smi
+ 3219  s-tui
+ 3220  htop
+ 3221  ls
+ 3222  cd
+ 3223  ls
+ 3224  cd FastestDet
+ 3225  code .
+ 3226  ls
+ 3227  ifconfig
+ 3228  sudo apt install build-essential git cmake libprotobuf-dev protobuf-compiler libvulkan-dev vulkan-utils libopencv-dev\n
+ 3229  sudo apt update
+ 3230  sudo apt install build-essential git cmake libprotobuf-dev protobuf-compiler libvulkan-dev vulkan-utils libopencv-dev\n
+ 3231  mkdir vir_machine
+ 3232  cd vi
+ 3233  cd vir_machine
+ 3234  ls
+ 3235  cd
+ 3236  ssh root@192.168.100.1
+ 3237  ssh admin@192.168.100.1
+ 3238  ping 192.168.100.1
+ 3239  ssh root@192.168.100.1
+ 3240  ssh hzq@192.168.31.147
+ 3241  vim /etc/apt/sources.list
+ 3242  gedit /etc/apt/sources.list
+ 3243  ssh root@www.zxcbdx.top
+ 3244  ssh hzq@192.168.222.130
+ 3245  neofetch
+ 3246  sudo apt install ranger
+ 3247  ranger
+ 3248  select-editor
+ 3249  ranger
+ 3250  cd
+ 3251  ls
+ 3252  code .
+ 3253  code sshLink.py
+ 3254  python sshLink.py
+ 3255  ls
+ 3256  code sshLink.py
+ 3257  python sshLink.py
+ 3258  python sshLink.py 12
+ 3259  python sshLink.py xd
+ 3260  ls
+ 3261  python sshLink.py xd
+ 3262  python sshLink.py 
+ 3263  python sshLink.py xd
+ 3264  sudo chmod +x sshLink.py
+ 3265  sudo cp sshLink.py /usr/local/bin
+ 3266  cd yolov5
+ 3267  sshLink.py
+ 3268  cd ..
+ 3269  source .zshrc
+ 3270  cd yolo
+ 3271  cd yolov5
+ 3272  sshLink.py
+ 3273  sshLink.py xd
+ 3274  ls
+ 3275  source .zshrc
+ 3276  sshLink.py xd
+ 3277  history | grep benchmark
+ 3278  git clone https://github.com/Tencent/ncnn.git\n
+ 3279  cd ncnn\n
+ 3280  git submodule update --init\n
+ 3281  sudo apt install build-essential git cmake libprotobuf-dev protobuf-compiler libvulkan-dev vulkan-utils libopencv-dev\n
+ 3282  cd ncnn\ncd ncnn\n
+ 3283  mkdir -p build\n
+ 3284  cd
+ 3285  wget https://sdk.lunarg.com/sdk/download/1.2.189.0/linux/vulkansdk-linux-x86_64-1.2.189.0.tar.gz\?Human\=true -O vulkansdk-linux-x86_64-1.2.189.0.tar.gz\n
+ 3286  tar -xf vulkansdk-linux-x86_64-1.2.189.0.tar.gz\n
+ 3287  export VULKAN_SDK=$(pwd)/1.2.189.0/x86_64\n
+ 3288  cd ncnn
+ 3289  mkdir -p build
+ 3290  cd build
+ 3291  cmkae -DCMAKE_BUILD_TYPE=Release ..\n
+ 3292  cmkae -DCMAKE_BUILD_TYPE=Release ../\n
+ 3293  cmake -DCMAKE_BUILD_TYPE=Release ..\n
+ 3294  tmux 
+ 3295  s-tui
+ 3296  ls
+ 3297  make -j36
+ 3298  make -j 36
+ 3299  make clean
+ 3300  make -j36
+ 3301  make clean
+ 3302  sudo apt install build-essential git cmake libprotobuf-dev protobuf-compiler libvulkan-dev vulkan-utils libopencv-dev\n
+ 3303  sudo apt install libprotobuf-dev
+ 3304  tmux attach
+ 3305  sshLink.py xd
+ 3306  ls
+ 3307  ssh root@192.168.100.1
+ 3308  tmux attach
+ 3309  conda activate backend_star
+ 3310  pip list | grep date
+ 3311  ls
+ 3312  cd
+ 3313  ping 6w1859e051.goho.co
+ 3314  ls
+ 3315  sudo apt install build-essential git cmake libprotobuf-dev protobuf-compiler libvulkan-dev vulkan-utils libopencv-dev\n
+ 3316  cd ncnn
+ 3317  ls
+ 3318  cd build
+ 3319  ls
+ 3320  make -j 16
+ 3321  make clean
+ 3322  make -j 4
+ 3323  make clean
+ 3324  make -j 1
+ 3325  protoc --version
+ 3326  find -n port_def.inc
+ 3327  find -name=port_def.inc
+ 3328  tldr name
+ 3329  tldr find
+ 3330  find cd
+ 3331  cd
+ 3332  find . -name 'port_def.inc'
+ 3333  echo $C_INCLUDE_PATH
+ 3334  echo $(C_INCLUDE_PATH)
+ 3335  echo $INCLUDE_DIRS 
+ 3336  ls
+ 3337  cd ncnn
+ 3338  ls
+ 3339  cd build
+ 3340  ls
+ 3341  vim Makefile
+ 3342  cd ..
+ 3343  ls
+ 3344  vim CMakeLists.txt
+ 3345  tmux
+ 3346  ls
+ 3347  cd src
+ 3348  ls
+ 3349  cd ..
+ 3350  ls
+ 3351  tree .
+ 3352  tree . | vim -
+ 3353  ls
+ 3354  cd tool
+ 3355  cd tools
+ 3356  ls
+ 3357  cd caffe
+ 3358  ls
+ 3359  vim CMakeLists.txt
+ 3360  find . -name 'port_def.inc'
+ 3361  cd
+ 3362  find . -name 'port_def.inc'
+ 3363  find . -name 'libprotobuf.so'
+ 3364  cd anaconda3/pkgs/libprotobuf-3.20.3-he621ea3_0
+ 3365  ls
+ 3366  pwd
+ 3367  find . -name 'libprotobuf.so'
+ 3368  cd lib
+ 3369  pwd
+ 3370  find . -name 'port_def.inc'
+ 3371  cd .
+ 3372  cd ..
+ 3373  find . -name 'port_def.inc'
+ 3374  pwd
+ 3375  c
+ 3376  cd 
+ 3377  cd ncnn
+ 3378  ls
+ 3379  cd build
+ 3380  history| grep cmake
+ 3381  ls
+ 3382  make -j 36
+ 3383  make clean
+ 3384  make -j36
+ 3385  make -j 36
+ 3386  ls
+ 3387  vim CMakeLists.txt
+ 3388  ls
+ 3389  cd ..
+ 3390  ls
+ 3391  cd onnx
+ 3392  ls
+ 3393  vim CMakeLists.txt
+ 3394  history| grep cmake
+ 3395  make clean
+ 3396  make -j36
+ 3397  cd ../examples
+ 3398  ../build/examples/squeezenet ../images/256-ncnn.png
+ 3399  cd ../benchmark
+ 3400  ../build/benchmark/benchncnn 10 $(nproc) 0 -1
+ 3401  htop
+ 3402  taskset -c 5 ../build/benchmark/benchncnn 10 $(nproc) 0 -1\n
+ 3403  ../build/benchmark/benchncnn 10 2 0 -1\n
+ 3404  cd ..
+ 3405  ls
+ 3406  cd ..
+ 3407  ls
+ 3408  cd benchmark
+ 3409  ls
+ 3410  vim benchncnn.cpp
+ 3411  ll
+ 3412  ll -h
+ 3413  ls -h
+ 3414  ll
+ 3415  ll -h
+ 3416  ../build/benchmark/benchncnn 10 4 0 -1
+ 3417  ../build/benchmark/benchncnn 10 1 0 -1
+ 3418  taskset -c 5 ../build/benchmark/benchncnn 10 $(nproc) 0 0\n
+ 3419  ../build/benchmark/benchncnn 10 $(nproc) 0 0\n
+ 3420  watch -n 0.1 nvidia-smi
+ 3421  s-tui
+ 3422  ../build/benchmark/benchncnn 10 $(nproc) 0 -1\n
+ 3423  ../build/benchmark/benchncnn 1 2 0 -1\n
+ 3424  ../build/benchmark/benchncnn 1000 36 0 -1\n
+ 3425  ../build/benchmark/benchncnn 1000 36 0 0\n
+ 3426  tmux attach
+ 3427  tmux list
+ 3428  tmux
+ 3429  tmux attach 1
+ 3430  tmux attach-session 1
+ 3431  tmux attach -t 1
+ 3432  tmux ls
+ 3433  tmux attach -t 2
+ 3434  tmux attach -t 3
+ 3435  tmux attach 
+ 3436  tmux ls
+ 3437  ls
+ 3438  cd
+ 3439  ssh pi@192.168.31.9
+ 3440  whereis sshLink
+ 3441  vim /usr/local/bin/sshLink.py
+ 3442  sudo code /usr/local/bin/sshLink.py
+ 3443  sudo vim /usr/local/bin/sshLink.py
+ 3444  sudo code /usr/local/bin/sshLink.py
+ 3445  sudo vim /usr/local/bin/sshLink.py
+ 3446  sudo rm /usr/local/bin/.sshLink.py.swp
+ 3447  sudo vim /usr/local/bin/sshLink.py
+ 3448  sshLink.py pi
+ 3449  sudo reboot now
+ 3450  sshLink.py pi
+ 3451  whereis sshLink
+ 3452  vim /usr/local/bin/sshLink.py
+ 3453  ssh root@192.168.100.1
+ 3454  sudo vim /usr/local/bin/sshLink.py
+ 3455  sshLink.py wrt
+ 3456  ifconfig
+ 3457  ping 2408:8471:306:af32:34f8:55ff:fe25:e86
+ 3458  ping6 ipv6.baidu.com
+ 3459  netstat -tuln
+ 3460  ping -6 baidu.com
+ 3461  ping6 baidu.com
+ 3462  ifconfig
+ 3463  ping6 fd00:6868:6868::b84
+ 3464  ping6 2408:8270:802:9da8:7de1:cd76:9114:bf0f
+ 3465  ping6 2408:8270:820:f5d0::1
+ 3466  sshLink.py wrt
+ 3467  cd ncnn
+ 3468  code .
+ 3469  ls
+ 3470  cd build
+ 3471  ls
+ 3472  make
+ 3473  make -j 36
+ 3474  s-tui
+ 3475  htop
+ 3476  cd ../benchmark\n
+ 3477  cd benchmark
+ 3478  ../build/benchmark/benchncnn 10 $(nproc) 0 -1\n
+ 3479  sshLink.py pi
+ 3480  cd ..
+ 3481  ls
+ 3482  mkdir test_caffe
+ 3483  cd test
+ 3484  cd test_caffe
+ 3485  ls
+ 3486  wget https://github.com/BVLC/caffe/tree/master/models/bvlc_alexnet
+ 3487  wget http://dl.caffe.berkeleyvision.org/bvlc_alexnet.caffemodel
+ 3488  ls
+ 3489  cd ..
+ 3490  ls
+ 3491  cd build
+ 3492  ls
+ 3493  cd tools
+ 3494  ls
+ 3495  cd ..
+ 3496  ls
+ 3497  cd ..
+ 3498  ls
+ 3499  tree . | grep caffe2ncnn
+ 3500  tree . | vim -
+ 3501  cd tool
+ 3502  ls
+ 3503  cd tools
+ 3504  ls
+ 3505  cd caffe
+ 3506  ls
+ 3507  cd ..
+ 3508  ls
+ 3509  cd ..
+ 3510  ls
+ 3511  find . -name 'caffe2ncnn'
+ 3512  cd test_caffe
+ 3513  ../build/tools/caffe/caffe2ncnn 
+ 3514  ls
+ 3515  wget https://github.com/BVLC/caffe/blob/master/models/bvlc_alexnet/deploy.prototxt
+ 3516  ls
+ 3517  ../build/tools/caffe/caffe2ncnn deploy.prototxt bvlc_alexnet.caffemodel alexnet.param alexnet.bin
+ 3518  cd ../build/tools/caffe/
+ 3519  ls
+ 3520  ./caffe2ncnn ../../../test_caffe/deploy.prototxt ../../../test_caffe/bvlc_alexnet.caffemodel alexnet.param alexnet.bin
+ 3521  cd ..
+ 3522  ls
+ 3523  cd onnx
+ 3524  ls
+ 3525  ./onnx2ncnn ~/yolov5/model/v5nfull300/weights/best.onnx v5n300.param v5n300.bin
+ 3526  ls
+ 3527  cd ..
+ 3528  ls
+ 3529  cd ..
+ 3530  ls
+ 3531  cd ..
+ 3532  ls
+ 3533  mkdir v5ntest
+ 3534  cd v5ntest
+ 3535  cd ..
+ 3536  ls
+ 3537  cd benchmark
+ 3538  ls
+ 3539  mv ../build/tools/onnx/v5n300.* .
+ 3540  ls
+ 3541  code .
+ 3542  cd ..
+ 3543  ls
+ 3544  cd build
+ 3545  ls
+ 3546  make -j36
+ 3547  cd ../benchmark\n\n: 1686588019:0;cd ../benchmark\n: 1686588020:0;cd ../benchmark
+ 3548  ../build/benchmark/benchncnn 10 $(nproc) 0 -1\n
+ 3549  tmux
+ 3550  cd ..
+ 3551  cd build
+ 3552  make -j36
+ 3553  ../build/benchmark/benchncnn 10 $(nproc) 0 -1\n
+ 3554  make -j36
+ 3555  ls
+ 3556  cd build
+ 3557  ls
+ 3558  pwd
+ 3559  cd CMakeFiles
+ 3560  ls
+ 3561  cd ..
+ 3562  ls
+ 3563  cd ..
+ 3564  ls
+ 3565  cd ..
+ 3566  ls
+ 3567  find . -name 'yolov5'
+ 3568  find . -name 'yolov4'
+ 3569  cd build/examples/
+ 3570  ls
+ 3571  ./yolov2
+ 3572  ./nanodet 320
+ 3573  ./nanodet 320,320,3
+ 3574  ./nanodet [320,320,3]
+ 3575  ./nanodet 
+ 3576  ./nanodet ../../images/64-ncnn.png
+ 3577  cd ..
+ 3578  ls
+ 3579  cd ..
+ 3580  cd benchmark
+ 3581  ls
+ 3582  cd ..
+ 3583  ls
+ 3584  cd build/benchmark
+ 3585  ls
+ 3586  cd ..
+ 3587  ls
+ 3588  cd ..
+ 3589  ls
+ 3590  cd benchmark
+ 3591  ../build/examples/nanodet ../../images/64-ncnn.png
+ 3592  ../build/examples/nanodet ../images/256-ncnn.png
+ 3593  ls
+ 3594  make -j36
+ 3595  history| grep benmark
+ 3596  history| grep bench
+ 3597  ./build/benchmark/benchncnn 10 $(nproc) 0 -1\n
+ 3598  ls
+ 3599  cd ..
+ 3600  cd build/benchmark
+ 3601  ./build/benchmark/benchncnn 10 $(nproc) 0 -1\n
+ 3602  cd ..
+ 3603  ls
+ 3604  cd ../benchmark\n
+ 3605  ls
+ 3606  pwd
+ 3607  ../build/benchmark/benchncnn 1 $(nproc) 0 -1\n
+ 3608  cmake ..
+ 3609  make -j36
+ 3610  ../build/benchmark/benchncnn 1 $(nproc) 0 -1\n
+ 3611  ll
+ 3612  cp yolov4-tiny.param yolov4-tiny.param.back
+ 3613  ls
+ 3614  rm yolov4-tiny.param
+ 3615  cp v5n300.param yolov4-tiny.param
+ 3616  ls
+ 3617  make -j36
+ 3618  ../build/benchmark/benchncnn 1 $(nproc) 0 -1\n
+ 3619  ll
+ 3620  cd
+ 3621  cd nanodet
+ 3622  ls
+ 3623  cd demo_ncnn
+ 3624  ls
+ 3625  cd ..
+ 3626  ls
+ 3627  code .
+ 3628  cd
+ 3629  cd ..
+ 3630  ls
+ 3631  tree . | vim-
+ 3632  tree . | vim -
+ 3633  code .
+ 3634  cd demo_ncnn
+ 3635  echo ${CMAKE_C_FLAGS}
+ 3636  echo $CMAKE_C_FLAGS
+ 3637  mkdir build
+ 3638  cd build
+ 3639  cmake ..
+ 3640  ls
+ 3641  cd build/isntall
+ 3642  cd build
+ 3643  ls
+ 3644  cd ..
+ 3645  ls
+ 3646  cd
+ 3647  export ncnn_DIR=~/ncnn/build/install/lib/cmake/ncnn
+ 3648  vim .zshrc
+ 3649  cmake ..
+ 3650  export ncnn_DIR=~/ncnn/build/install/lib/cmake/ncnn
+ 3651  cmake ..
+ 3652  cd ncnn/build
+ 3653  ls
+ 3654  make install
+ 3655  make clean
+ 3656  make -j36
+ 3657  make install
+ 3658  cmake ..
+ 3659  ifconfig
+ 3660  ls
+ 3661  cd 
+ 3662  cd ncnn/benchmark
+ 3663  ls
+ 3664  cd FastestDet
+ 3665  ls
+ 3666  code .
+ 3667  conda activate yolov5
+ 3668  python test.py
+ 3669  conda env list
+ 3670  conda activate fastestdet
+ 3671  python test.py
+ 3672  conda activate fastestdet_39
+ 3673  python test.py
+ 3674  conda activate py37
+ 3675  python test.py
+ 3676  python test.py --yaml configs/coco_traffic_30.yaml
+ 3677  python test.py --yaml configs/coco_traffic_30.yaml --weight weights/weight_AP05:0.253207_280-epoch.pth --img ../dataset_dq/coco_traffic/images/test2017/000000000057.jpg 
+ 3678  python test.py --yaml configs/coco_traffic_30.yaml --weight checkpoint_traffic_30/weight_AP05:0.273402_50-epoch.pt --img ../dataset_dq/coco_traffic/images/test2017/000000000057.jpg 
+ 3679  python test.py --yaml configs/coco.yaml --weight weights/weight_AP05:0.253207_280-epoch.pth --img ../dataset_dq/coco_traffic/images/test2017/000000000057.jpg 
+ 3680  python eval.py
+ 3681  python eval.py --yaml configs/coco_traffic_30.yaml --weight checkpoint_traffic_30/weight_AP05:0.273402_50-epoch.pt
+ 3682  conda activate yolov5
+ 3683  watch -n 1 nvidia-smi
+ 3684  conda activate yolov5
+ 3685  htop
+ 3686  python test.py --yaml configs/coco_traffic_30.yaml --weight checkpoint_traffic_30/weight_AP05:0.273402_50-epoch.pt ../datasets/coco128/images/train2017/000000000092.jpg
+ 3687  python test.py --yaml configs/coco_traffic_30.yaml --weight checkpoint_traffic_30/weight_AP05:0.273402_50-epoch.pt --img ../datasets/coco128/images/train2017/000000000092.jpg
+ 3688  python test.py --yaml configs/coco_traffic_30.yaml --weight checkpoint_traffic_30/weight_AP05:0.273402_50-epoch.pt --img ../datasets/coco128/images/train2017/000000000030.jpg
+ 3689  python test.py --yaml configs/coco_traffic_30.yaml --weight checkpoint_traffic_30/weight_AP05:0.273402_50-epoch.pt --img ../datasets/coco_traffic/images/val2017/000000005060.jpg
+ 3690  python test.py --yaml configs/coco_traffic_30.yaml --weight checkpoint_traffic_30/weight_AP05:0.273402_50-epoch.pt --img ../datasets/coco_traffic/images/val2017/000000003255.jpg
+ 3691  python test.py --yaml configs/coco_traffic_30.yaml --weight checkpoint_traffic_30/weight_AP05:0.273402_50-epoch.pt --img ../datasets/coco_traffic/images/val2017/000000005037.jpg
+ 3692  cd
+ 3693  cd ncnn
+ 3694  ls
+ 3695  cd build
+ 3696  ls
+ 3697  cd tools
+ 3698  ls
+ 3699  cd
+ 3700  find . -name 'libncnn.a'
+ 3701  ls
+ 3702  cd ncnn
+ 3703  ls
+ 3704  cd build
+ 3705  ls
+ 3706  cd install
+ 3707  ls
+ 3708  cd lib
+ 3709  ls
+ 3710  cd ..
+ 3711  ls
+ 3712  cd ..
+ 3713  ls
+ 3714  cd bui
+ 3715  make -j36
+ 3716  make install
+ 3717  find .. -n 'libncnn'
+ 3718  find .. -name 'libncnn'
+ 3719  find . -name 'libncnn.a'
+ 3720  cd ..
+ 3721  ls
+ 3722  make install
+ 3723  vim src/cmake_install.cmake
+ 3724  make install
+ 3725  cmake ..
+ 3726  export ncnn_DIR=/home/pi/ncnn/build/install/lib/cmake/ncnn
+ 3727  cmake ..
+ 3728  ls
+ 3729  make install
+ 3730  cmake --build --target install
+ 3731  cmake --build , --target install
+ 3732  cmake install
+ 3733  cmake ..
+ 3734  make -j36
+ 3735  make install
+ 3736  vim src/cmake_install.cmake
+ 3737  cmake ..
+ 3738  make clean
+ 3739  make -j36
+ 3740  make install
+ 3741  vim src/cmake_install.cmake
+ 3742  make install
+ 3743  find ../ -name 'libncnn.a'
+ 3744  cp src/libncnn.a src/libncnnd.a
+ 3745  make install
+ 3746  cd example/ncnn
+ 3747  bash build.sh
+ 3748  ls
+ 3749  cd ..
+ 3750  ls
+ 3751  cd
+ 3752  cd ncnn
+ 3753  cd build
+ 3754  ls
+ 3755  cd examples
+ 3756  ls
+ 3757  cd ..
+ 3758  ls
+ 3759  cd install
+ 3760  ls
+ 3761  cd lib
+ 3762  ls
+ 3763  cp libncnnd.a libncnn.a
+ 3764  pwd
+ 3765  cd
+ 3766  cd nanodet
+ 3767  cd demo_ncnn
+ 3768  ls
+ 3769  cd build
+ 3770  cmake ..
+ 3771  cd
+ 3772  cd ncnn
+ 3773  ls
+ 3774  cd build/install/lib
+ 3775  ls
+ 3776  cd cmake
+ 3777  ls
+ 3778  cd ncnn
+ 3779  ls
+ 3780  cd
+ 3781  export ncnn_DIR=/home/hzq/ncnn/build/install/lib/cmake/ncnn
+ 3782  cd 
+ 3783  cd nanodet
+ 3784  cd demo_ncnn
+ 3785  cd build
+ 3786  cmake ..
+ 3787  make
+ 3788  ls
+ 3789  ./nanodet_demo
+ 3790  ./nanodet_demo 3
+ 3791  ./nanodet_demo mode=3 path=0
+ 3792  cd tools
+ 3793  ls
+ 3794  cd
+ 3795  cd nanodet
+ 3796  ls
+ 3797  python demo/demo.py image --config config/nanodet-plus-m_320.yml --model  workspace/nanodet-plus-m_320/model_best/nanodet_model_best.pth --path ../datasets/coco_traffic/images/val2017/000000034452.jpg
+ 3798  conda env list
+ 3799  conda activate nanodet
+ 3800  python demo/demo.py image --config config/nanodet-plus-m_320.yml --model  workspace/nanodet-plus-m_320/model_best/nanodet_model_best.pth --path ../datasets/coco_traffic/images/val2017/000000034452.jpg
+ 3801  cd
+ 3802  python demo/demo.py image --config config/nanodet-plus-m_320.yml --model  workspace/nanodet-plus-m_320/model_best/nanodet_model_best.pth --path ../datasets/coco_traffic/images/val2017/000000034452.jpg
+ 3803  conda activate nanodet
+ 3804  python demo/demo.py image --config config/nanodet-plus-m_320.yml --model  workspace/nanodet-plus-m_320/model_best/nanodet_model_best.pth --path ../datasets/coco_traffic/images/val2017/000000034452.jpg
+ 3805  python demo/demo.py video --config config/nanodet-plus-m_320.yml --model  workspace/nanodet-plus-m_320/model_best/nanodet_model_best.pth --path ../桌面/Screenrecorder-2020-01-22-19-24-55-648.mp4
+ 3806  python demo/demo.py video --config config/nanodet-plus-m_320.yml --model  workspace/nanodet-plus-m_320/model_best/nanodet_model_best.pth --path ../桌面/是，大臣.Yes,Minister.S02E06.1981.D5.MiniSD-TLF_x264.mp4
+ 3807  cd
+ 3808  tmux
+ 3809  htop
+ 3810  watch -n 1 nvidia-smi
+ 3811  cd ..
+ 3812  ls
+ 3813  cd
+ 3814  python demo/demo.py video --config config/nanodet-plus-m_320.yml --model  workspace/nanodet-plus-m_320/model_best/nanodet_model_best.pth --path ../datasets/test_video/33ea1f1f299c0f19574a45515440f796.mp4
+ 3815  python demo/demo.py video --config config/nanodet-plus-m_416-yolo.yml --model  workspace/nanodet-plus-m_416/model_best/nanodet_model_best.pth --path ../datasets/test_video/33ea1f1f299c0f19574a45515440f796.mp4
+ 3816  python tools/export_onnx.py --cfg_path config/nanodet-plus-m_320.yml --model_path workspace/nanodet-plus-m_320/model_best/model_best.ckpt --input_shape 320
+ 3817  python tools/export_onnx.py --cfg_path config/nanodet-plus-m_320.yml --model_path workspace/nanodet-plus-m_320/model_best/model_best.ckpt --input_shape 320,320
+ 3818  ls
+ 3819  ll
+ 3820  cd tools
+ 3821  ls
+ 3822  cd ..
+ 3823  ls
+ 3824  sshLink.py pi
+ 3825  cd
+ 3826  cd ncnn
+ 3827  cd build/tools/onnx
+ 3828  ./onnx2ncnn ~/nanodet/nanodet.onnx nanodet320.param nanodet320.bin
+ 3829  ls
+ 3830  cp nanodet320.* ~/nanodet/demo_ncnn
+ 3831  cd
+ 3832  cd ~/nanodet/demo_ncnn
+ 3833  ls
+ 3834  cp nanodet320.bin nanodet.bin
+ 3835  cp nanodet320.param nanodet.param
+ 3836  cd demo_
+ 3837  cd demo_ncnn
+ 3838  ls
+ 3839  ll
+ 3840  ls
+ 3841  cd build
+ 3842  ls
+ 3843  cp nanodet_demo ..
+ 3844  ls
+ 3845  cd ..
+ 3846  ls
+ 3847  ./nanodet_demo 3
+ 3848  ./nanodet_demo 3 0
+ 3849  ./nanodet_demo 2 ../../datasets/test_video/33ea1f1f299c0f19574a45515440f796.mp4
+ 3850  ./nanodet_demo 1 ../../datasets/coco_traffic/images/val2017/000000000724.jpg
+ 3851  cd ..
+ 3852  ls
+ 3853  cd tools
+ 3854  ls
+ 3855  history| grep export
+ 3856  python tools/export_onnx.py --cfg_path config/nanodet-plus-m_320.yml --model_path workspace/nanodet-plus-m_320/model_best/model_best.ckpt --out_path test.onnx
+ 3857  python export_onnx.py --cfg_path config/nanodet-plus-m_320.yml --model_path workspace/nanodet-plus-m_320/model_best/model_best.ckpt --out_path test.onnx
+ 3858  cd ..
+ 3859  python tools/export_onnx.py --cfg_path config/nanodet-plus-m_320.yml --model_path workspace/nanodet-plus-m_320/model_best/model_best.ckpt --out_path test.onnx
+ 3860  ls
+ 3861  cd ..
+ 3862  ls
+ 3863  cd
+ 3864  cd ncnn
+ 3865  cd build
+ 3866  ls
+ 3867  cd tools
+ 3868  ls
+ 3869  cd onnx
+ 3870  ls
+ 3871  history | grep onnx2
+ 3872  ./onnx2ncnn ~/nanodet/test.onnx nanodet.param nanodet.bin
+ 3873  ls
+ 3874  cp nanodet.* ~/nanodet/demo_ncnn
+ 3875  cd demo_ncnn
+ 3876  ls
+ 3877  history| grep nanodet_demo
+ 3878  ./nanodet_demo 1 ../../datasets/coco_traffic/images/val2017/000000000724.jpg
+ 3879  cd ..
+ 3880  ls
+ 3881  cd ..
+ 3882  ls
+ 3883  cd benchmark
+ 3884  ls
+ 3885  cd ..
+ 3886  ls
+ 3887  cd ..
+ 3888  ls
+ 3889  cd benchmark
+ 3890  ls
+ 3891  cp nanodet_m.param ~/nanodet/demo_ncnn
+ 3892  cd demo_ncnn
+ 3893  ls
+ 3894  history | grep nanodet_demo
+ 3895  ./nanodet_demo 1 ../../datasets/coco_traffic/images/val2017/000000000724.jpg
+ 3896  cd ..
+ 3897  ls
+ 3898  cd examples
+ 3899  ls
+ 3900  cd squeezencnn
+ 3901  ls
+ 3902  cd ..
+ 3903  ls
+ 3904  cd ..
+ 3905  ls
+ 3906  cd build
+ 3907  ls
+ 3908  cd examples
+ 3909  ls
+ 3910  ./nanodet
+ 3911  ./nanodet ~/datasets/coco_traffic/images
+ 3912  ./nanodet ~/datasets/coco_traffic/images/val2017/000000000139.jpg
+ 3913  cp ../../benchmark/nanodet_m.param .
+ 3914  ls
+ 3915  ./nanodet ~/datasets/coco_traffic/images/val2017/000000000139.jpg
+ 3916  cp ~/nanodet/demo_ncnn/nanodet.* .
+ 3917  ls
+ 3918  rm nanodet.cpp
+ 3919  rm nanodet.h
+ 3920  ls
+ 3921  rm nanodet_m.param
+ 3922  ls
+ 3923  cp nanodet.param nanodet_m.param
+ 3924  cp nanodet.bin nanodet_m.bin
+ 3925  ls
+ 3926  ./nanodet ~/datasets/coco_traffic/images/val2017/000000000139.jpg
+ 3927  ./nanodet ~/datasets/coco_traffic/images/val2017/000000004395.jpg
+ 3928  ./nanodet ~/datasets/coco_traffic/images/val2017/000000004765.jpg
+ 3929  omz update
+ 3930  ls
+ 3931  sudo reboot now
+ 3932  sudo vim /usr/local/bin/sshLink.py
+ 3933  sshLink.py nasu
+ 3934  ls
+ 3935  sudo vim /usr/local/bin/sshLink.py
+ 3936  sshLink.py alis
+ 3937  ssh root@www.zxcbdx.top
+ 3938  ssh root@8.130.112.85
+ 3939  ls
+ 3940  ping6 2408:8471:8:6f7b:c4e2:1eff:fea7:4303
+ 3941  ping 8.130.112.85
+ 3942  ping www.zxcbdx.top
+ 3943  ls
+ 3944  ifconfig
+ 3945  ping 192.168.31.145
+ 3946  ping 192.168.31.26
+ 3947  cd
+ 3948  cd ncnn
+ 3949  ls
+ 3950  code .
+ 3951  ls
+ 3952  cd carla
+ 3953  ls
+ 3954  make launch
+ 3955  cdl
+ 3956  cd
+ 3957  ls
+ 3958  cd UnrealEngine_4.26/
+ 3959  ls
+ 3960  make launch
+ 3961  cd
+ 3962  ls
+ 3963  vim Makefile
+ 3964  cd Build
+ 3965  ls
+ 3966  cd ..
+ 3967  ls
+ 3968  cd PythonAPI
+ 3969  ls
+ 3970  cd ..
+ 3971  ls
+ 3972  cd Examples
+ 3973  ls
+ 3974  cd CppClient
+ 3975  ls
+ 3976  cd ..
+ 3977  ls
+ 3978  cd ..
+ 3979  ls
+ 3980  cd PythonAPI
+ 3981  ls
+ 3982  cd examples
+ 3983  ls
+ 3984  cd ..
+ 3985  ls
+ 3986  cd ..
+ 3987  ls
+ 3988  cd Unreal
+ 3989  ls
+ 3990  cd CarlaUE4
+ 3991  ls
+ 3992  make launch
+ 3993  cd ..
+ 3994  ls
+ 3995  cd ..
+ 3996  ls
+ 3997  make rebuild
+ 3998  du -sh
+ 3999  cd ..
+ 4000  ls
+ 4001  cd UnrealEngine_4.26
+ 4002  ls
+ 4003  cd
+ 4004  vim .bashrc
+ 4005  vim .zshrc
+ 4006  cd
+ 4007  cd carla
+ 4008  ls
+ 4009  wget https://boostorg.jfrog.io/artifactory/main/release/1.80.0/source/boost_1_80_0.tar.gz
+ 4010  ls
+ 4011  tar -xvf boost_1_80_0.tar.gz
+ 4012  cd ./boost_1_80_0\n
+ 4013  ls
+ 4014  ./bootstrap.sh
+ 4015  htop
+ 4016  sudo ./b2 install
+ 4017  htop
+ 4018  cd 
+ 4019  cd carla
+ 4020  ls
+ 4021  make launch
+ 4022  find . -name 'Setup.sh'
+ 4023  vim Util/BuildTools/Setup.sh
+ 4024  cd /usr/local/include
+ 4025  ls
+ 4026  cd boost
+ 4027  ls
+ 4028  cd 
+ 4029  ls
+ 4030  cd /usr/local
+ 4031  ls
+ 4032  cd include
+ 4033  ls
+ 4034  pwd
+ 4035  /usr/local/
+ 4036  cd 
+ 4037  cd /usr/local/lib
+ 4038  ls
+ 4039  make launch
+ 4040  find . -name 'boost_1_80_0.tar'
+ 4041  find .. -name 'boost_1_80_0.tar'
+ 4042  cd
+ 4043  find .. -name 'boost_1_80_0.tar.gz.4'
+ 4044  cd carla/Build
+ 4045  ls
+ 4046  tmux
+ 4047  ls
+ 4048  cd boost-1.80.0-c10-install
+ 4049  ls
+ 4050  cd include
+ 4051  ls
+ 4052  cd boost
+ 4053  ls
+ 4054  cd ..
+ 4055  ls
+ 4056  cd ..
+ 4057  ls
+ 4058  cd lib
+ 4059  ls
+ 4060  cd ..
+ 4061  ls
+ 4062  cd ..
+ 4063  ls
+ 4064  cd ..
+ 4065  ls
+ 4066  make launch
+ 4067  cd Build
+ 4068  ls
+ 4069  cd ..
+ 4070  history | build.sh
+ 4071  history | grep build.sh
+ 4072  find . -name 'build.sh'
+ 4073  make launch
+ 4074  ls
+ 4075  watch -n 1 ls
+ 4076  vim Util/BuildTools/Setup.sh
+ 4077  cd ..
+ 4078  vim Util/BuildTools/Setup.sh
+ 4079  ls
+ 4080  cd carla
+ 4081  ls
+ 4082  cd Build
+ 4083  ls
+ 4084  cd boost-1.80.0-c10-install
+ 4085  ls
+ 4086  cd include
+ 4087  ls
+ 4088  cd boost
+ 4089  ls
+ 4090  cd ..
+ 4091  ls
+ 4092  cd ..
+ 4093  ls
+ 4094  cd lib
+ 4095  ls
+ 4096  tmux
+ 4097  tmux attach
+ 4098  tar -xvf boost_1_80_0.tar.gz
+ 4099  ls
+ 4100  make launch
+ 4101  python
+ 4102  conda activate py37
+ 4103  make launch
+ 4104  ls
+ 4105  conda deactivate\n
+ 4106  make launch
+ 4107  make setup
+ 4108  make launch
+ 4109  vim Util/BuildTools/Setup.sh
+ 4110  make launch
+ 4111  conda deactivate
+ 4112  ls
+ 4113  python
+ 4114  ls -l /usr/bin/python\n
+ 4115  sudo rm /usr/bin/python\n
+ 4116  python3
+ 4117  cd /usr/bin
+ 4118  ls -al python*
+ 4119  sudo ln -s /usr/bin/python3.8 /usr/bin/python
+ 4120  python
+ 4121  cd
+ 4122  cd carla
+ 4123  make launch
+ 4124  python
+ 4125  make launch
+ 4126  vim Util/BuildTools/Setup.sh
+ 4127  make launch
+ 4128  vim Util/BuildTools/Setup.sh
+ 4129  make launch
+ 4130  cd boost-1.80.0-c10-install
+ 4131  ls
+ 4132  cd include
+ 4133  ls
+ 4134  vim Util/BuildTools/Setup.sh
+ 4135  cd include
+ 4136  make launch
+ 4137  htop
+ 4138  make launch -j36
+ 4139  make rebuild
+ 4140  sudo clang --version\n
+ 4141  sudo update-alternatives --install /usr/bin/clang++ clang++ /usr/lib/llvm-8/bin/clang++ 180 &&\n
+ 4142  sudo update-alternatives --install /usr/bin/clang++ clang++ /usr/lib/llvm-8/bin/clang++ 180 &&\nsudo update-alternatives --install /usr/bin/clang clang /usr/lib/llvm-8/bin/clang 180\n
+ 4143  sudo apt install clang-8
+ 4144  sudo aptitude install clang-8\n
+ 4145  sudo apt install clang-8
+ 4146  sudo apt purge clang
+ 4147  sudo apt purge llvm-10 clang-10 
+ 4148  sudo clang --version\n
+ 4149  sudo apt install llvm-8 clang-8
+ 4150  sudo apt install llvm
+ 4151  sudo apt install llvm-8
+ 4152  sudo apt-get update
+ 4153  sudo apt install llvm-8
+ 4154  sudo apt purge llvm-10-runtime llvm-10-tools
+ 4155  sudo apt purge libclang1-10 libclang-common-10-dev libclang-cpp10
+ 4156  sudo apt install llvm-8
+ 4157  sudo apt-add-repository "deb http://apt.llvm.org/focal/ llvm-toolchain-focal main"\n
+ 4158  sudo apt-get install build-essential clang-10 lld-10 g++-7 cmake ninja-build libvulkan1 python python-dev python3-dev python3-pip libpng-dev libtiff5-dev libjpeg-dev tzdata sed curl unzip autoconf libtool rsync libxml2-dev git\n
+ 4159  sudo update-alternatives --install /usr/bin/clang++ clang++ /usr/lib/llvm-10/bin/clang++ 180 &&\n
+ 4160  sudo update-alternatives --install /usr/bin/clang++ clang++ /usr/lib/llvm-10/bin/clang++ 180 &&\nsudo update-alternatives --install /usr/bin/clang clang /usr/lib/llvm-10/bin/clang 180
+ 4161  pip3 -V\n
+ 4162  pip3 install --upgrade pip\n
+ 4163  export PATH=PATH:/home/hzq/.local/bin
+ 4164  echo $(PATH)
+ 4165  echo ${PATH}
+ 4166  LS
+ 4167  ls
+ 4168  conda deactivate
+ 4169  ls
+ 4170  echo ${PATH}
+ 4171  export PATH=/home/hzq/.local/bin:$PATH
+ 4172  echo ${PATH}
+ 4173  pip3 -V\n
+ 4174  pip3 -V
+ 4175  pip install --user setuptools &&\npip3 install --user -Iv setuptools==47.3.1 &&\npip install --user distro &&\npip3 install --user distro &&\npip install --user wheel &&\npip3 install --user wheel auditwheel
+ 4176  cd
+ 4177  cd carla
+ 4178  cd ..
+ 4179  rm -rf carla
+ 4180  sudo rm -rf carla
+ 4181  cd carla
+ 4182  ls
+ 4183  ./Update.sh
+ 4184  sshLink.py pi
+ 4185  sudo nethogs
+ 4186  sshLink.py alis
+ 4187  vim /usr/local/bin
+ 4188  vim /usr/local/bin/sshLink.py
+ 4189  sudo vim /usr/local/bin/sshLink.py
+ 4190  sshLink.py alis
+ 4191  cd
+ 4192  conda deactivate
+ 4193  ls
+ 4194  ping 8.130.112.85
+ 4195  clear
+ 4196  ping 8.130.112.85
+ 4197  cd
+ 4198  vim /usr/local/bin/sshLink.py
+ 4199  cd
+ 4200  ping 8.130.112.85
+ 4201  sshLink.py
+ 4202  sshLink.py pi
+ 4203  sshLink.py pu
+ 4204  vim /usr/local/bin
+ 4205  cd /usr/local/bin
+ 4206  ls
+ 4207  cp sshLink.py sshLink
+ 4208  sudo cp sshLink.py sshLink
+ 4209  ls
+ 4210  sshLink
+ 4211  sshLink pi
+ 4212  ls
+ 4213  rm sshLink.py
+ 4214  sudo rm sshLink.py
+ 4215  cd
+ 4216  sshLink pi
+ 4217  sshLink alis
+ 4218  lsusb
+ 4219  ifconfig
+ 4220  ping www.baidu.com
+ 4221  ls
+ 4222  cd dataset
+ 4223  ls
+ 4224  cd datasets
+ 4225  ls
+ 4226  cd coco_traffic
+ 4227  ls
+ 4228  cd images
+ 4229  ls
+ 4230  cd train2017
+ 4231  ls
+ 4232  ll | wc -l
+ 4233  cd
+ 4234  cd yolov
+ 4235  cd yolov5
+ 4236  ls
+ 4237  code .
+ 4238  conda activate yolov5
+ 4239  cd 
+ 4240  cd datasets
+ 4241  ls
+ 4242  cd coco_traffic
+ 4243  ls
+ 4244  cd images
+ 4245  ls
+ 4246  cd val2017
+ 4247  ls
+ 4248  ll | wc -l
+ 4249  cd
+ 4250  cd nanodet
+ 4251  ls
+ 4252  code .
+ 4253  history | grep /tools/test.py
+ 4254  history| vim -
+ 4255  conda activate nanodet
+ 4256  ls
+ 4257  clear
+ 4258  python tools/test.py
+ 4259  python tools/test.py --config config/nanodet-plus-m_320.yml --model workspace/nanodet-plus-m_320/model_best/nanodet_model_best.pth
+ 4260  python tools/test.py --config config/nanodet-plus-m_320.yml --model workspace/nanodet-plus-m_320/model_best/model_best.ckpt
+ 4261  python demo/demo.py video --config config/nanodet-plus-m_320.yml --model  workspace/nanodet-plus-m_320/model_best/nanodet_model_best.pth --path ../桌面/Screenrecorder-2020-01-22-19-24-55-648.mp4
+ 4262  nvidia-smi
+ 4263  watch -n 1 nvidia-smi
+ 4264  watch -n 1 nvidia-
+ 4265  watch -n 1 nvidia-smi
+ 4266  python demo/demo.py video --config config/nanodet-plus-m_320.yml --model  workspace/nanodet-plus-m_320/model_best/nanodet_model_best.pth --path ../桌面/Screenrecorder-2020-01-22-19-24-55-648.mp4
+ 4267  taskset -c 2 python demo/demo.py video --config config/nanodet-plus-m_320.yml --model  workspace/nanodet-plus-m_320/model_best/nanodet_model_best.pth --path ../桌面/Screenrecorder-2020-01-22-19-24-55-648.mp4
+ 4268  htop
+ 4269  python demo/demo.py video --config config/nanodet-plus-m_320.yml --model  workspace/nanodet-plus-m_320/model_best/nanodet_model_best.pth --path ../桌面/Screenrecorder-2020-01-22-19-24-55-648.mp4
+ 4270  taskset -c 2 python demo/demo.py video --config config/nanodet-plus-m_320.yml --model  workspace/nanodet-plus-m_320/model_best/nanodet_model_best.pth --path ../桌面/Screenrecorder-2020-01-22-19-24-55-648.mp4
+ 4271  cd
+ 4272  cd FastestDet
+ 4273  ls
+ 4274  code .
+ 4275  history | grep test.py
+ 4276  python test.py --yaml configs/coco_traffic_30.yaml --weight checkpoint_traffic_30/weight_AP05:0.273402_50-epoch.pt --img ../datasets/coco128/images/train2017/000000000030.jpg
+ 4277  conda activate yolov5
+ 4278  python test.py --yaml configs/coco_traffic_30.yaml --weight checkpoint_traffic_30/weight_AP05:0.273402_50-epoch.pt --img ../datasets/coco128/images/train2017/000000000030.jpg
+ 4279  conda activate py37
+ 4280  python test.py --yaml configs/coco_traffic_30.yaml --weight checkpoint_traffic_30/weight_AP05:0.273402_50-epoch.pt --img ../datasets/coco128/images/train2017/000000000030.jpg
+ 4281  python eval.py --yaml configs/coco_traffic_30.yaml --weight checkpoint_traffic_30/weight_AP05:0.273402_50-epoch.pt 
+ 4282  python eval.py --yaml configs/coco_traffic.yaml --weight checkpoint_traffic/weight_AP05:0.344789_210-epoch.pth
+ 4283  python eval.py --yaml configs/coco_traffic_30.yaml --weight checkpoint_traffic/weight_AP05:0.344789_210-epoch.pth
+ 4284  taskset -c 1 python eval.py --yaml configs/coco_traffic_30.yaml --weight checkpoint_traffic/weight_AP05:0.344789_210-epoch.pth
+ 4285  python eval.py --yaml configs/coco_traffic_30.yaml --weight checkpoint_traffic/weight_AP05:0.344789_210-epoch.pth
+ 4286  python test.py --yaml configs/coco_traffic_30.yaml --weight checkpoint_traffic_30/weight_AP05:0.273402_50-epoch.pt --img ../datasets/coco128/images/train2017/000000000030.jpg
+ 4287  python test.py --yaml configs/coco_traffic_30.yaml --weight checkpoint_traffic_30/weight_AP05:0.273402_50-epoch.pt --img ../datasets/coco128/images/train2017/000000000030.jpg --cpu True
+ 4288  python test.py --yaml configs/coco_traffic_30.yaml --weight checkpoint_traffic_30/weight_AP05:0.273402_50-epoch.pt --img ../datasets/coco128/images/train2017/000000000030.jpg --cpu 
+ 4289  taskset -c 1 python test.py --yaml configs/coco_traffic_30.yaml --weight checkpoint_traffic_30/weight_AP05:0.273402_50-epoch.pt --img ../datasets/coco128/images/train2017/000000000030.jpg --cpu 
+ 4290  taskset -c 1 python test.py --yaml configs/coco_traffic_30.yaml --weight checkpoint_traffic/weight_AP05:0.344789_210-epoch.pth --img ../datasets/coco128/images/train2017/000000000030.jpg --cpu 
+ 4291  taskset -c 1 python test.py --yaml configs/coco_traffic_30.yaml --weight checkpoint_traffic/weight_AP05:0.344789_210-epoch.pth --img ../datasets/coco128/images/train2017/000000000030.jpg --cpu --onnx
+ 4292  taskset -c 1 python test.py --yaml configs/coco_traffic_30.yaml --weight checkpoint_traffic/weight_AP05:0.344789_210-epoch.pth --img ../datasets/coco_traffic/images/train2017/000000000049.jpg --cpu --onnx
+ 4293  taskset -c 1 python test.py --yaml configs/coco_traffic_30.yaml --weight checkpoint_traffic/weight_AP05:0.344789_210-epoch.pth --img ../datasets/coco_traffic/images/train2017/000000000049.jpg --cpu 
+ 4294  pip list
+ 4295  python eval.py --yaml configs/coco_traffic_30.yaml --weight checkpoint_traffic/weight_AP05:0.344789_210-epoch.pth
+ 4296  taskset -1 python eval.py --yaml configs/coco_traffic_30.yaml --weight checkpoint_traffic/weight_AP05:0.344789_210-epoch.pth
+ 4297  taskset -c 1 python eval.py --yaml configs/coco_traffic_30.yaml --weight checkpoint_traffic/weight_AP05:0.344789_210-epoch.pth
+ 4298  s-tui
+ 4299  ls
+ 4300  cd 桌面
+ 4301  ls
+ 4302  ranger
+ 4303  cd 毕业设计
+ 4304  ls
+ 4305  codd .
+ 4306  code .
+ 4307  cd
+ 4308  cd yolov
+ 4309  cd yolov5
+ 4310  ls
+ 4311  cd model
+ 4312  ls
+ 4313  cd
+ 4314  cd yolov5
+ 4315  conda activate yolov5
+ 4316  ls
+ 4317  history| grep benchmark
+ 4318  taskset -c 35 python benchmarks.py --weights runs/train/v5n_fasternet300_/weights/best.pt --imgsz 640 --device cpu\n
+ 4319  tmux
+ 4320  conda activate yolov5
+ 4321  htop
+ 4322  taskset -c 35 python benchmarks.py --weights runs/train/v5n_fasternet300_/weights/best.pt --imgsz 640 --device cpu\n
+ 4323  taskset -c 35 python benchmarks.py --weights runs/train/v5n_fasternet300_/weights/best.pt --imgsz 320 --device cpu\n
+ 4324  taskset -c 35 python benchmarks.py --weights runs/train/v5n_fasternet300_/weights/best.pt --imgsz 640 --device cpu\n
+ 4325  taskset -c 35 python benchmarks.py --weights model/v5ghost300_/weights/best.pt --imgsz 640 --device cpu\n
+ 4326  taskset -c 35 python benchmarks.py --weights model/v5ghost300_/weights/best.pt --imgsz 320 --device cpu\n
+ 4327  history| grep eval
+ 4328  taskset -c 1 python eval.py --yaml configs/coco_traffic_30.yaml --weight checkpoint_traffic/weight_AP05:0.344789_210-epoch.pth
+ 4329  watch -n 1 nvidia-
+ 4330  watch -n 1 nvidia-smi
+ 4331  python benchmarks.py --weights model/v5ghost300_/weights/best.pt --imgsz 320 --device 0\n
+ 4332  history | grep test.py
+ 4333  python tools/test.py --config config/nanodet-plus-m_320.yml --model workspace/nanodet-plus-m_320/model_best/nanodet_model_best.pth
+ 4334  taskset -c 1 python tools/test.py --config config/nanodet-plus-m_320.yml --model workspace/nanodet-plus-m_320/model_best/model_best.ckpt
+ 4335  history| grep demo.py
+ 4336  taskset -c 2 python demo/demo.py video --config config/nanodet-plus-m_320.yml --model  workspace/nanodet-plus-m_320/model_best/nanodet_model_best.pth --path ../桌面/Screenrecorder-2020-01-22-19-24-55-648.mp4
+ 4337  python tools/test.py --config config/nanodet-plus-m_320.yml --model workspace/nanodet-plus-m_320/model_best/model_best.ckpt
+ 4338  ls
+ 4339  cd
+ 4340  sshLink pi
+ 4341  python detect.py --weights model/v5nfull300/weights/best.pt ../datasets/coco_traffic/images/val2017/000000434548.jpg
+ 4342  cd ..
+ 4343  cd
+ 4344  cd yolov
+ 4345  cd yolov5
+ 4346  python detect.py --weights model/v5nfull300/weights/best.pt ../datasets/coco_traffic/images/val2017/000000434548.jpg
+ 4347  python detect.py --weights model/v5nfull300/weights/best.pt data/images/bus.jpg
+ 4348  python detect.py --weights yolov5s.pt data/images/bus.jpg\n
+ 4349  python detect.py --weights yolov5s.pt 0\n
+ 4350  python detect.py --weights ../桌面/Screenrecorder-2020-01-22-19-24-55-648.mp4\n
+ 4351  python detect.py --weights yolov5s.pt ../桌面/Screenrecorder-2020-01-22-19-24-55-648.mp4\n
+ 4352  conda activate py37
+ 4353  python detect.py --weights yolov5s.pt ../桌面/Screenrecorder-2020-01-22-19-24-55-648.mp4\n
+ 4354  python val.py
+ 4355  python detect.py
+ 4356  python detect.py --weights model/v5nfull300/weights/best.pt
+ 4357  python detect.py --weights model/v5ghost300_/weights/best.pt
+ 4358  python detect.py --weights model/v5ghost300_/weights/best.pt --device cpu
+ 4359  taskset -c 1 python detect.py --weights model/v5ghost300_/weights/best.pt --device cpu
+ 4360  taskset -c 1 python detect.py --weights model/v5mobilenetfull300/weights/best.pt --device cpu
+ 4361  taskset -c 1 python detect.py --weights model/v5nfull300/weights/best. --device cpu
+ 4362  taskset -c 1 python detect.py --weights model/v5nfull300/weights/best.pt --device cpu
+ 4363  taskset -c 2 python demo/demo.py video --config config/nanodet-plus-m_320.yml --model  workspace/nanodet-plus-m_320/model_best/nanodet_model_best.pth --path ../yolov5/data/images/bus.jpg
+ 4364  history| grep test.py
+ 4365  taskset -c 1 python test.py --yaml configs/coco_traffic_30.yaml --weight checkpoint_traffic/weight_AP05:0.344789_210-epoch.pth --img ../datasets/coco_traffic/images/train2017/000000000049.jpg --cpu
+ 4366  taskset -c 1 python test.py --yaml configs/coco_traffic_30.yaml --weight checkpoint_traffic/weight_AP05:0.344789_210-epoch.pth --img ../yolov5/data/images/bus.jpg --cpu
+ 4367  taskset -c 1 python detect.py --weights model/v5nfull300/weights/best.pt --device cpu
+ 4368  taskset -c 1 python detect.py --weights model/v5nfull300/weights/best.pt 
+ 4369  taskset -c 1 python detect.py --weights model/v5nfull300/weights/best.pt --device cpu
+ 4370  taskset -c 1 python detect.py --weights model/v5n_fasternet300_/weights/best.pt --device cpu
+ 4371  taskset -c 1 python detect.py --weights model/v5n_fasternet300_/weights/best.pt --device cpu --imgsz [320]
+ 4372  taskset -c 1 python detect.py --weights model/v5n_fasternet300_/weights/best.pt --device cpu --imgsz 320
+ 4373  taskset -c 1 python detect.py --weights model/v5nfull300/weights/best.pt --device cpu --imgsz 320
+ 4374  taskset -c 1 python detect.py --weights model/v5n_fasternet300_/weights/best.pt --device cpu --imgsz 320
+ 4375  taskset -c 1 python detect.py --weights model/v5n_fasternet300_/weights/best.pt --device cpu --imgsz 640
+ 4376  history | grep benchmark
+ 4377  taskset -c 35 python benchmarks.py --weights model/v5n_fasternet300_/weights/best. --imgsz 640 --device cpu\n
+ 4378  taskset -c 35 python benchmarks.py --weights model/v5n_fasternet300_/weights/best. --imgsz 640 --device cpu
+ 4379  taskset -c 35 python benchmarks.py --weights model/v5n_fasternet300_/weights/best.pt --imgsz 640 --device cpu
+ 4380  taskset -c 1 python detect.py --weights model/v5ghost300_/weights/best.pt --device cpu --imgsz 640
+ 4381  taskset -c 35 python detect.py --weights model/v5ghost300_/weights/best.pt --device cpu --imgsz 640
+ 4382  taskset -c 35 python detect.py --weights model/v5n_fasternet300_/weights/best.pt --device cpu --imgsz 640
+ 4383  taskset -c 35 python detect.py --weights model/v5ghost300_/weights/best.pt --device cpu --imgsz 320
+ 4384  taskset -c 35 python detect.py --weights model/v5mobilenetfull300/weights/best.pt --device cpu --imgsz 320
+ 4385  taskset -c 35 python detect.py --weights model/v5nfull300 --device cpu --imgsz 320
+ 4386  taskset -c 35 python detect.py --weights model/v5nfull300/weights/best.pt --device cpu --imgsz 320
+ 4387  taskset -c 35 python detect.py --weights model/v5nfull300/weights/best.pt --device cpu --imgsz 640
+ 4388  taskset -c 1 python test.py --yaml configs/coco_traffic_30.yaml --weight checkpoint_traffic/weight_AP05:0.344789_210-epoch.pth --img ../yolov5/data/images/bus.jpg --cpu
+ 4389  taskset -c 1 python test.py --yaml configs/coco_traffic_30.yaml --weight checkpoint_traffic/weight_AP05:0.344789_210-epoch.pth --img ../yolov5/data/images/320.jpg --cpu
+ 4390  taskset -c 1 python test.py --yaml configs/coco_traffic_30.yaml --weight checkpoint_traffic/weight_AP05:0.344789_210-epoch.pth --img ../yolov5/data/images/640.jpg --cpu
+ 4391  taskset -c 2 python demo/demo.py video --config config/nanodet-plus-m_320.yml --model  workspace/nanodet-plus-m_320/model_best/nanodet_model_best.pth --path ../yolov5/data/images/320.jpg
+ 4392  taskset -c 2 python demo/demo.py video --config config/nanodet-plus-m_320.yml --model  workspace/nanodet-plus-m_320/model_best/nanodet_model_best.pth --path ../yolov5/data/images/640.jpg
+ 4393  taskset -c 2 python demo/demo.py image --config config/nanodet-plus-m_320.yml --model  workspace/nanodet-plus-m_320/model_best/nanodet_model_best.pth --path ../yolov5/data/images/640.jpg
+ 4394  conda activate nanodet
+ 4395  taskset -c 2 python demo/demo.py image --config config/nanodet-plus-m_320.yml --model  workspace/nanodet-plus-m_320/model_best/nanodet_model_best.pth --path ../yolov5/data/images/640.jpg
+ 4396  taskset -c 2 python demo/demo.py image --config config/nanodet-plus-m_320.yml --model  workspace/nanodet-plus-m_320/model_best/nanodet_model_best.pth --path ../yolov5/data/images/320.jpg
+ 4397  taskset -c 2 python demo/demo.py image --config config/nanodet-plus-m_416-yolo.yml --model  workspace/nanodet-plus-m_416/model_best/nanodet_model_best.pth --path ../yolov5/data/images/320.jpg
+ 4398  conda activate nanodet
+ 4399  taskset -c 2 python demo/demo.py image --config config/nanodet-plus-m_320.yml --model  workspace/nanodet-plus-m_320/model_best/nanodet_model_best.pth --path ../yolov5/data/images/320.jpg
+ 4400  python demo/demo.py image --config config/nanodet-plus-m_320.yml --model  workspace/nanodet-plus-m_320/model_best/nanodet_model_best.pth --path ../yolov5/data/images/320.jpg
+ 4401  history | grep videp
+ 4402  history | grep video
+ 4403  python demo/demo.py video --config config/nanodet-plus-m_320.yml --model  workspace/nanodet-plus-m_320/model_best/nanodet_model_best.pth --path ../桌面/Screenrecorder-2020-01-22-19-24-55-648.mp4
+ 4404  taskset -c 1 python demo/demo.py video --config config/nanodet-plus-m_320.yml --model  workspace/nanodet-plus-m_320/model_best/nanodet_model_best.pth --path ../桌面/Screenrecorder-2020-01-22-19-24-55-648.mp4
+ 4405  sshLink xd
+ 4406  tmux attach
+ 4407  sshLink xd
+ 4408  mkdir linux
+ 4409  cd linux
+ 4410  ls
+ 4411  mkdir imx6ull
+ 4412  cd imx6ull
+ 4413  ls
+ 4414  cd
+ 4415  cd linux/imx6ull
+ 4416  ls
+ 4417  conda activate yolov5
+ 4418  mkdir img_download
+ 4419  cd img_download
+ 4420  dolphin .
+ 4421  ls /dev/sd*
+ 4422  sudo fdisk -l
+ 4423  ls
+ 4424  cd files
+ 4425  ls
+ 4426  chmod +x imx6mkemmcboot.sh imx6mknandboot.sh imx6mksdboot.sh 
+ 4427  ls
+ 4428  sudo ./imx6mksdboot.sh -device /dev/sdc -flash emmc -ddrsize 512
+ 4429  sudo iotop
+ 4430  htop
+ 4431  sudo iotop
+ 4432  ls
+ 4433  du -h
+ 4434  htop
+ 4435  sudo iotop
+ 4436  ps -ax
+ 4437  ps -ax | grep imx
+ 4438  watch -n 1 ps -ax | grep imx
+ 4439  watch -n 1 (ps -ax | grep imx)
+ 4440  watch -n 1 ps -ax >> grep imx
+ 4441  ls
+ 4442  cd root
+ 4443  ls
+ 4444  sudo chmod
+ 4445  sudo chmod hzq root
+ 4446  ls
+ 4447  cd root
+ 4448  sudo chmod hzq root
+ 4449  sudo su
+ 4450  pwd
+ 4451  sudo tabby
+ 4452  sudo apt-get install putty
+ 4453  putty
+ 4454  sudo apt install cutecom
+ 4455  cutecom
+ 4456  sudo su
+ 4457  sudo fdisk -l
+ 4458  sudo ./imx6mksdboot.sh -device /dev/sdd -flash emmc -ddrsize 512
+ 4459  cd
+ 4460  cd linux/imx6ull/img_download/files
+ 4461  ls
+ 4462  sudo ./imx6mksdboot.sh -device /dev/sdd -flash emmc -ddrsize 512
+ 4463  cd
+ 4464  pwd
+ 4465  cd /media/hzq/rootfs
+ 4466  ls
+ 4467  cd home
+ 4468  ls
+ 4469  sudo su
+ 4470  cd
+ 4471  cd linux/imx6ull/img_download/files
+ 4472  ls
+ 4473  sync
+ 4474  sudo dolphin
+ 4475  sudo su
+ 4476  cutecom
+ 4477  sudo su
+ 4478  sudo apt install minicom
+ 4479  ls
+ 4480  sudo su
+ 4481  minico
+ 4482  minicom
+ 4483  sudo su
+ 4484  code .
+ 4485  history | vim -
+ 4486  python fig.py
+ 4487  cd datasets
+ 4488  ls
+ 4489  cd coco_traffic
+ 4490  ls
+ 4491  clear
+ 4492  ll ./images/train2017 | wc -l
+ 4493  ll ./images/val2017 | wc -l
+ 4494  cd
+ 4495  sshLink xd
+ 4496  ls
+ 4497  tmux attach
+ 4498  tmux
+ 4499  sudo iotop
+ 4500  sudo nethogs
+ 4501  ls
+ 4502  sshLink xd
+ 4503  ls
+ 4504  cd
+ 4505  ifconfig
+ 4506  sshLink xd
+ 4507  htop
+ 4508  tmux attach
+ 4509  history | grep ssh
+ 4510  history | grep ssh >> vim -
+ 4511  ls
+ 4512  vim vim
+ 4513  rm vim
+ 4514  ls
+ 4515  cd yolov5
+ 4516  ls
+ 4517  vim benchmarks.py
+ 4518  history | grep benchmark
+ 4519  vim benchmarks.py
+ 4520  vim data/coco_traffic
+ 4521  vim data/coco_traffic.yaml
+ 4522  python benchmarks.py --weights model/v5n_fasternet300_/weights/best.pt --imgsz 640 --device 0
+ 4523  tmux
+ 4524  python benchmarks.py --weights model/v5n_fasternet300_/weights/best.pt --imgsz 640 --device 0
+ 4525  conda activate yolov5
+ 4526  python benchmarks.py --weights model/v5n_fasternet300_/weights/best.pt --imgsz 640 --device 0
+ 4527  watch -n 1 nvidia-smi
+ 4528  sshLink xd
+ 4529  tmux attach
+ 4530  ls
+ 4531  ifconfig
+ 4532  ls
+ 4533  cd
+ 4534  htop
+ 4535  sshLink xd
+ 4536  ls
+ 4537  ifconfig
+ 4538  ls
+ 4539  ifconfig
+ 4540  ls
+ 4541  ifconfig
+ 4542  ls
+ 4543  ifconfig
+ 4544  ls
+ 4545  ifconfig
+ 4546  ls
+ 4547  ifconfig
+ 4548  ls
+ 4549  ifconfig
+ 4550  ls
+ 4551  ifconfig
+ 4552  ls
+ 4553  ifconfig
+ 4554  ls
+ 4555  ifconfig
+ 4556  ls
+ 4557  ifconfig
+ 4558  ls
+ 4559  ifconfig
+ 4560  ls
+ 4561  ifconfig
+ 4562  wget magnet:?xt=urn:btih:08D3C67081BAA56540AABEE9691F8E6332378ADC\n
+ 4563  aria2c magnet:?xt=xxxxx\n
+ 4564  apt install aria2\n
+ 4565  sudo apt install aria2
+ 4566  aria2 magnet:?xt=urn:btih:08D3C67081BAA56540AABEE9691F8E6332378ADC\n
+ 4567  aria2c magnet:?xt=urn:btih:08D3C67081BAA56540AABEE9691F8E6332378ADC\n
+ 4568  aria2c magnet:?xt=urn:btih:013874CD2AA29E20A75903DA9B21EA1B7E253BE2\n
+ 4569  ls
+ 4570  aria2c magnet:?xt=urn:btih:013874CD2AA29E20A75903DA9B21EA1B7E253BE2\n
+ 4571  aria2c 'magnet:?xt=urn:btih:013874CD2AA29E20A75903DA9B21EA1B7E253BE2'\n
+ 4572  tmux
+ 4573  aria2c 'magnet:?xt=urn:btih:013874CD2AA29E20A75903DA9B21EA1B7E253BE2'\n
+ 4574  aria2c 'magnet:?xt=urn:btih:08D3C67081BAA56540AABEE9691F8E6332378ADC'\n
+ 4575  aria2c 'magnet:?xt=urn:btih:DE2E7C86D5AAE2488296D58545DE21DA4BBDA86E'\n
+ 4576  sudo apt-get install rar\n
+ 4577  ls
+ 4578  cd datasets
+ 4579  ls
+ 4580  unrar 拉链.rar
+ 4581  cd 新建文件夹
+ 4582  ls
+ 4583  unrar x 拉链.rar
+ 4584  sudo apt install unrar
+ 4585  unrar x 拉链.rar
+ 4586  ls
+ 4587  cd 拉链
+ 4588  ls
+ 4589  cd 邢谨荟
+ 4590  ls
+ 4591  labelme .
+ 4592  labelme
+ 4593  ls
+ 4594  ifconfig
+ 4595  ls
+ 4596  clear
+ 4597  ifconfig
+ 4598  ls
+ 4599  clear
+ 4600  sudo apt install dialog python3-dev make git bc gcc flex bison ninja-build libssl-dev \\n      rsync pkg-config device-tree-compiler squashfs-tools parted dosfstools cpio unzip wget
+ 4601  ls
+ 4602  cmake 
+ 4603  cmake -v
+ 4604  cmake -version
+ 4605  wget -c https://cmake.org/files/v3.19/cmake-3.19.3-Linux-x86_64.tar.gz
+ 4606  tar -zxvf cmake-3.19.3-Linux-x86_64.tar.gz
+ 4607  sudo mv cmake-3.19.3-Linux-x86_64 /usr/bin/
+ 4608  echo 'export PATH="/usr/bin/cmake-3.19.3-Linux-x86_64/bin:$PATH"' >> ~/.zshrc
+ 4609  vim .zshrc
+ 4610  ls
+ 4611  source .zshrc
+ 4612  cmake-3.19.3-Linux-x86_64 -version
+ 4613  sudo cmake-3.19.3-Linux-x86_64 -version
+ 4614  cd /usr/bin
+ 4615  ls
+ 4616  cd cmake-3.19.3-Linux-x86_64
+ 4617  ls
+ 4618  cd bin
+ 4619  ls
+ 4620  cd
+ 4621  ls
+ 4622  \nssh root@192.168.42.1\n
+ 4623  ls
+ 4624  cd
+ 4625  cd 桌面
+ 4626  ls]
+ 4627  tar -cvf 邢谨荟.tar 邢谨荟
+ 4628  ifconfig
+ 4629  gedit
+ 4630  ls
+ 4631  whereis sshLink
+ 4632  sudo vim /usr/local/bin/sshLink
+ 4633  sshLink nasu
+ 4634  ls
+ 4635  ifconfig
+ 4636  sudo dpkg -i utools_3.3.0_amd64.deb
+ 4637  ls
+ 4638  ls *.deb
+ 4639  rm baidunetdisk_4.17.7_amd64.deb code_1.78.2-1683731010_amd64.deb com.alibabainc.dingtalk_1.7.0.30424_amd64.deb Feishu-linux_x64-6.1.12.deb google-chrome-stable_current_amd64.deb linuxqq_3.1.1-11223_amd64.deb netease-cloud-music_1.2.1_amd64_ubuntu_20190428.deb SunloginClient_11.0.1.44968_amd64.deb tabby-1.0.197-linux-x64.deb TencentMeeting_0300000000_3.14.0.402_x86_64_default.publish.deb utools_3.3.0_amd64.deb wps-office_11.1.0.11698_amd64.deb wps-office_11.1.0.11698.XA_amd64.deb Xmind-for-Linux-amd64bit-23.05.2662-202305210821.deb 
+ 4640  ls
+ 4641  rm *.pdf
+ 4642  ls
+ 4643  clear
+ 4644  ls
+ 4645  rm uTools_1687180647804.png uTools_1687180695907.png uTools_1687180729486.png uTools_1687180872356.png uTools_1687181091796.png 
+ 4646  ls
+ 4647  ssh root@192.168.31.145
+ 4648  ssh admin@192.168.31.145
+ 4649  ls
+ 4650  ifconfig
+ 4651  ls
+ 4652  cd linux
+ 4653  ls
+ 4654  cd imx6ull
+ 4655  ls
+ 4656  mkdir uboot
+ 4657  ls
+ 4658  sudo vim /usr/local/bin/sshLink
+ 4659  sshLink starv
+ 4660  conda activate base
+ 4661  ls
+ 4662  htop
+ 4663  ps -ax | grep code
+ 4664  ps -ax | grep vscode
+ 4665  clear
+ 4666  ps -ax | grep vscode
+ 4667  ls
+ 4668  sudo reboot now
+ 4669  sshLink simv
+ 4670  cd
+ 4671  ifconfig
+ 4672  vim /usr/local/bin/sshLink
+ 4673  sshLink starv
+ 4674  ls
+ 4675  vim test.c
+ 4676  dolphin .
+ 4677  ls
+ 4678  cd linux/imx6ull/
+ 4679  ls
+ 4680  cd uboot
+ 4681  ls
+ 4682  mkdir test_uboot
+ 4683  ls
+ 4684  cd test_uboot
+ 4685  dolphin .
+ 4686  ls
+ 4687  tar -vxf uboot-imx-2016.03-2.1.0-g0ae7e33-v1.7.tar.bz2
+ 4688  ls
+ 4689  make ARCH=arm CROSS_COMPILE=arm-linux-gnueabihf- distclean
+ 4690  sudo su
+ 4691  cd /usr
+ 4692  ls
+ 4693  cd local
+ 4694  ls
+ 4695  sudo mkdir /usr/local/arm
+ 4696  ls
+ 4697  cd arm
+ 4698  ls
+ 4699  sudo cp ~/linux/imx6ull/gcc-linaro-4.9.4-2017.01-x86_64_arm-linux-gnueabihf.tar.xz .
+ 4700  ls
+ 4701  sudo tar -xvf gcc-linaro-4.9.4-2017.01-x86_64_arm-linux-gnueabihf.tar.xz
+ 4702  sudo vim /etc/profile
+ 4703  cd /usr/local/arm
+ 4704  ls
+ 4705  source /etc/profile
+ 4706  ls
+ 4707  sudo apt install lsb-core lib32stdc++6
+ 4708  arm-linux-gnueabihf-gcc -v
+ 4709  find make ARCH=arm CROSS_COMPILE=arm-linux-gnuarm-linux-gnueabihf-eabihf- distclean
+ 4710  ls
+ 4711  cd
+ 4712  sudo reboot now
+ 4713  ls
+ 4714  vim /etc/profile
+ 4715  vim .zshrc
+ 4716  source .zshrc
+ 4717  arm-linux-gnueabihf-gcc -v
+ 4718  cd linux/imx6ull/uboot
+ 4719  ls
+ 4720  cd test_uboot
+ 4721  ls
+ 4722  history | grep make
+ 4723  make ARCH=arm CROSS_COMPILE=arm-linux-gnueabihf- distclean
+ 4724  ls
+ 4725  make ARCH=arm CROSS_COMPILE=arm-linux-gnueabihf- mx6ull_14x14_ddr512_emmc_defconfig
+ 4726  ls -a
+ 4727  vim .config
+ 4728  tmux
+ 4729  htop
+ 4730  tmux
+ 4731  tmux attach
+ 4732  htop
+ 4733  time make V=1 ARCH=arm CROSS_COMPILE=arm-linux-gnueabihf- mx6ull_14x14_ddr512_emmc_defconfig -j36\n
+ 4734  time make V=1 ARCH=arm CROSS_COMPILE=arm-linux-gnueabihf- mx6ull_14x14_ddr512_emmc_defconfig -j 36\n
+ 4735  time make V=1 ARCH=arm CROSS_COMPILE=arm-linux-gnueabihf-  -j36\n
+ 4736  ls
+ 4737  vim make_uboot.sh
+ 4738  ls
+ 4739  chmod +x make_uboot.sh
+ 4740  ls
+ 4741  bash make_uboot.sh
+ 4742  LS
+ 4743  ls
+ 4744  time make V=1 ARCH=arm CROSS_COMPILE=arm-linux-gnueabihf-  -j36time make V=1 ARCH=arm CROSS_COMPILE=arm-linux-gnueabihf-  -j36\n
+ 4745  ls
+ 4746  sudo vim Makefile
+ 4747  make -j36
+ 4748  make clean
+ 4749  time make -j2
+ 4750  make clean
+ 4751  make -j36
+ 4752  ls
+ 4753  ll
+ 4754  ls
+ 4755  sudo vim /usr/local/bin/sshLink 
+ 4756  sshLink 214
+ 4757  ls
+ 4758  ifconfig
+ 4759  ls
+ 4760  ifconfig
+ 4761  ls
+ 4762  ifconfig
+ 4763  ls
+ 4764  ifconfig
+ 4765  ls
+ 4766  ifconfig
+ 4767  ls
+ 4768  code .
+ 4769  ls
+ 4770  sudo vim /usr/local/bin/sshLink
+ 4771  sshLink ls
+ 4772  sudo vim /usr/local/bin/sshLink
+ 4773  sshLink ls
+ 4774  sshLink
+ 4775  sshLink alis
+ 4776  sshLink alissd
+ 4777  sudo vim /usr/local/bin/sshLink
+ 4778  sshLink sdf
+ 4779  ls
+ 4780  cd leetcode
+ 4781  ls
+ 4782  git pull
+ 4783  code .
+ 4784  code
+ 4785  git pull
+ 4786  git pull origin master
+ 4787  code .
+ 4788  minicom
+ 4789  sudo su
+ 4790  ping 192.168.31.33
+ 4791  ifconfig
+ 4792  cd linux/imx6ull
+ 4793  ls
+ 4794  cd ..
+ 4795  ls
+ 4796  mkdir nfs
+ 4797  ls
+ 4798  cd nfs
+ 4799  ls
+ 4800  dolphin
+ 4801  sudo apt install nfs-kernel-server rpcbind
+ 4802  sudo vim /etc/exports
+ 4803  ls
+ 4804  pwe
+ 4805  pwd
+ 4806  sudo /etc/init.d/nfs-kernel-server restart
+ 4807  ls
+ 4808  cd ..
+ 4809  ls
+ 4810  unzip 08、系统镜像.zip
+ 4811  ls
+ 4812  rm 08、系统镜像.zip
+ 4813  rm -r 08бв╧╡═│╛╡╧ё
+ 4814  ls
+ 4815  cd nfs
+ 4816  ls
+ 4817  dolphin
+ 4818  sudo apt install tftp-hpa tftpd-hpa
+ 4819  sudo apt install xinetd
+ 4820  cd ..
+ 4821  ls
+ 4822  mkdir tftpboot
+ 4823  ls
+ 4824  cd /etc
+ 4825  ls
+ 4826  cd xinetd.d
+ 4827  ls
+ 4828  sudo vim tftp
+ 4829  sudo service tftpd-hpa start
+ 4830  sudo vim /etc/default/tftpd-hpa
+ 4831  sudo service tftpd-hpa restart
+ 4832  cd
+ 4833  ls
+ 4834  cd linux/tftpboot
+ 4835  ls
+ 4836  dolphin
+ 4837  ls
+ 4838  chmod +x zImage
+ 4839  ls
+ 4840  ifconfig
+ 4841  ping 192.168.31.33
+ 4842  ls
+ 4843  chmod 777 zImage
+ 4844  ls
+ 4845  ll
+ 4846  history| grep ara
+ 4847  history| aria
+ 4848  history | aria
+ 4849  history | grep aria
+ 4850  aria2c 'magnet:?xt=urn:btih:978a2297b78488d66d10ae46a3e976274293a98c'
+ 4851  ls
+ 4852  tmux
+ 4853  ls
+ 4854  ifconfig
+ 4855  tmux 1
+ 4856  tmux attach 1
+ 4857  tmux attach 
+ 4858  tmux list
+ 4859  sudo reboot now
+ 4860  ls
+ 4861  cd
+ 4862  putty
+ 4863  sudo su
+ 4864  cd linux/imx6ull
+ 4865  ls
+ 4866  cd uboot
+ 4867  ls
+ 4868  cd test_uboot/
+ 4869  ls
+ 4870  vim ./make_uboot.sh
+ 4871  ./make_uboot.sh
+ 4872  cd
+ 4873  cd linux/imx6ull
+ 4874  ls
+ 4875  cd uboot
+ 4876  ls
+ 4877  cd test_uboot
+ 4878  ls
+ 4879  cp u-boot.imx /home/hzq/linux/tftpboot/ -f
+ 4880  tmux
+ 4881  cd
+ 4882  cd linux
+ 4883  cd tftpboot
+ 4884  ls
+ 4885  chmod 777 u-boot.imx
+ 4886  date
+ 4887  ntpdate 
+ 4888  ntpdate -u 210.72.145.44
+ 4889  ntpdate -u ntp.api.bz
+ 4890  ping 210.72.145.44
+ 4891  curl 210.72.145.44
+ 4892  ping ntp.api.bz
+ 4893  ping time.nist.gov
+ 4894  ping ntp.fudan.edu.cn
+ 4895  ntpdate -u ntp.fudan.edu.cn
+ 4896  ping ntp.fudan.edu.cn
+ 4897  ntpdate -u ntp.fudan.edu.cn
+ 4898  sudo date -s '2023-06-24 17:26:50'
+ 4899  sudo date -s '2023-06-24 17:27:05'
+ 4900  date
+ 4901  ll
+ 4902  dolphin .
+ 4903  ls
+ 4904  chmod 777 imx6ull-alientek-emmc.dtb
+ 4905  ls
+ 4906  cd ..
+ 4907  ls
+ 4908  cd imx6ull
+ 4909  ls
+ 4910  cd uboot
+ 4911  ls
+ 4912  cd test_uboot
+ 4913  ls
+ 4914  code .
+ 4915  ls
+ 4916  code .
+ 4917  ls
+ 4918  make -j 36
+ 4919  make -v 
+ 4920  make -V 1 -j 36
+ 4921  make V 1 -j 36
+ 4922  make -v 1 -j 36
+ 4923  make 
+ 4924  make -v 1
+ 4925  make -v 
+ 4926  make -S
+ 4927  make -s
+ 4928  make -v
+ 4929  make -v 1
+ 4930  make -v1
+ 4931  make -V=1
+ 4932  clear
+ 4933  make -V=1
+ 4934  make clean
+ 4935  make -v 1
+ 4936  make -j36
+ 4937  ls
+ 4938  make v=1 
+ 4939  make V=1
+ 4940  uname -m
+ 4941  /bin/pwd
+ 4942  make checkstack
+ 4943  cd leetcode
+ 4944  ls
+ 4945  code .
+ 4946  shell uname -m | \\n\tsed -e s/i.86/x86/ \\n\t    -e s/sun4u/sparc64/ \\n\t    -e s/arm.*/arm/ \\n\t    -e s/sa110/arm/ \\n\t    -e s/ppc64/powerpc/ \\n\t    -e s/ppc/powerpc/ \\n\t    -e s/macppc/powerpc/\\n\t    -e s/sh.*/sh/
+ 4947  uname -m | \\n\tsed -e s/i.86/x86/ \\n\t    -e s/sun4u/sparc64/ \\n\t    -e s/arm.*/arm/ \\n\t    -e s/sa110/arm/ \\n\t    -e s/ppc64/powerpc/ \\n\t    -e s/ppc/powerpc/ \\n\t    -e s/macppc/powerpc/\\n\t    -e s/sh.*/sh/
+ 4948  uname -s
+ 4949  uname -m
+ 4950  uname
+ 4951  uname -h
+ 4952  uname -help
+ 4953  uname --help
+ 4954  make outputmakefile
+ 4955  make 
+ 4956  make v=1
+ 4957  make V=1
+ 4958  make menuconfig
+ 4959  cd leetcode
+ 4960  s-tui
+ 4961  watch -n 1 nvidia-smi
+ 4962  ls
+ 4963  git add .
+ 4964  git commit -m '624'
+ 4965  git push
+ 4966  ls
+ 4967  cd
+ 4968  ls
+ 4969  sshLink list
+ 4970  sshLink ls
+ 4971  sshLink starv
+ 4972  ranger
+ 4973  ls
+ 4974  htop
+ 4975  cd linux/imx6ull/uboot/test_uboot/
+ 4976  ls
+ 4977  make clean
+ 4978  make 
+ 4979  make clean
+ 4980  make -j36
+ 4981  ls
+ 4982  cd imx6ull
+ 4983  ls
+ 4984  cd uboot/test_uboot
+ 4985  ls
+ 4986  grep -nR "__image_copy_start"
+ 4987  make u-boot.lds
+ 4988  make clean
+ 4989  make u-boot.lds
+ 4990  make clean
+ 4991  make u-boot.lds
+ 4992  make clean
+ 4993  time make
+ 4994  make clean
+ 4995  time make -j36
+ 4996  ls
+ 4997  cd ..
+ 4998  ls
+ 4999  tar -xvf uboot-imx-rel_imx_4.1.15_2.1.0_ga.tar.bz2
+ 5000  ls
+ 5001  cd uboot-imx-rel_imx_4.1.15_2.1.0_ga
+ 5002  ls
+ 5003  cp ../test_uboot/make_uboot.sh
+ 5004  cp ../test_uboot/make_uboot.sh .
+ 5005  ls
+ 5006  vim make_uboot.sh
+ 5007  cd linux/imx6ull
+ 5008  ls
+ 5009  cd uboot
+ 5010  ls
+ 5011  cd uboot-imx-rel_imx_4.1.15_2.1.0_ga/b
+ 5012  cd uboot-imx-rel_imx_4.1.15_2.1.0_ga
+ 5013  ls
+ 5014  cd configs
+ 5015  ls
+ 5016  ls mx6ull
+ 5017  ls mx6ull*
+ 5018  ./make_uboot.sh
+ 5019  ls
+ 5020  vim make_uboot.sh
+ 5021  ./make_uboot.sh
+ 5022  ls
+ 5023  ifconfig
+ 5024  ls
+ 5025  clear
+ 5026  ifconfig
+ 5027  clear
+ 5028  htop
+ 5029  ls
+ 5030  ifconfig
+ 5031  ls
+ 5032  htop
+ 5033  ls
+ 5034  history| grep grep
+ 5035  cd ..
+ 5036  ls
+ 5037  cd ..
+ 5038  ls
+ 5039  cd img_download
+ 5040  ls
+ 5041  cd files
+ 5042  ls
+ 5043  cd ..
+ 5044  ls
+ 5045  cd ..
+ 5046  ls
+ 5047  cd ..
+ 5048  ls
+ 5049  cd ..
+ 5050  ls
+ 5051  ifconfig
+ 5052  ls
+ 5053  htop
+ 5054  top
+ 5055  sudo nethogs
+ 5056  history| find
+ 5057  history| grep find
+ 5058  find . -name 'imxdownload'
+ 5059  sudo fdisk -l
+ 5060  cd linux/
+ 5061  ls
+ 5062  sudo chmod 777 imxdownload
+ 5063  ls
+ 5064  ./imxdownload imx6ull/uboot/uboot-imx-rel_imx_4.1.15_2.1.0_ga/u-boot.bin /dev/sdc
+ 5065  ls
+ 5066  cd imx6ull
+ 5067  ls
+ 5068  cd uboot
+ 5069  ls
+ 5070  cd uboot-imx-rel_imx_4.1.15_2.1.0_ga
+ 5071  ls
+ 5072  code .
+ 5073  ls
+ 5074  cd configs
+ 5075  ls
+ 5076  cp mx6ull_14x14_evk_emmc_defconfig a_hzq_mx6ull_emmc_defconfig
+ 5077  ls
+ 5078  cd ..
+ 5079  ./make_uboot.sh
+ 5080  ^[[200~make ARCH=arm CROSS_COMPILE=arm-linux-gnueabihf- distclean
+ 5081  ~make ARCH=arm CROSS_COMPILE=arm-linux-gnueabihf- distclean
+ 5082  ls
+ 5083  make
+ 5084  make ARCH=arm CROSS_COMPILE=arm-linux-gnueabihf- distclean\n
+ 5085  make ARCH=arm CROSS_COMPILE=arm-linux-gnueabihf- a_hzq_mx6ull_emmc_defconf\n
+ 5086  make ARCH=arm CROSS_COMPILE=arm-linux-gnueabihf- a_hzq_mx6ull_emmc_defconfig\n
+ 5087  ./make_uboot.sh
+ 5088  cd include/configs
+ 5089  cp mx6ullevk.h mx6ull_hzq.h
+ 5090  cd ../../
+ 5091  ls
+ 5092  cd board/freescale
+ 5093  ls
+ 5094  cp mx6ullevk mx6ull_hzq -f
+ 5095  cp mx6ullevk mx6ull_hzq -r
+ 5096  cd mx6ull_hzq
+ 5097  ls
+ 5098  mv mx6ullevk.c mx6ull_hzq.c
+ 5099  ls
+ 5100  vim make_uboot.sh
+ 5101  ./make_uboot.sh
+ 5102  make ARCH=arm CROSS_COMPILE=arm-linux-gnueabihf- mx6ull_hzq_defconf\n
+ 5103  make ARCH=arm CROSS_COMPILE=arm-linux-gnueabihf- mx6ull_hzq_defconfig\n
+ 5104  ls
+ 5105  mx6ull_hzq_defconfig
+ 5106  make ARCH=arm CROSS_COMPILE=arm-linux-gnueabihf- mx6ull_hzq_defconfig
+ 5107  ./make_uboot.sh
+ 5108  cd board/freescale/mx6ull_hzq
+ 5109  ls
+ 5110  cd ..
+ 5111  ls
+ 5112  cd ..
+ 5113  ls
+ 5114  cd ..
+ 5115  ls
+ 5116  grep -nR "mx6ull_hzq.h"
+ 5117  cd
+ 5118  cd linux
+ 5119  ls
+ 5120  history| grep imxdow
+ 5121  sudo fdisk -l
+ 5122  ./imxdownload imx6ull/uboot/uboot-imx-rel_imx_4.1.15_2.1.0_ga/u-boot.bin /dev/sdc
+ 5123  git remote add origin https://gitee.com/huang-ziqin/uboot_mx6ull_hzq.git\n
+ 5124  git init
+ 5125  git remote add origin https://gitee.com/huang-ziqin/uboot_mx6ull_hzq.git\n
+ 5126  git push -u origin "master"\n
+ 5127  git add .
+ 5128  git commit -m '已创建工程,可以编译'
+ 5129  git push origin master
+ 5130  ls
+ 5131  ./make_uboot.sh
+ 5132  ls
+ 5133  fdisk -l
+ 5134  sudo fdisk -l
+ 5135  ./imxdownload imx6ull/uboot/uboot-imx-rel_imx_4.1.15_2.1.0_ga/u-boot.bin /dev/sdc
+ 5136  git add .
+ 5137  git commit -m 'lcd驱动'
+ 5138  git push
+ 5139  git push --set-upstream origin master
+ 5140  ls
+ 5141  cd linux/imx6ull
+ 5142  ls
+ 5143  cd uboot
+ 5144  ls
+ 5145  cd uboot-imx-rel_imx_4.1.15_2.1.0_ga
+ 5146  ls
+ 5147  code .
+ 5148  sudo su
+ 5149  ls
+ 5150  ./make_uboot.sh
+ 5151  ls
+ 5152  vim make_uboot.sh
+ 5153  ls
+ 5154  cd ..
+ 5155  ls
+ 5156  cd test_uboot
+ 5157  ls
+ 5158  vim makefile
+ 5159  vim Makefile
+ 5160  cd ..
+ 5161  ls
+ 5162  cd uboot-imx-rel_imx_4.1.15_2.1.0_ga
+ 5163  make -j36
+ 5164  make clean
+ 5165  make -j36
+ 5166  time make -j36
+ 5167  ./make_uboot.sh
+ 5168  time make -j36
+ 5169  cd ..
+ 5170  ls
+ 5171  cd ..
+ 5172  ls
+ 5173  cd ..
+ 5174  ls
+ 5175  sudo fdisk -l
+ 5176  history | sdc
+ 5177  history | grep sdc
+ 5178  ./imxdownload imx6ull/uboot/uboot-imx-rel_imx_4.1.15_2.1.0_ga/u-boot.bin /dev/sdc
+ 5179  ping 192.168.31.147
+ 5180  ifconfig
+ 5181  time make -j36
+ 5182  ./make_uboot.sh
+ 5183  sudo fdisk -l
+ 5184  ./imxdownload imx6ull/uboot/uboot-imx-rel_imx_4.1.15_2.1.0_ga/u-boot.bin /dev/sdc
+ 5185  ls
+ 5186  cd tftpboot
+ 5187  ls
+ 5188  ./make_uboot.sh
+ 5189  ./imxdownload imx6ull/uboot/uboot-imx-rel_imx_4.1.15_2.1.0_ga/u-boot.bin /dev/sdc
+ 5190  cd ../../
+ 5191  cd ..
+ 5192  ls
+ 5193  ./imxdownload imx6ull/uboot/uboot-imx-rel_imx_4.1.15_2.1.0_ga/u-boot.bin /dev/sdc
+ 5194  time make -v=1
+ 5195  time make V=1
+ 5196  make clean
+ 5197  time make V=1
+ 5198  cd configs
+ 5199  ls
+ 5200  cd ..
+ 5201  make mx6ull_hzq_defconfig
+ 5202  make menuconfig
+ 5203  vim .config
+ 5204  make -j36
+ 5205  ./imxdownload imx6ull/uboot/uboot-imx-rel_imx_4.1.15_2.1.0_ga/u-boot.bin /dev/sdc
+ 5206  find . -name 'Kconfig'
+ 5207  ls
+ 5208  vim ./Kconfig
+ 5209  make menuconfig
+ 5210  vim .config
+ 5211  ls
+ 5212  cd
+ 5213  cd leetcode
+ 5214  ls
+ 5215  git pull
+ 5216  code .
+ 5217  cd ..
+ 5218  ls
+ 5219  cd ..
+ 5220  ls
+ 5221  mkdir linux
+ 5222  ls
+ 5223  cd linux
+ 5224  ls
+ 5225  cd ..
+ 5226  ls
+ 5227  cd ..
+ 5228  ls
+ 5229  cd 【正点原子】阿尔法Linux开发板（A盘）-基础资料/01、例程源码/01、例程源码/10、开发板教程对应的uboot和linux源码
+ 5230  ls
+ 5231  cd
+ 5232  cd linux
+ 5233  ls
+ 5234  cd imx6ull
+ 5235  ls
+ 5236  cd linux
+ 5237  ls
+ 5238  cp ../../【正点原子】阿尔法Linux开发板（A盘）-基础资料/01、例程源码/01、例程源码/10、开发板教程对应的uboot和linux源码/linux-imx-rel_imx_4.1.15_2.1.0_ga_alientek.tar.bz2 .
+ 5239  ls
+ 5240  ll
+ 5241  ls
+ 5242  rm linux-imx-rel_imx_4.1.15_2.1.0_ga_alientek.tar.bz2
+ 5243  ls
+ 5244  tar -xvf linux-imx-4.1.15-2.1.0-g3dc0a4b-v2.7.tar.bz2
+ 5245  ls
+ 5246  rm linux-imx-4.1.15-2.1.0-g3dc0a4b-v2.7.tar.bz2
+ 5247  ls
+ 5248  vim linux_build.sh
+ 5249  chmod +x linux_build.sh
+ 5250  ls
+ 5251  ./linux_build.sh
+ 5252  htop
+ 5253  sudo apt install lzop
+ 5254  ./linux_build.sh
+ 5255  cp ./arch/arm/boot/zImage /home/hzq/linux/tftpboot -f
+ 5256  ls ./arch/arm/boot/dts/imx6ull-14x14*.d
+ 5257  ls ./arch/arm/boot/dts/imx6ull-14x14*.dtb
+ 5258  vim Makefile
+ 5259  make
+ 5260  make -j36
+ 5261  git add .
+ 5262  git commit -m '106'
+ 5263  git push 
+ 5264  ls
+ 5265  htop
+ 5266  ls
+ 5267  cd linux
+ 5268  ls
+ 5269  cd 【正点原子】阿尔法Linux开发板（A盘）-基础资料
+ 5270  ls
+ 5271  cd
+ 5272  history | grep nanodet_demo
+ 5273  find . -name 'nanodet_demo;
+ 5274  find . -name 'nanodet_demo'
+ 5275  cd demo_ncnn
+ 5276  ls
+ 5277  cd nanodet/demo_nan
+ 5278  cd nanodet
+ 5279  cd demo_ncnn
+ 5280  ls
+ 5281  ./nanodet_demo 1 ../../datasets/coco_traffic/images/val2017/000000000724.jpg
+ 5282  ./nanodet_demo 3 0
+ 5283  cd nanodet
+ 5284  ls
+ 5285  cd demo_ncnn
+ 5286  ls
+ 5287  ./nanodet_demo 3 0
+ 5288  ls
+ 5289  rm nanodet320.*
+ 5290  ls
+ 5291  ./nanodet_demo 3 0
+ 5292  ls
+ 5293  cd build
+ 5294  ls
+ 5295  ./nanodet_demo 3 0
+ 5296  cd ..
+ 5297  ls
+ 5298  cd build
+ 5299  cmake ..
+ 5300  cd
+ 5301  tree . >> vim -
+ 5302  ls
+ 5303  vim -
+ 5304  ls
+ 5305  tree .
+ 5306  cd ncnn
+ 5307  tree .
+ 5308  tree . | vim -
+ 5309  ls
+ 5310  cd build
+ 5311  cd install
+ 5312  cd lib
+ 5313  cd cmake
+ 5314  cd ncnn
+ 5315  ls
+ 5316  cd
+ 5317  export ncnn_DIR=/home/hzq/ncnn/build/install/lib/cmake/ncnn
+ 5318  cmake ..
+ 5319  make 
+ 5320  make ..
+ 5321  make
+ 5322  ls
+ 5323  make clean
+ 5324  ls
+ 5325  make
+ 5326  cd
+ 5327  cd ncnn
+ 5328  cd benchmark
+ 5329  ../build/benchmark/benchncnn 10 $(nproc) 0 0\n
+ 5330  ../build/benchmark/benchncnn 10 $(nproc) 0 -1\n
+ 5331  ../build/benchmark/benchncnn 10 1 0 -1\n
+ 5332  ../build/benchmark/benchncnn 1 1 0 -1\n
+ 5333  ls
+ 5334  ../build/benchmark/benchncnn 1 1 0 -1
+ 5335  cd ../examples\n
+ 5336  ../build/examples/squeezenet ../images/256-ncnn.png\n
+ 5337  cd ../benchmark\n
+ 5338  ../build/benchmark/benchncnn 10 $(nproc) 0 0\n
+ 5339  ls
+ 5340  vim benchncnn.cpp
+ 5341  cd ..
+ 5342  ls
+ 5343  cd build
+ 5344  ls
+ 5345  cmake ..
+ 5346  make -j36
+ 5347  cd ..
+ 5348  ls
+ 5349  cd ../benchmark\n
+ 5350  ls
+ 5351  cd benchmark
+ 5352  ../build/benchmark/benchncnn 10 $(nproc) 0 0\n
