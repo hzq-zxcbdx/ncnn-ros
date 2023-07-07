@@ -113,7 +113,7 @@ nanodet_demo_EXTERNAL_OBJECTS =
 nanodet_demo: CMakeFiles/nanodet_demo.dir/main.cpp.o
 nanodet_demo: CMakeFiles/nanodet_demo.dir/nanodet.cpp.o
 nanodet_demo: CMakeFiles/nanodet_demo.dir/build.make
-nanodet_demo: /home/hzq/ncnn/build/install/lib/libncnnd.a
+nanodet_demo: /home/hzq/ncnn/build/install/lib/libncnn.a
 nanodet_demo: /usr/lib/x86_64-linux-gnu/libopencv_stitching.so.4.2.0
 nanodet_demo: /usr/lib/x86_64-linux-gnu/libopencv_aruco.so.4.2.0
 nanodet_demo: /usr/lib/x86_64-linux-gnu/libopencv_bgsegm.so.4.2.0

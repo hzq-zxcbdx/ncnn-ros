@@ -6,6 +6,10 @@
 #include "nanodet.h"
 #include <benchmark.h>
 
+#define PARAM_PATH "/home/hzq/ncnn/build/tools/onnx/nanodet_test.param"
+#define BIN_PATH "/home/hzq/ncnn/build/tools/onnx/nanodet_test.bin"
+// #define PARAM_PATH "/home/hzq/ncnn-ros/nanodet/nanodet.param"
+// #define BIN_PATH "/home/hzq/ncnn-ros/nanodet/nanodet.bin"
 struct object_rect
 {
     int x;
@@ -189,20 +193,7 @@ const int color_list[80][3] =
 
 void draw_bboxes(const cv::Mat &bgr, const std::vector<BoxInfo> &bboxes, object_rect effect_roi)
 {
-    static const char *class_names[] = {"person", "bicycle", "car", "motorcycle", "airplane", "bus",
-                                        "train", "truck", "boat", "traffic light", "fire hydrant",
-                                        "stop sign", "parking meter", "bench", "bird", "cat", "dog",
-                                        "horse", "sheep", "cow", "elephant", "bear", "zebra", "giraffe",
-                                        "backpack", "umbrella", "handbag", "tie", "suitcase", "frisbee",
-                                        "skis", "snowboard", "sports ball", "kite", "baseball bat",
-                                        "baseball glove", "skateboard", "surfboard", "tennis racket",
-                                        "bottle", "wine glass", "cup", "fork", "knife", "spoon", "bowl",
-                                        "banana", "apple", "sandwich", "orange", "broccoli", "carrot",
-                                        "hot dog", "pizza", "donut", "cake", "chair", "couch",
-                                        "potted plant", "bed", "dining table", "toilet", "tv", "laptop",
-                                        "mouse", "remote", "keyboard", "cell phone", "microwave", "oven",
-                                        "toaster", "sink", "refrigerator", "book", "clock", "vase",
-                                        "scissors", "teddy bear", "hair drier", "toothbrush"};
+    static const char *class_names[] = {"person", "bicycle", "car", "motorcycle", "bus", "truck", "traffic light", "fire hydrant", "stop sign", "parking meter"};
 
     cv::Mat image = bgr.clone();
     int src_w = image.cols;
@@ -241,7 +232,7 @@ void draw_bboxes(const cv::Mat &bgr, const std::vector<BoxInfo> &bboxes, object_
                     cv::FONT_HERSHEY_SIMPLEX, 0.4, cv::Scalar(255, 255, 255));
     }
 
-    cv::imshow("image", image);
+    cv::imwrite("./result_nanodet.jpg", image);
 }
 
 int image_demo(NanoDet &detector, const char *imagepath)
@@ -255,19 +246,26 @@ int image_demo(NanoDet &detector, const char *imagepath)
 
     for (auto img_name : filenames)
     {
+        double start = ncnn::get_current_time();
         cv::Mat image = cv::imread(img_name);
+
         if (image.empty())
         {
             fprintf(stderr, "cv::imread %s failed\n", img_name);
             return -1;
         }
         object_rect effect_roi;
-        // cv::Mat resized_img;
-        // resize_uniform(image, resized_img, cv::Size(width, height), effect_roi);
-        // auto results = detector.detect(resized_img, 0.4, 0.5);
-        auto results = detector.detect(image, 0.4, 0.5);
+        cv::Mat resized_img;
+        resize_uniform(image, resized_img, cv::Size(width, height), effect_roi);
+        auto results = detector.detect(resized_img, 0.4, 0.5);
+        // auto results = detector.detect(image, 0.4, 0.5);
+
         draw_bboxes(image, results, effect_roi);
-        cv::waitKey(0);
+        double end = ncnn::get_current_time();
+        double time = end - start;
+        printf("Time:%7.2f ms\n", time);
+
+        // cv::waitKey(0);
     }
     return 0;
 }
@@ -314,7 +312,7 @@ int video_demo(NanoDet &detector, const char *path)
 
 int benchmark(NanoDet &detector)
 {
-    int loop_num = 100;
+    int loop_num = 1000;
     int warm_up = 8;
     int height = detector.input_size[0];
     int width = detector.input_size[1];
@@ -354,7 +352,7 @@ int main(int argc, char **argv)
         fprintf(stderr, "usage: %s [mode] [path]. \n For webcam mode=0, path is cam id; \n For image demo, mode=1, path=xxx/xxx/*.jpg; \n For video, mode=2; \n For benchmark, mode=3 path=0.\n", argv[0]);
         return -1;
     }
-    NanoDet detector = NanoDet("./nanodet.param", "./nanodet.bin", true);
+    NanoDet detector = NanoDet(PARAM_PATH, BIN_PATH, true);
     int mode = atoi(argv[1]);
     switch (mode)
     {

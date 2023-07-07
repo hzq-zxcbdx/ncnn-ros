@@ -1,0 +1,10 @@
+{
+  "files.associations": {
+    "*.ejs": "html",
+    "*.html": "html",
+    "*.vue": "vue",
+    "*.czml": "json",
+    "*.map": "arm",
+    "algorithm": "cpp"
+  }
+}

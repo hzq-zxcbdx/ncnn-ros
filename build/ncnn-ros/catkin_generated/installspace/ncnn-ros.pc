@@ -1,0 +1,8 @@
+prefix=/home/hzq/ncnn-ros/install
+
+Name: ncnn-ros
+Description: Description of ncnn-ros
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

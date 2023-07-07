@@ -90,8 +90,8 @@ void NanoDet::preprocess(cv::Mat &image, ncnn::Mat &in)
     int img_w = image.cols;
     int img_h = image.rows;
 
-    // in = ncnn::Mat::from_pixels(image.data, ncnn::Mat::PIXEL_BGR, img_w, img_h);
-    in = ncnn::Mat::from_pixels_resize(image.data, ncnn::Mat::PIXEL_BGR, img_w, img_h, input_size[0], input_size[1]);
+    in = ncnn::Mat::from_pixels(image.data, ncnn::Mat::PIXEL_BGR, img_w, img_h);
+    // in = ncnn::Mat::from_pixels_resize(image.data, ncnn::Mat::PIXEL_BGR, img_w, img_h, input_size[0], input_size[1]);
     // in = ncnn::Mat::from_pixels_resize(image.data, ncnn::Mat::PIXEL_BGR, img_w, img_h, this->input_width, this->input_height);
 
     const float mean_vals[3] = {103.53f, 116.28f, 123.675f};
@@ -118,7 +118,9 @@ std::vector<BoxInfo> NanoDet::detect(cv::Mat image, float score_threshold, float
     results.resize(this->num_class);
 
     ncnn::Mat out;
+
     ex.extract("output", out);
+
     // printf("%d %d %d \n", out.w, out.h, out.c);
 
     // generate center priors in format of (x, y, stride)

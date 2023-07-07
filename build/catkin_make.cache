@@ -1,2 +1,2 @@
-
+ncnn-ros
 -DCATKIN_DEVEL_PREFIX=/home/hzq/ncnn-ros/devel -DCMAKE_INSTALL_PREFIX=/home/hzq/ncnn-ros/install -G Unix Makefiles

@@ -15,7 +15,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/FindOpenMP/OpenMPCheckVersion.cpp"
   "CMakeFiles/FindOpenMP/OpenMPTryFlag.c"
   "CMakeFiles/FindOpenMP/OpenMPTryFlag.cpp"
-  "/home/hzq/ncnn/build/install/lib/cmake/ncnn/ncnn-debug.cmake"
+  "/home/hzq/ncnn/build/install/lib/cmake/ncnn/ncnn-release.cmake"
   "/home/hzq/ncnn/build/install/lib/cmake/ncnn/ncnn.cmake"
   "/home/hzq/ncnn/build/install/lib/cmake/ncnn/ncnnConfig.cmake"
   "/usr/bin/cmake-3.19.3-Linux-x86_64/share/cmake-3.19/Modules/CMakeCCompiler.cmake.in"

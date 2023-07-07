@@ -146,8 +146,7 @@ int main()
     // resize of input image data
     ncnn::Mat input = ncnn::Mat::from_pixels_resize(img.data, ncnn::Mat::PIXEL_BGR,
                                                     img.cols, img.rows, input_width, input_height);
-    printf("input mat:\n");
-    pretty_print(input);
+    // pretty_print(input);
     // Normalization of input image data
     const float mean_vals[3] = {0.f, 0.f, 0.f};
     const float norm_vals[3] = {1 / 255.f, 1 / 255.f, 1 / 255.f};
